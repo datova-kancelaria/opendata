@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+
+    <dcat:Catalog rdf:about="https://data.gov.sk/set/lkod/mfsr/katalog">
+        <dc:title xml:lang="sk">Katalóg otvorených dát Mesta Zvolen</dc:title>
+        <dc:title xml:lang="en">Open Data Catalog of the City of Zvolen</dc:title>
+        <dc:description xml:lang="sk">Otvorené dáta Mesta Zvolen. Obsahuje všetky datasety, ktoré zverejňuje Mesto Zvolen.</dc:description>
+        <dc:description xml:lang="en">Open data of the City of Zvolen. It contains all the datasets published by the City of Zvolen.</dc:description>
+        <dc:publisher rdf:resource="https://data.gov.sk/id/legal-subject/00320439"/>
+        <foaf:homepage rdf:resource="https://www.zvolen.sk"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dcat:contactPoint>
+            <vcard:Organization>
+                <vcard:fn xml:lang="sk">Mesto Zvolen</vcard:fn>
+                <vcard:fn xml:lang="en">City of Zvolen</vcard:fn>
+                <vcard:hasEmail rdf:resource="mailto:opendata@zvolen.sk"/>
+            </vcard:Organization>
+        </dcat:contactPoint>
+        
+        <dcat:dataset rdf:resource="http://49.13.55.155/api/v0/opendata/info/7424fec5-706a-41a4-a492-0b769d66d4e4"/>
+        
+        <dcat:dataset rdf:resource="http://49.13.55.155/api/v0/opendata/info/d18a8480-9235-47e3-bb40-1389556321ed"/>
+        
+        <dcat:dataset rdf:resource="http://49.13.55.155/api/v0/opendata/info/29335cb0-3204-4d97-97ff-a81190ba8b5b"/>
+        
+        <dcat:dataset rdf:resource="http://49.13.55.155/api/v0/opendata/info/d83a149c-331e-4742-846e-d6d8a99045e1"/>
+        
+        <dcat:dataset rdf:resource="http://49.13.55.155/api/v0/opendata/info/08ffb157-4ae9-402d-b868-5974f23c4578"/>
+        
+        <dcat:dataset rdf:resource="http://49.13.55.155/api/v0/opendata/info/fff6690a-a567-40d0-ac4c-95e479d32b89"/>
+        
+        <dcat:dataset rdf:resource="http://49.13.55.155/api/v0/opendata/info/a25b0b0d-43db-44cb-9902-048f621ceaf3"/>
+        
+        <dcat:dataset rdf:resource="http://49.13.55.155/api/v0/opendata/info/0ced28c0-988b-425a-900c-3dad4b2fe4a7"/>
+        
+        <dcat:dataset rdf:resource="http://49.13.55.155/api/v0/opendata/info/4d60f876-61ca-4b82-ba27-134440f840f8"/>
+        
+        <dcat:dataset rdf:resource="http://49.13.55.155/api/v0/opendata/info/cdbf5d53-497c-452a-ab03-1ebf41665085"/>
+        
+        <dcat:dataset rdf:resource="http://49.13.55.155/api/v0/opendata/info/651f8119-bae3-46e8-8819-82001cbf2252"/>
+        
+        <dcat:dataset rdf:resource="http://49.13.55.155/api/v0/opendata/info/b2da5cf9-d913-47ca-8fe1-1b4bf50ac41b"/>
+        
+        <dcat:dataset rdf:resource="http://49.13.55.155/api/v0/opendata/info/1b2830e0-114c-4b5f-b597-27a9e122a8f7"/>
+        
+        <dcat:dataset rdf:resource="http://49.13.55.155/api/v0/opendata/info/9f114281-6b11-4982-aebf-40e10591798a"/>
+        
+        <dcat:dataset rdf:resource="http://49.13.55.155/api/v0/opendata/info/1bd9fa88-97aa-4cca-adf3-ddb2666fdb8e"/>
+        
+        <dcat:dataset rdf:resource="http://49.13.55.155/api/v0/opendata/info/13d1cc47-e256-40d7-930c-ce834251dc1f"/>
+        
+        <dcat:dataset rdf:resource="http://49.13.55.155/api/v0/opendata/info/9f8d44cc-f989-409f-8428-5829f05547a8"/>
+        
+    </dcat:Catalog>
+
+</rdf:RDF>

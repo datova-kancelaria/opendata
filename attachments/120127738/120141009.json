@@ -1,0 +1,136 @@
+{
+  "@context": "https://datova-kancelaria.github.io/dcat-ap-sk-2.0/kontexty/rozhranie-katalógu-otvorených-dát.jsonld",
+  "iri": "https://opendatatest.zvolen.sk/set/mu-zv--faktury-2023-09-25",
+  "typ": "Dataset",
+  "názov": {
+    "sk": "MU ZV - Faktúry"
+  },
+  "popis": {
+    "sk": "Evidencia faktúr"
+  },
+  "poskytovateľ": "https://data.gov.sk/id/legal-subject/00320439",
+  "typ_datasetu": "https://data.gov.sk/def/dataset-type/1",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+  ],
+  "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/DAILY",
+  "kľúčové_slovo": {
+    "sk": [
+      "Evidencia faktúr"
+    ]
+  },
+  "geografické_územie": [
+    "http://publications.europa.eu/resource/authority/continent/EUROPE"
+  ],
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "časové_pokrytie": {
+    "typ": "Časový interval",
+    "začiatok": "2023-09-25",
+    "koniec": "2023-09-25"
+  },
+  "kontaktný_bod": {
+    "typ": "Mesto",
+    "meno": {
+      "sk": "Mesto Zvolen",
+      "en": "City of Zvolen"
+    },
+    "e-mail": "mailto:opendata@zvolen.sk"
+  },
+  "dokumentácia": "https://www.middop.sk/",
+  "špecifikácia": [
+  ],
+  "koncept_euroVoc": [
+  ],
+  "distribúcia": [
+    
+    {
+      "iri": "https://opendatatest.zvolen.sk/set/mu-zv--faktury-2023-09-12/resource/a01271bb-06da-4f17-8dae-1184e620ff88",
+      "typ": "Distribúcia",
+      "podmienky_použitia": {
+        "typ": "Špecifikácia podmienok použitia",
+        "autorské_dielo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor": {
+          "sk": "Mesto Zvolen"
+        },
+        "databáza_chránená_zvláštnými_právami": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "databáza_ako_autorské_dielo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor_databázy": {
+          "sk": "Mesto Zvolen"
+        },
+        "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
+      },
+      "prístupové_url": "https://opendatatest.zvolen.sk/set/mu-zv--faktury-2023-09-12/resource/a01271bb-06da-4f17-8dae-1184e620ff88",
+      "súbor_na_stiahnutie": "https://opendatatest.zvolen.sk/set/mu-zv--faktury-2023-09-12/resource/a01271bb-06da-4f17-8dae-1184e620ff88",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/json",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/json",
+      "schéma": "https://portal.cisjr.cz/schemata/json-schema.json",
+      "typ_média_kompresie": "http://www.iana.org/assignments/media-types/application/json",
+      "typ_média_balíčka": "http://www.iana.org/assignments/media-types/application/json",
+      "názov": {
+        "en": "json distribution",
+        "sk": "json distribúcia"
+      }
+    }
+    ,
+    {
+      "iri": "https://opendatatest.zvolen.sk/set/mu-zv--faktury-2023-09-12/resource/7f814f2c-79f7-4ceb-8cd6-b7bc9954869a",
+      "typ": "Distribúcia",
+      "podmienky_použitia": {
+        "typ": "Špecifikácia podmienok použitia",
+        "autorské_dielo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor": {
+          "sk": "Mesto Zvolen"
+        },
+        "databáza_chránená_zvláštnými_právami": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "databáza_ako_autorské_dielo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor_databázy": {
+          "sk": "Mesto Zvolen"
+        },
+        "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
+      },
+      "prístupové_url": "https://opendatatest.zvolen.sk/set/mu-zv--faktury-2023-09-12/resource/7f814f2c-79f7-4ceb-8cd6-b7bc9954869a",
+      "súbor_na_stiahnutie": "https://opendatatest.zvolen.sk/set/mu-zv--faktury-2023-09-12/resource/7f814f2c-79f7-4ceb-8cd6-b7bc9954869a",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/csv",
+      "typ_média": "http://www.iana.org/assignments/media-types/text/csv",
+      "schéma": "https://portal.cisjr.cz/schemata/json-schema.json",
+      "typ_média_kompresie": "http://www.iana.org/assignments/media-types/text/csv",
+      "typ_média_balíčka": "http://www.iana.org/assignments/media-types/text/csv",
+      "názov": {
+        "en": "csv distribution",
+        "sk": "csv distribúcia"
+      }
+    }
+    ,
+    {
+      "iri": "https://opendatatest.zvolen.sk/set/mu-zv--faktury-2023-09-12/resource/4d5ec793-33af-4998-8334-62e0bf5ff61d",
+      "typ": "Distribúcia",
+      "podmienky_použitia": {
+        "typ": "Špecifikácia podmienok použitia",
+        "autorské_dielo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor": {
+          "sk": "Mesto Zvolen"
+        },
+        "databáza_chránená_zvláštnými_právami": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "databáza_ako_autorské_dielo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor_databázy": {
+          "sk": "Mesto Zvolen"
+        },
+        "osobné_údaje": "https://data.gov.sk/def/personal-data-occurence-type/2"
+      },
+      "prístupové_url": "https://opendatatest.zvolen.sk/set/mu-zv--faktury-2023-09-12/resource/4d5ec793-33af-4998-8334-62e0bf5ff61d",
+      "súbor_na_stiahnutie": "https://opendatatest.zvolen.sk/set/mu-zv--faktury-2023-09-12/resource/4d5ec793-33af-4998-8334-62e0bf5ff61d",
+      "formát": "http://publications.europa.eu/resource/authority/file-type/ods",
+      "typ_média": "http://www.iana.org/assignments/media-types/application/vnd.oasis.opendocument.spreadsheet",
+      "schéma": "https://portal.cisjr.cz/schemata/json-schema.json",
+      "typ_média_kompresie": "http://www.iana.org/assignments/media-types/application/vnd.oasis.opendocument.spreadsheet",
+      "typ_média_balíčka": "http://www.iana.org/assignments/media-types/application/vnd.oasis.opendocument.spreadsheet",
+      "názov": {
+        "en": "ods distribution",
+        "sk": "ods distribúcia"
+      }
+    }
+    
+  ]
+}

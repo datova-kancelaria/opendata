@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Metodika pre otvorené údaje (opendata.gov.sk) : mirridatasetkontaktnemiesta-dcat.json</title>
+        <link rel="stylesheet" href="styles/site.css" type="text/css" />
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body class="theme-default aui-theme-default">
+        <div id="page">
+            <div id="main" class="aui-page-panel">
+                <div id="main-header">
+                    <div id="breadcrumb-section">
+                        <ol id="breadcrumbs">
+                            <li class="first">
+                                <span><a href="index.html">Metodika pre otvorené údaje (opendata.gov.sk)</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120127509.html">Metodika pre sprístupňovanie otvorených údajov (opendata.gov.sk) Domov</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120128572.html">4. Pravidlá sprístupňovania otvorených údajov</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120127568.html">Štandardy technického riešenia</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Poskytnutie-LKODu-pre-harvestovanie_120128363.html">Poskytnutie LKODu pre harvestovanie</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120127947.html">Príklad: LKOD-MIRRI</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120127924.html">Príloha - Špecifikácia metadát pre LKOD-MIRRI</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120128039.html">Metadáta datasetov a distribúcií cez API</a></span>
+                            </li>
+                                                </ol>
+                    </div>
+                    <h1 id="title-heading" class="pagetitle">
+                                                <span id="title-text">
+                            Metodika pre otvorené údaje (opendata.gov.sk) : mirridatasetkontaktnemiesta-dcat.json
+                        </span>
+                    </h1>
+                </div>
+
+                <div id="content" class="view">
+                    <div class="page-metadata">
+                            
+        
+    
+        
+    
+        
+        
+            Created by <span class='author'> miroslav.liska</span>, last modified on dec 13, 2022
+                        </div>
+                    <div id="main-content" class="wiki-content group">
+                    <div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">{
+    &quot;@context&quot;: &quot;https://datova-kancelaria.github.io/dcat-ap-sk-2.0/kontexty/rozhranie-katalógu-otvorených-dát.jsonld&quot;,
+    &quot;iri&quot;: &quot;https://data.gov.sk/dataset/mirri-kontaktne&quot;,
+    &quot;typ&quot;: &quot;Dataset&quot;,
+    &quot;názov&quot;: {
+        &quot;sk&quot;: &quot;MIRRI Kontaktné miesta (2021-04-20)&quot;,
+        &quot;en&quot;: &quot;MIRRI Contact Points&quot;
+    },
+    &quot;popis&quot;: {
+        &quot;sk&quot;: &quot;Kontaktné miesta Ministerstva investícií, regionálneho rozvoja a informatizácie Slovenskej republiky.&quot;,
+        &quot;en&quot;: &quot;Contact Points Of the Ministry of Investments, Regional Development and Informatization of the Slovak Republic.&quot;
+    },
+    &quot;poskytovateľ&quot;: &quot;https://data.gov.sk/legal-subject/50349287&quot;,
+    &quot;typ_datasetu&quot;: &quot;https://data.gov.sk/def/dataset-type/1&quot;,
+    &quot;téma&quot;: [
+        &quot;http://publications.europa.eu/resource/authority/data-theme/GOVE&quot;
+    ],
+    &quot;periodicita_aktualizácie&quot;: &quot;http://publications.europa.eu/resource/authority/frequency/WEEKLY_3&quot;,
+    &quot;kľúčové_slovo&quot;: {
+        &quot;sk&quot;: [
+            &quot;mirri kontakty&quot;,
+            &quot;mirri kontakt&quot;
+        ],
+        &quot;en&quot;: [
+            &quot;mirri contacts&quot;,
+            &quot;mirri contact&quot;
+        ]
+    },
+    &quot;geografické_územie&quot;: [
+        &quot;http://publications.europa.eu/resource/authority/continent/EUROPE&quot;
+    ],
+    &quot;prvek_rúian&quot;: [
+        &quot;https://linked.cuzk.cz/resource/ruian/stat/1&quot;
+    ],
+    &quot;časové_pokrytie&quot;: {
+        &quot;typ&quot;: &quot;Časový interval&quot;,
+        &quot;začiatok&quot;: &quot;2021-10-04&quot;,
+        &quot;koniec&quot;: &quot;2021-12-31&quot;
+    },
+    &quot;kontaktný_bod&quot;: {
+        &quot;typ&quot;: &quot;Organizácia&quot;,
+        &quot;meno&quot;: {
+            &quot;sk&quot;: &quot;Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky&quot;,
+            &quot;en&quot;: &quot;Ministry of Investments, Regional Development and Informatization of the Slovak Republic&quot;
+        },
+        &quot;e-mail&quot;: &quot;mailto:info@mirri.gov.sk&quot;
+    },
+    &quot;dokumentácia&quot;: &quot;https://www.mirri.gov.sk/ostatne-kontakty/&quot;,
+    &quot;špecifikácia&quot;: [
+        &quot;http://data.europa.eu/m8g/&quot;
+    ],
+    &quot;koncept_euroVoc&quot;: [
+        &quot;http://eurovoc.europa.eu/976&quot;
+    ],
+    &quot;priestorové_rozlíšenie_v_metroch&quot;: &quot;12.0&quot;,
+    &quot;časové_rozlíšenie&quot;: &quot;P1D&quot;,
+    &quot;distribúcia&quot;: [
+          {
+            &quot;iri&quot;: &quot;https://data.gov.sk/set/mirri-kontaktne-miesta/resource/api+csv&quot;,
+            &quot;typ&quot;: &quot;Distribúcia&quot;,
+            &quot;podmienky_použitia&quot;: {
+                &quot;typ&quot;: &quot;Špecifikácia podmienok použitia&quot;,
+                &quot;autorské_dielo&quot;: &quot;https://creativecommons.org/licenses/by/4.0/&quot;,
+                &quot;autor&quot;: {
+                    &quot;sk&quot;: &quot;Ministerstvo investícií SR&quot;
+                },
+                &quot;databáza_chránená_zvláštnými_právami&quot;: &quot;https://creativecommons.org/publicdomain/zero/1.0/&quot;,
+                &quot;databáza_ako_autorské_dielo&quot;: &quot;https://creativecommons.org/licenses/by/4.0/&quot;,
+                &quot;autor_databázy&quot;: {
+                    &quot;sk&quot;: &quot;Ministerstvo dopravy, Odbor verejnej dopravy&quot;
+                },
+                &quot;osobné_údaje&quot;: &quot;https://data.gov.sk/def/personal-data-occurence-type/2&quot;
+            },
+            &quot;prístupové_url&quot;: &quot;https://data.gov.sk/set/mirri-kontaktne-miesta/resource/csv&quot;,
+            &quot;súbor_na_stiahnutie&quot;: &quot;https://data.gov.sk/set/mirri-kontaktne-miesta/resource/csv&quot;,
+            &quot;formát&quot;: &quot;http://publications.europa.eu/resource/authority/file-type/CSV&quot;,
+            &quot;typ_média&quot;: &quot;http://www.iana.org/assignments/media-types/application/csv&quot;,
+            &quot;schéma&quot;: &quot;https://data.gov.sk/def/schema/csv-schema&quot;,
+            &quot;názov&quot;: {
+                &quot;en&quot;: &quot;MIRRI-API-KontaktneMiesta v csv&quot;,
+                &quot;sk&quot;: &quot;MIRRI-API-KontaktneMiesta v csv&quot;
+            },
+            &quot;prístupová_služba&quot;: 
+            {
+            	
+            	&quot;iri&quot;: &quot;https://opendata.mirri.gov.sk/mirri-kontaktne-miesta/ods&quot;,
+            	&quot;typ&quot;: &quot;Dátová služba&quot;,
+            	&quot;názov&quot;: {
+                    &quot;sk&quot;: &quot;MIRRI-API-KontaktneMiesta v csv&quot;,
+                    &quot;en&quot;: &quot;MIRRI-API-KontaktneMiesta v csv&quot;
+                },
+            	
+            	&quot;prístupový_bod&quot;: &quot;https://opendata.mirri.gov.sk/mirri-kontaktne-miesta/csv&quot;,
+            	&quot;popis_prístupového_bodu&quot;: &quot;https://opendata.mirri.gov.sk/&quot;,
+            	&quot;špecifikácia&quot;: &quot;https://swagger.io/specification/&gt;&quot;
+            }
+        },
+        {
+            &quot;iri&quot;: &quot;https://data.gov.sk/set/mirri-kontaktne-miesta/resource/api+ods&quot;,
+            &quot;typ&quot;: &quot;Distribúcia&quot;,
+            &quot;podmienky_použitia&quot;: {
+                &quot;typ&quot;: &quot;Špecifikácia podmienok použitia&quot;,
+                &quot;autorské_dielo&quot;: &quot;https://creativecommons.org/licenses/by/4.0/&quot;,
+                &quot;autor&quot;: {
+                    &quot;sk&quot;: &quot;Ministerstvo investícií SR&quot;
+                },
+                &quot;databáza_chránená_zvláštnými_právami&quot;: &quot;https://creativecommons.org/publicdomain/zero/1.0/&quot;,
+                &quot;databáza_ako_autorské_dielo&quot;: &quot;https://creativecommons.org/licenses/by/4.0/&quot;,
+                &quot;autor_databázy&quot;: {
+                    &quot;sk&quot;: &quot;Ministerstvo dopravy, Odbor verejnej dopravy&quot;
+                },
+                &quot;osobné_údaje&quot;: &quot;https://data.gov.sk/def/personal-data-occurence-type/2&quot;
+            },
+            &quot;prístupové_url&quot;: &quot;https://data.gov.sk/set/mirri-kontaktne-miesta/resource/ods&quot;,
+            &quot;súbor_na_stiahnutie&quot;: &quot;https://data.gov.sk/set/mirri-kontaktne-miesta/resource/ods&quot;,
+            &quot;formát&quot;: &quot;http://publications.europa.eu/resource/authority/file-type/ODS&quot;,
+            &quot;typ_média&quot;: &quot;http://www.iana.org/assignments/media-types/application/ods&quot;,
+            &quot;schéma&quot;: &quot;https://data.gov.sk/def/schema/ods-schema&quot;,
+            &quot;názov&quot;: {
+                &quot;en&quot;: &quot;MIRRI-API-KontaktneMiesta v ods&quot;,
+                &quot;sk&quot;: &quot;MIRRI-API-KontaktneMiesta v ods&quot;
+            },
+            &quot;prístupová_služba&quot;: 
+            {
+            	
+            	&quot;iri&quot;: &quot;https://opendata.mirri.gov.sk/mirri-kontaktne-miesta/ods&quot;,
+            	&quot;typ&quot;: &quot;Dátová služba&quot;,
+            	&quot;názov&quot;: {
+                    &quot;sk&quot;: &quot;MIRRI-API-KontaktneMiesta v ods&quot;,
+                    &quot;en&quot;: &quot;MIRRI-API-KontaktneMiesta v ods&quot;
+                },
+            	
+            	&quot;prístupový_bod&quot;: &quot;https://opendata.mirri.gov.sk/mirri-kontaktne-miesta/ods&quot;,
+            	&quot;popis_prístupového_bodu&quot;: &quot;https://opendata.mirri.gov.sk/&quot;,
+            	&quot;špecifikácia&quot;: &quot;https://swagger.io/specification/&gt;&quot;
+            }
+        }, 
+        {
+            &quot;iri&quot;: &quot;https://data.gov.sk/set/mirri-kontaktne-miesta/resource/api+ttl&quot;,
+            &quot;typ&quot;: &quot;Distribúcia&quot;,
+            &quot;podmienky_použitia&quot;: {
+                &quot;typ&quot;: &quot;Špecifikácia podmienok použitia&quot;,
+                &quot;autorské_dielo&quot;: &quot;https://creativecommons.org/licenses/by/4.0/&quot;,
+                &quot;autor&quot;: {
+                    &quot;sk&quot;: &quot;Ministerstvo investícií SR&quot;
+                },
+                &quot;databáza_chránená_zvláštnými_právami&quot;: &quot;https://creativecommons.org/publicdomain/zero/1.0/&quot;,
+                &quot;databáza_ako_autorské_dielo&quot;: &quot;https://creativecommons.org/licenses/by/4.0/&quot;,
+                &quot;autor_databázy&quot;: {
+                    &quot;sk&quot;: &quot;Ministerstvo dopravy, Odbor verejnej dopravy&quot;
+                },
+                &quot;osobné_údaje&quot;: &quot;https://data.gov.sk/def/personal-data-occurence-type/2&quot;
+            },
+            &quot;prístupové_url&quot;: &quot;https://data.gov.sk/set/mirri-kontaktne-miesta/resource/ttl&quot;,
+            &quot;súbor_na_stiahnutie&quot;: &quot;https://data.gov.sk/set/mirri-kontaktne-miesta/resource/ttlcsv&quot;,
+            &quot;formát&quot;: &quot;http://publications.europa.eu/resource/authority/file-type/TTL&quot;,
+            &quot;typ_média&quot;: &quot;http://www.iana.org/assignments/media-types/application/x-turtle&quot;,
+            &quot;schéma&quot;: &quot;http://data.europa.eu/m8g/&quot;,
+            &quot;názov&quot;: {
+                &quot;en&quot;: &quot;MIRRI-API-KontaktneMiesta v ttl&quot;,
+                &quot;sk&quot;: &quot;MIRRI-API-KontaktneMiesta v ttl&quot;
+            },
+            &quot;prístupová_služba&quot;: 
+            {
+            	
+            	&quot;iri&quot;: &quot;https://opendata.mirri.gov.sk/mirri-kontaktne-miesta/ttl&quot;,
+            	&quot;typ&quot;: &quot;Dátová služba&quot;,
+            	&quot;názov&quot;: {
+                    &quot;sk&quot;: &quot;MIRRI-API-KontaktneMiesta v ttl&quot;,
+                    &quot;en&quot;: &quot;MIRRI-API-KontaktneMiesta v ttl&quot;
+                },
+            	
+            	&quot;prístupový_bod&quot;: &quot;https://opendata.mirri.gov.sk/mirri-kontaktne-miesta/ttl&quot;,
+            	&quot;popis_prístupového_bodu&quot;: &quot;https://opendata.mirri.gov.sk/&quot;,
+            	&quot;špecifikácia&quot;: &quot;https://swagger.io/specification/&gt;&quot;
+            }
+        }
+    ]
+
+}</pre>
+</div></div>
+                    </div>
+
+                    
+                                                      
+                </div>             </div> 
+            <div id="footer" role="contentinfo">
+                <section class="footer-body">
+                    <p>Document generated by Confluence on okt 27, 2025 13:24</p>
+                    <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+                </section>
+            </div>
+        </div>     </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Metodika pre otvorené údaje (opendata.gov.sk) : Poskytuje portál data.slovensko.sk API na strojové získavanie otvorených údajov?</title>
+        <link rel="stylesheet" href="styles/site.css" type="text/css" />
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body class="theme-default aui-theme-default">
+        <div id="page">
+            <div id="main" class="aui-page-panel">
+                <div id="main-header">
+                    <div id="breadcrumb-section">
+                        <ol id="breadcrumbs">
+                            <li class="first">
+                                <span><a href="index.html">Metodika pre otvorené údaje (opendata.gov.sk)</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120127509.html">Metodika pre sprístupňovanie otvorených údajov (opendata.gov.sk) Domov</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120128028.html">15. Podpora a školenia</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Podpora-pre-data.slovensko.sk_120128617.html">Podpora pre data.slovensko.sk</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120129056.html">Téma: Dotazovanie metadát otvorených údajov cez SPARQL Endpoint</a></span>
+                            </li>
+                                                </ol>
+                    </div>
+                    <h1 id="title-heading" class="pagetitle">
+                                                <span id="title-text">
+                            Metodika pre otvorené údaje (opendata.gov.sk) : Poskytuje portál data.slovensko.sk API na strojové získavanie otvorených údajov?
+                        </span>
+                    </h1>
+                </div>
+
+                <div id="content" class="view">
+                    <div class="page-metadata">
+                            
+        
+    
+        
+    
+        
+        
+            Created by <span class='author'> miroslav.liska</span>, last modified by <span class='editor'> Lukáš Jankovič</span> on máj 13, 2025
+                        </div>
+                    <div id="main-content" class="wiki-content group">
+                    <p>Áno, portál data.slovensko.sk poskytuje tzv. SPARQL Endpoint na dotazovanie Národného katalógu otvorených údajov vo forme:</p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">https://data.slovensko.sk/api/sparql?query={SPARQLQuery}</pre>
+</div></div><p>kde <strong>SPARQLQuery</strong> predstavuje dotaz na metadáta otvorených údajov podľa štandardu <a href="https://htmlpreview.github.io/?https://github.com/slovak-egov/centralny-model-udajov/blob/develop/tbox/national/dcat-ap-sk/index.html" class="external-link" rel="nofollow">DCAT-AP-SK-3.0</a>.</p><h1 id="Poskytujeportáldata.slovensko.skAPInastrojovézískavanieotvorenýchúdajov?-PostupposlatiadotazunaSPARQLEndpoint">Postup poslatia dotazu na SPARQL Endpoint</h1><h2 id="Poskytujeportáldata.slovensko.skAPInastrojovézískavanieotvorenýchúdajov?-1.Prípravadotazu(napr.vrátpočetdatasetov)">1. Príprava dotazu (napr. vrát počet datasetov)</h2><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">PREFIX dcat: &lt;http://www.w3.org/ns/dcat#&gt;
+SELECT (COUNT (*) AS ?count)
+WHERE {
+  ?dataset a dcat:Dataset
+}</pre>
+</div></div><h2 id="Poskytujeportáldata.slovensko.skAPInastrojovézískavanieotvorenýchúdajov?-2.Zakódovaniedotazu-URLEncoding">2. Zakódovanie dotazu - URLEncoding</h2><p>SPARQL Dotaz je treba zakódovať (napr. <a href="https://www.urlencoder.org/" class="external-link" rel="nofollow">URLEncoderom</a>) do požadovanej formy:</p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">PREFIX%20dcat%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0ASELECT%20%28COUNT%20%28%2A%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20%3Fdataset%20a%20dcat%3ADataset%0A%7D</pre>
+</div></div><h2 id="Poskytujeportáldata.slovensko.skAPInastrojovézískavanieotvorenýchúdajov?-3.VykonaniedotazucezHTTP">3. Vykonanie dotazu cez HTTP</h2><p><a href="https://data.slovensko.sk/api/sparql?query=PREFIX%20dcat%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0ASELECT%20%28COUNT%20%28%2A%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20%3Fdataset%20a%20dcat%3ADataset%0A%7D" class="external-link" rel="nofollow">https://data.slovensko.sk/api/sparql?query=PREFIX%20dcat%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0ASELECT%20%28COUNT%20%28%2A%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20%3Fdataset%20a%20dcat%3ADataset%0A%7D</a></p><h2 id="Poskytujeportáldata.slovensko.skAPInastrojovézískavanieotvorenýchúdajov?-4.VykonaniedotazucezCURL">4. Vykonanie dotazu cez CURL</h2><div class="table-wrap"><table class="wrapped confluenceTable" style="text-align: left;"><tbody style="text-align: left;"><tr style="text-align: left;"><td style="text-align: left;" class="confluenceTd"><p style="text-align: left;"><code style="text-align: left;" class="java plain">curl --location<span> </span></code><code style="text-align: left;" class="java string">'<a href="https://data.slovensko.sk/api/sparql?query=PREFIX%20dcat%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0ASELECT%20%28COUNT%20%28%2A%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20%3Fdataset%20a%20dcat%3ADataset%0A%7D" class="external-link" rel="nofollow">https://data.slovensko.sk/api/sparql?query=PREFIX%20dcat%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0ASELECT%20%28COUNT%20%28%2A%29%20AS%20%3Fcount%29%0AWHERE%20%7B%0A%20%20%3Fdataset%20a%20dcat%3ADataset%0A%7D</a>'</code></p></td></tr></tbody></table></div><p class="auto-cursor-target"><strong>Ďaľšie príklady:</strong> </p><p class="auto-cursor-target"><a href="120128940.html" data-linked-resource-id="120128940" data-linked-resource-version="7" data-linked-resource-type="page">Ako zist&iacute;m najnov&scaron;iu verziu nejak&eacute;ho datasetu cez SPARQL Endpoint?</a></p>
+                    </div>
+
+                    
+                                                      
+                </div>             </div> 
+            <div id="footer" role="contentinfo">
+                <section class="footer-body">
+                    <p>Document generated by Confluence on okt 27, 2025 13:29</p>
+                    <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+                </section>
+            </div>
+        </div>     </body>
+</html>

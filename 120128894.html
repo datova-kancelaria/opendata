@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Metodika pre otvorené údaje (opendata.gov.sk) : Príklad: Register partnerov verejného sektora (Swagger / curl / Postman)</title>
+        <link rel="stylesheet" href="styles/site.css" type="text/css" />
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body class="theme-default aui-theme-default">
+        <div id="page">
+            <div id="main" class="aui-page-panel">
+                <div id="main-header">
+                    <div id="breadcrumb-section">
+                        <ol id="breadcrumbs">
+                            <li class="first">
+                                <span><a href="index.html">Metodika pre otvorené údaje (opendata.gov.sk)</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120127509.html">Metodika pre sprístupňovanie otvorených údajov (opendata.gov.sk) Domov</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120128028.html">15. Podpora a školenia</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120129048.html">Prípadové štúdie</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120128852.html">Strojový prístup k otvorených dátam verejnej správy</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120128866.html">Prístup cez OpenAPI</a></span>
+                            </li>
+                                                </ol>
+                    </div>
+                    <h1 id="title-heading" class="pagetitle">
+                                                <span id="title-text">
+                            Metodika pre otvorené údaje (opendata.gov.sk) : Príklad: Register partnerov verejného sektora (Swagger / curl / Postman)
+                        </span>
+                    </h1>
+                </div>
+
+                <div id="content" class="view">
+                    <div class="page-metadata">
+                            
+        
+    
+        
+    
+        
+        
+            Created by <span class='author'> miroslav.liska</span>, last modified on okt 11, 2022
+                        </div>
+                    <div id="main-content" class="wiki-content group">
+                    <h1 id="Príklad:Registerpartnerovverejnéhosektora(Swagger/curl/Postman)-1.Zoznamopendataslužieb"><style>[data-colorid=k97x3pyea1]{color:#212121} html[data-color-mode=dark] [data-colorid=k97x3pyea1]{color:#dedede}[data-colorid=e93cozdhyq]{color:#212121} html[data-color-mode=dark] [data-colorid=e93cozdhyq]{color:#dedede}</style>1.Zoznam opendata služieb</h1><p><a href="https://rpvs.gov.sk/opendata/swagger/ui/index#/" class="external-link" rel="nofollow">https://rpvs.gov.sk/opendata/swagger/ui/index#/</a></p><p><span class="confluence-embedded-file-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image" height="250" loading="lazy" src="attachments/120128894/120138154.png?height=250" data-image-src="attachments/120128894/120138154.png" data-unresolved-comment-count="0" data-linked-resource-id="120138154" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2022-10-11_12-58-32.png" data-base-url="https://mirri.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="120128894" data-linked-resource-container-version="7" data-media-id="119a372b-4810-431e-91d3-6d1189a4c19f" data-media-type="file" /></span></p><h1 id="Príklad:Registerpartnerovverejnéhosektora(Swagger/curl/Postman)-2.Volaniaslužieb">2.Volania služieb</h1><h2 id="Príklad:Registerpartnerovverejnéhosektora(Swagger/curl/Postman)-2.1Konečnýužívateliavýhod">2.1 Konečn&yacute; už&iacute;vatelia v&yacute;hod</h2><h3 id="Príklad:Registerpartnerovverejnéhosektora(Swagger/curl/Postman)-2.1.1Získaniezoznamukonečnýchužívateľovvýhod">2.1.1 Z&iacute;skanie zoznamu konečn&yacute;ch už&iacute;vateľov v&yacute;hod</h3><p>URL služby: <span data-colorid="e93cozdhyq"><a href="https://rpvs.gov.sk/OpenData/KonecniUzivateliaVyhod" class="external-link" rel="nofollow">https://rpvs.gov.sk/OpenData/KonecniUzivateliaVyhod</a></span></p><p>Popis služby: <a href="https://rpvs.gov.sk/opendata/swagger/ui/index#!/KonecniUzivateliaVyhod" class="external-link" rel="nofollow">https://rpvs.gov.sk/opendata/swagger/ui/index#!/KonecniUzivateliaVyhod</a></p><p>Volanie z pr&iacute;klazov&eacute;ho riadku:</p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">curl -X GET --header 'Accept: application/json' 'https://rpvs.gov.sk/OpenData/KonecniUzivateliaVyhod'</pre>
+</div></div><p><br /></p><p>Služba vr&aacute;ti dvadsať z&aacute;znamov. V pr&iacute;pade, že chcete z&iacute;skať ďaľ&scaron;&iacute;ch 20 z&aacute;znamov, je nutn&eacute; t&yacute;chto 20 preskočiť. Preto je potrebn&eacute; použiť parameter skip ako je možn&eacute; vidieť na nasledovnom volan&iacute;:</p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">curl -X GET --header 'Accept: application/json' 'https://rpvs.gov.sk/OpenData/KonecniUzivateliaVyhod?$skip=20'</pre>
+</div></div><p><br /></p><p><strong>V Postmane</strong>:</p><p><span class="confluence-embedded-file-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image" height="250" loading="lazy" src="attachments/120128894/120138163.png?height=250" data-image-src="attachments/120128894/120138163.png" data-unresolved-comment-count="0" data-linked-resource-id="120138163" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2022-10-11_13-21-31.png" data-base-url="https://mirri.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="120128894" data-linked-resource-container-version="7" data-media-id="dc024c4c-241a-48ec-a10c-d0dbde52d1cd" data-media-type="file" /></span></p><p><br /></p><h3 id="Príklad:Registerpartnerovverejnéhosektora(Swagger/curl/Postman)-2.1.2Získaniedetailukonečnéhoužívateľavýhod">2.1.2 Z&iacute;skanie detailu konečn&eacute;ho už&iacute;vateľa v&yacute;hod</h3><p>V predch&aacute;dzaj&uacute;cej službe bolo možn&eacute; z&iacute;skať zoznam konečn&yacute;ch &uacute;živateľov v&yacute;hod, pričom jedn&yacute;m z vlastnost&iacute; bol identifik&aacute;tor ID. Ten je možn&eacute; použiť pre z&iacute;skanie podrobnost&iacute; o danom už&iacute;vateľovi v&yacute;hod:</p><p>URL služby: <span data-colorid="k97x3pyea1"><a href="https://rpvs.gov.sk/OpenData/KonecniUzivateliaVyhod(2)" class="external-link" rel="nofollow">https://rpvs.gov.sk/OpenData/KonecniUzivateliaVyhod(2)</a></span></p><p>Popis služby: <a href="https://rpvs.gov.sk/opendata/swagger/ui/index#!/KonecniUzivateliaVyhod/KonecniUzivateliaVyhod_GetById" class="external-link" rel="nofollow">https://rpvs.gov.sk/opendata/swagger/ui/index#!/KonecniUzivateliaVyhod/KonecniUzivateliaVyhod_GetById</a></p><p>Volanie z pr&iacute;kazov&eacute;ho riadku:&nbsp;</p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">curl -X GET --header 'Accept: application/json' 'https://rpvs.gov.sk/OpenData/KonecniUzivateliaVyhod(2)'</pre>
+</div></div><p><br /></p><p><strong>V Postmane:</strong></p><p><span class="confluence-embedded-file-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image" height="250" loading="lazy" src="attachments/120128894/120138200.png?height=250" data-image-src="attachments/120128894/120138200.png" data-unresolved-comment-count="0" data-linked-resource-id="120138200" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image2022-10-11_13-16-22.png" data-base-url="https://mirri.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="120128894" data-linked-resource-container-version="7" data-media-id="27514124-c997-4419-9dbe-6b8834484dae" data-media-type="file" /></span></p>
+                    </div>
+
+                                        <div class="pageSection group">
+                        <div class="pageSectionHeader">
+                            <h2 id="attachments" class="pageSectionTitle">Attachments:</h2>
+                        </div>
+
+                        <div class="greybox" align="left">
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/120128894/120138154.png">image2022-10-11_12-58-32.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/120128894/120138200.png">image2022-10-11_13-16-22.png</a> (image/png)
+                                <br/>
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/120128894/120138163.png">image2022-10-11_13-21-31.png</a> (image/png)
+                                <br/>
+                                                    </div>
+                    </div>
+                    
+                                                      
+                </div>             </div> 
+            <div id="footer" role="contentinfo">
+                <section class="footer-body">
+                    <p>Document generated by Confluence on okt 27, 2025 13:29</p>
+                    <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+                </section>
+            </div>
+        </div>     </body>
+</html>

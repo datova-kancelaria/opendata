@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Metodika pre otvorené údaje (opendata.gov.sk) : Scenáre sprístupňovania otvorených údajov</title>
+        <link rel="stylesheet" href="styles/site.css" type="text/css" />
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body class="theme-default aui-theme-default">
+        <div id="page">
+            <div id="main" class="aui-page-panel">
+                <div id="main-header">
+                    <div id="breadcrumb-section">
+                        <ol id="breadcrumbs">
+                            <li class="first">
+                                <span><a href="index.html">Metodika pre otvorené údaje (opendata.gov.sk)</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120127509.html">Metodika pre sprístupňovanie otvorených údajov (opendata.gov.sk) Domov</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120128572.html">4. Pravidlá sprístupňovania otvorených údajov</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120127568.html">Štandardy technického riešenia</a></span>
+                            </li>
+                                                </ol>
+                    </div>
+                    <h1 id="title-heading" class="pagetitle">
+                                                <span id="title-text">
+                            Metodika pre otvorené údaje (opendata.gov.sk) : Scenáre sprístupňovania otvorených údajov
+                        </span>
+                    </h1>
+                </div>
+
+                <div id="content" class="view">
+                    <div class="page-metadata">
+                            
+        
+    
+        
+    
+        
+        
+            Created by <span class='author'> miroslav.liska</span>, last modified by <span class='editor'> Lukáš Jankovič</span> on júl 17, 2025
+                        </div>
+                    <div id="main-content" class="wiki-content group">
+                    <h1 id="Scenáresprístupňovaniaotvorenýchúdajov-Automatizovanésprístupňovanieotvorenýchúdajov"><style>[data-colorid=b48fzav9j3]{color:#0b0c0c} html[data-color-mode=dark] [data-colorid=b48fzav9j3]{color:#f3f4f4}</style><strong>Automatizovan&eacute; spr&iacute;stupňovanie otvoren&yacute;ch &uacute;dajov</strong></h1><p><strong><span class="legacy-color-text-green2">preferovan&eacute; <span class="legacy-color-text-default">a</span></span> <span class="legacy-color-text-orange2">nepreferovan&eacute; <span class="legacy-color-text-default">scen&aacute;re </span></span></strong></p><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col /><col /><col /><col /><col /></colgroup><tbody><tr><th class="confluenceTh">scen&aacute;r</th><th colspan="1" class="confluenceTh">n&aacute;zov scen&aacute;ra</th><th colspan="1" class="confluenceTh">popis</th><th colspan="1" class="confluenceTh">princ&iacute;p</th><th colspan="1" class="confluenceTh">pr&iacute;klady</th></tr><tr><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd">A1</td><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd">SPARQL Endpoint</td><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd"><p>Najpreferovanej&scaron;&iacute; sp&ocirc;sob automatizovanej katalogiz&aacute;cie otvoren&yacute;ch &uacute;dajov z ISVS. Dan&yacute; ISVS OVM vyexportuje svoj katal&oacute;g podľa &scaron;tandardu <a href="https://htmlpreview.github.io/?https://github.com/slovak-egov/centralny-model-udajov/blob/develop/tbox/national/dcat-ap-sk/index.html" class="external-link" rel="nofollow"><strong>DCAT-AP-SK 3.0</strong></a>, nahr&aacute; ich do otvorenej RDF datab&aacute;zy poskytuj&uacute;cej <strong>SPARQL Endpoint</strong>, ktor&yacute; je pr&iacute;stupn&yacute;. S&uacute;časne bude tento endpoint zaregistrovan&yacute; v centr&aacute;lnom port&aacute;li otvoren&yacute;ch &uacute;dajov ako lok&aacute;lny katal&oacute;g na harvestovanie. Samotn&eacute; distrib&uacute;cie datasetov (s&uacute;bory alebo API) s&uacute;, podobne ako SPARQL Endpoint, uložen&eacute; a dostupn&eacute; na stiahnutie na strane OVM:. <strong><a href="https://htmlpreview.github.io/?https://github.com/slovak-egov/centralny-model-udajov/blob/develop/tbox/national/dcat-ap-sk/index.html#rozhranie-sparql-endpoint" class="external-link" rel="nofollow">METODIKA</a> <a href="120128974.html" data-linked-resource-id="120128974" data-linked-resource-version="2" data-linked-resource-type="page">ARCHITEKT&Uacute;RA</a></strong></p></td><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd">decentralizovan&eacute; d&aacute;ta</td><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd"><p><a href="https://data.gov.sk/sparql" class="external-link" rel="nofollow">data.slovensko.sk/sparql</a></p></td></tr><tr><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd">A2</td><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd">DCAT-AP Dokumenty</td><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd">Dan&yacute; ISVS poskytne API alebo s&uacute;bory meta&uacute;dajov o otvoren&yacute;ch &uacute;dajov vo forme DCAT-AP Dokumentov. Jedna služba alebo s&uacute;bor vr&aacute;ti metad&aacute;ta katal&oacute;gu, tj. zoznam datasetov a druh&aacute; služba alebo metad&aacute;tov&eacute; s&uacute;bory vr&aacute;tia detailn&eacute; inform&aacute;cie (metad&aacute;ta) o danom datasete. <strong><a href="https://htmlpreview.github.io/?https://github.com/slovak-egov/centralny-model-udajov/blob/develop/tbox/national/dcat-ap-sk/index.html#rozhranie-dcat-ap-dokumenty" class="external-link" rel="nofollow">METODIKA</a></strong></td><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd">decentralizovan&eacute; d&aacute;ta</td><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd"><p><span data-colorid="b48fzav9j3"><a href="https://opendata.mfsr.sk/opendata/catalog/lkod" class="external-link" rel="nofollow">https://opendata.mfsr.sk/opendata/catalog/lkod</a></span></p></td></tr><tr><td colspan="1" data-highlight-colour="#ffebe6" class="confluenceTd">A3</td><td colspan="1" data-highlight-colour="#ffebe6" class="confluenceTd">CKAN API</td><td colspan="1" data-highlight-colour="#ffebe6" class="confluenceTd">Prev&aacute;dzka vlastn&eacute;ho lok&aacute;lneho katal&oacute;gu otvoren&yacute;ch &uacute;dajov založen&eacute;ho na CKAN API (rozdielny oproti DCAT-AP) a jeho registr&aacute;cia v centr&aacute;lnom port&aacute;li otvoren&yacute;ch &uacute;dajov: <a href="https://htmlpreview.github.io/?https://github.com/slovak-egov/centralny-model-udajov/blob/develop/tbox/national/dcat-ap-sk/index.html#rozhranie-ckan-api" class="external-link" rel="nofollow"><strong>METODIKA</strong></a>&nbsp;</td><td colspan="1" data-highlight-colour="#ffebe6" class="confluenceTd">decentralizovan&eacute; d&aacute;ta</td><td colspan="1" data-highlight-colour="#ffebe6" class="confluenceTd"><br /></td></tr></tbody></table></div><p><strong><a href="120128191.html" data-linked-resource-id="120128191" data-linked-resource-version="25" data-linked-resource-type="page">Pr&iacute;klady dobrej praxe - automatizovan&aacute; katalogiz&aacute;cia</a></strong></p><h1 id="Scenáresprístupňovaniaotvorenýchúdajov-Manuálnesprístupňovanieotvorenýchúdajov"><strong>Manu&aacute;lne spr&iacute;stupňovanie otvoren&yacute;ch &uacute;dajov</strong></h1><p><strong><span class="legacy-color-text-green2">preferovan&eacute; <span class="legacy-color-text-default">a</span></span> <span class="legacy-color-text-orange2">nepreferovan&eacute; <span class="legacy-color-text-default">scen&aacute;re </span></span></strong></p><div class="table-wrap"><table class="wrapped confluenceTable"><colgroup><col /><col /><col /><col /><col /></colgroup><tbody><tr><th class="confluenceTh">scen&aacute;r</th><th colspan="1" class="confluenceTh">n&aacute;zov scen&aacute;ra</th><th colspan="1" class="confluenceTh">popis</th><th class="confluenceTh">typ</th><th colspan="1" class="confluenceTh">pr&iacute;klady</th></tr><tr><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd">M1</td><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd">formul&aacute;r na data.slove<span>n</span>sko.sk</td><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd">Manu&aacute;lna katalogiz&aacute;cia datasetu v port&aacute;li otvoren&yacute;ch &uacute;dajov s distrib&uacute;ciami dostupn&yacute;mi na verejnom mieste OVM (API alebo odkaz na s&uacute;bor na stiahnutie) .</td><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd">decentralizovan&eacute;&nbsp; d&aacute;ta</td><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd"><p><a href="https://data.gov.sk/dataset/itms-2014-schvalene-nfp" class="external-link" rel="nofollow">ITMS 2014+ Schv&aacute;len&eacute; NFP</a></p></td></tr><tr><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd">M2</td><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd">DCAT-AP Dokumenty Manu&aacute;lne</td><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd">Manu&aacute;lna tvorba DCAT-AP dokumentu pre každ&yacute; dataset a jeho distrib&uacute;cie, spolu s n&iacute;m dostupn&yacute; na verejnom mieste, spolu so sum&aacute;rnym DCAT-AP dokumentom reprezentuj&uacute;cim lok&aacute;lny katal&oacute;g OVM (LKOD), registrovan&yacute; v centr&aacute;lnom port&aacute;li otvoren&yacute;ch &uacute;dajov: <strong><a href="https://htmlpreview.github.io/?https://github.com/slovak-egov/centralny-model-udajov/blob/develop/tbox/national/dcat-ap-sk/index.html#rozhranie-dcat-ap-dokumenty" class="external-link" rel="nofollow">METODIKA</a> <a href="120128978.html" data-linked-resource-id="120128978" data-linked-resource-version="2" data-linked-resource-type="page">ARCHITEK&Uacute;RA</a><br /></strong></td><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd">decentralizovan&eacute; d&aacute;ta</td><td colspan="1" data-highlight-colour="#e3fcef" class="confluenceTd"><br /></td></tr><tr><td colspan="1" data-highlight-colour="#ffebe6" class="confluenceTd">M3</td><td colspan="1" data-highlight-colour="#ffebe6" class="confluenceTd">formul&aacute;r na data.slove<span>n</span>sko.sk</td><td colspan="1" data-highlight-colour="#ffebe6" class="confluenceTd">Manu&aacute;lna katalogiz&aacute;cia datasetu v port&aacute;li otvoren&yacute;ch &uacute;dajov s nahrat&iacute;m ich distrib&uacute;ci&iacute; do centr&aacute;lneho &uacute;ložiska.</td><td colspan="1" data-highlight-colour="#ffebe6" class="confluenceTd">centralizovan&eacute; d&aacute;ta</td><td colspan="1" data-highlight-colour="#ffebe6" class="confluenceTd"><a href="https://data.gov.sk/dataset/mirri-organizacna-struktura" class="external-link" rel="nofollow">MIRRI Organizačn&aacute; &scaron;trukt&uacute;ra (2021-04-20)</a></td></tr></tbody></table></div>
+                    </div>
+
+                    
+                                                      
+                </div>             </div> 
+            <div id="footer" role="contentinfo">
+                <section class="footer-body">
+                    <p>Document generated by Confluence on okt 27, 2025 13:24</p>
+                    <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+                </section>
+            </div>
+        </div>     </body>
+</html>

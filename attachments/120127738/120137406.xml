@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dcat="http://www.w3.org/ns/dcat#"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:ns0="https://data.gov.sk/def/ontology/legislation/"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:adms="http://www.w3.org/ns/adms#"
+         xmlns:dcatsk="https://data.gov.sk/def/ontology/dcat-ap-sk/">
+
+    <dcat:Dataset rdf:about="https://opendata.mfsr.sk/opendata/catalogrdfxml/datovy-inventar-mf-sr">
+        <dcat:landingPage rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://49.13.55.155</dcat:landingPage>
+        <dc:title xml:lang="sk">Petície</dc:title>
+        <dct:identifier rdf:resource="http://49.13.55.155/api/v0/opendata/info/7424fec5-706a-41a4-a492-0b769d66d4e4">7424fec5-706a-41a4-a492-0b769d66d4e4</dct:identifier>
+        <dc:description xml:lang="sk">Register podaných petícií</dc:description>
+        <dc:publisher rdf:resource="https://data.gov.sk/id/legal-subject/00320439"/>
+        <dcatsk:maintaner rdf:resource="https://data.gov.sk/id/legal-subject/00320439"/>
+        <dct:creator rdf:resource="https://data.gov.sk/id/legal-subject/00320439"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dc:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
+        <dcat:keyword xml:lang="sk">Petície</dcat:keyword>
+        <dc:type rdf:resource="https://data.gov.sk/def/dataset-type/1"/>
+        <owl:versionInfo>0.0.1</owl:versionInfo>
+        <dct:issued rdf:datatype="dateTime">2023-09-05T02:00:01Z</dct:issued>
+        <dct:modified rdf:datatype="dateTime">2023-07-21T10:22:54</dct:modified>
+
+        
+        <dcat:distribution>
+            <adms:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+            <dcat:Distribution rdf:about="#datovy-inventar-zvolen/0">
+                <dc:title xml:lang="sk">Petície</dc:title>
+                <dct:description xml:lang="sk">Register podaných petícií</dct:description>
+                <ns0:termsOfUse>
+                    <ns0:TermsOfUse>
+                        <ns0:authorName xml:lang="sk">Mesto Zvolen</ns0:authorName>
+                        <ns0:authorName xml:lang="en">City of Zvolen</ns0:authorName>
+                        <ns0:authorsWorkType rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                        <ns0:originalDatabaseType rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                        <ns0:databaseProtectedBySpecialRightsType rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+                        <ns0:personalDataContainmentType rdf:resource="https://data.gov.sk/def/personal-data-occurence-type/2"/>
+                    </ns0:TermsOfUse>
+                </ns0:termsOfUse>
+
+                <dcat:accessURL rdf:resource="http://49.13.55.155/api/v0/opendata/detail/5c278f12-2ea8-48f0-abd0-f5538c2a9314"/>
+                <dcat:downloadURL rdf:resource="http://49.13.55.155/api/v0/opendata/detail/5c278f12-2ea8-48f0-abd0-f5538c2a9314"/>
+                <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/rdfxml"/>
+                <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/rdf+xml"/>
+
+            </dcat:Distribution>
+        </dcat:distribution>
+        
+        <dcat:distribution>
+            <adms:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+            <dcat:Distribution rdf:about="#datovy-inventar-zvolen/1">
+                <dc:title xml:lang="sk">Petície</dc:title>
+                <dct:description xml:lang="sk">Register podaných petícií</dct:description>
+                <ns0:termsOfUse>
+                    <ns0:TermsOfUse>
+                        <ns0:authorName xml:lang="sk">Mesto Zvolen</ns0:authorName>
+                        <ns0:authorName xml:lang="en">City of Zvolen</ns0:authorName>
+                        <ns0:authorsWorkType rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                        <ns0:originalDatabaseType rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                        <ns0:databaseProtectedBySpecialRightsType rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+                        <ns0:personalDataContainmentType rdf:resource="https://data.gov.sk/def/personal-data-occurence-type/2"/>
+                    </ns0:TermsOfUse>
+                </ns0:termsOfUse>
+
+                <dcat:accessURL rdf:resource="http://49.13.55.155/api/v0/opendata/detail/042cdf39-d249-4957-ab81-eaac9469317a"/>
+                <dcat:downloadURL rdf:resource="http://49.13.55.155/api/v0/opendata/detail/042cdf39-d249-4957-ab81-eaac9469317a"/>
+                <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/json"/>
+                <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/json"/>
+
+            </dcat:Distribution>
+        </dcat:distribution>
+        
+        <dcat:distribution>
+            <adms:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+            <dcat:Distribution rdf:about="#datovy-inventar-zvolen/2">
+                <dc:title xml:lang="sk">Petície</dc:title>
+                <dct:description xml:lang="sk">Register podaných petícií</dct:description>
+                <ns0:termsOfUse>
+                    <ns0:TermsOfUse>
+                        <ns0:authorName xml:lang="sk">Mesto Zvolen</ns0:authorName>
+                        <ns0:authorName xml:lang="en">City of Zvolen</ns0:authorName>
+                        <ns0:authorsWorkType rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                        <ns0:originalDatabaseType rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                        <ns0:databaseProtectedBySpecialRightsType rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+                        <ns0:personalDataContainmentType rdf:resource="https://data.gov.sk/def/personal-data-occurence-type/2"/>
+                    </ns0:TermsOfUse>
+                </ns0:termsOfUse>
+
+                <dcat:accessURL rdf:resource="http://49.13.55.155/api/v0/opendata/detail/603be262-3bb8-4e73-a5d1-ebf358235964"/>
+                <dcat:downloadURL rdf:resource="http://49.13.55.155/api/v0/opendata/detail/603be262-3bb8-4e73-a5d1-ebf358235964"/>
+                <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/csv"/>
+                <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/text/csv"/>
+
+            </dcat:Distribution>
+        </dcat:distribution>
+        
+        <dcat:distribution>
+            <adms:status rdf:resource="http://purl.org/adms/status/UnderDevelopment"/>
+            <dcat:Distribution rdf:about="#datovy-inventar-zvolen/3">
+                <dc:title xml:lang="sk">Petície</dc:title>
+                <dct:description xml:lang="sk">Register podaných petícií</dct:description>
+                <ns0:termsOfUse>
+                    <ns0:TermsOfUse>
+                        <ns0:authorName xml:lang="sk">Mesto Zvolen</ns0:authorName>
+                        <ns0:authorName xml:lang="en">City of Zvolen</ns0:authorName>
+                        <ns0:authorsWorkType rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                        <ns0:originalDatabaseType rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+                        <ns0:databaseProtectedBySpecialRightsType rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+                        <ns0:personalDataContainmentType rdf:resource="https://data.gov.sk/def/personal-data-occurence-type/2"/>
+                    </ns0:TermsOfUse>
+                </ns0:termsOfUse>
+
+                <dcat:accessURL rdf:resource="http://49.13.55.155/api/v0/opendata/detail/1f5df0d0-58e3-4c19-be35-17e7bf0f63d2"/>
+                <dcat:downloadURL rdf:resource="http://49.13.55.155/api/v0/opendata/detail/1f5df0d0-58e3-4c19-be35-17e7bf0f63d2"/>
+                <dc:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ods"/>
+                <dcat:mediaType rdf:resource="http://www.iana.org/assignments/media-types/application/vnd.oasis.opendocument.spreadsheet"/>
+
+            </dcat:Distribution>
+        </dcat:distribution>
+        
+
+    </dcat:Dataset>
+
+</rdf:RDF>

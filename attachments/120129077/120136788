@@ -1,0 +1,23 @@
+@prefix rdf <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct:  <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix vcard2006: <http://www.w3.org/2006/vcard/ns#> .
+
+<https://data.gov.sk/set/lkod/noc/katalog> a dcat:Catalog ;
+    dct:title "Katalóg otvorených údajov Národného osvetového centra"@sk, "Open Data Catalog of Národné osvetové centrum (National edification centre)"@en ;
+    dct:description "Otvorené údaje Národného osvetového centra (NOC). Obsahuje všetky datasety, ktoré zverejňuje Národné osvetové centrum. Datasety sú dostupné aj priamo z webových stránok NOC"@sk;
+    dct:description "Open data of Národné osvetové centrum (NOC). It contains all the datasets published by Národné osvetové centrum. Datasets are accessed also dirctly through web pages of the institution"@en ;
+    dct:publisher <https://data.gov.sk/legal-subject/00164615> ;
+    foaf:homepage <https://www.nocka.sk> ;
+    dcat:contactPoint [
+        a vcard2006:Organization ;
+        vcard2006:fn "Národné osvetové centrum"@sk, "Národné osvetové centrum"@en ;
+        vcard2006:hasEmail <mailto:opendata@nocka.sk>
+    ] ;
+    dcat:dataset  <https://www.nocka.sk/opendata/catalogrdfxml/evidencia_jednotlivci> ,
+    dcat:dataset  <https://www.nocka.sk/opendata/catalogrdfxml/evidencia_umelci> ,
+	dcat:dataset  <https://www.nocka.sk/opendata/catalogrdfxml/evidencia_porotci> ,
+	dcat:dataset  <https://www.nocka.sk/opendata/catalogrdfxml/evidencia_sutaze> ,
+	dcat:dataset  <https://www.nocka.sk/opendata/catalogrdfxml/evidencia_vitazi> .
+				  

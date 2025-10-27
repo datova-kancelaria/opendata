@@ -1,0 +1,182 @@
+@prefix dcat:   <http://www.w3.org/ns/dcat#> .
+# CO JE TOTO, nikde som to nenasiel, ale na https://metais.vicepremier.gov.sk/publicspace?pageId=20022969 je to pozadovane
+@prefix dcatsk: <http://localhost:3030/ustav/co_je_toto> .
+@prefix dct:    <http://purl.org/dc/terms/> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix qb:     <http://purl.org/linked-data/cube#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+##############
+# CATALOG
+##############
+
+# katalogy podla https://metais.vicepremier.gov.sk/publicspace?pageId=20022969
+# tvorba uri podla https://metais.vicepremier.gov.sk/publicspace?pageId=16678951
+# mirri zverejnuje uri ako chce, takze neviem ci je pattern spravny
+<https://zvjs.sk/set/catalog/zvjs/v1>
+        rdf:type         dcat:Catalog ;
+        dct:description  "Katalóg všetkých publikovaných datasetov ZVJS"@sk ;
+        dct:issued       "2023-12-01T00:00:01Z"^^xsd:dateTime ;
+        dct:modified     "2023-12-01T00:00:01Z"^^xsd:dateTime ;
+# treba preverit, ze publisher ako agent moze byt referencovany na legal-subject zvjs
+        dct:publisher    <https://data.gov.sk/id/legal-subject/00212008> ;
+        dct:title        "Katalog ZVJS" , "Catalog ZVJS"@en , "Katalóg ZVJS"@sk ;
+        dcat:dataset     <https://zvjs.sk/set/data/ustavy/> , <https://zvjs.sk/set/data/pracovne-zaradenie/> .
+
+##############
+# DATASETY
+##############
+<https://zvjs.sk/set/data/pracovne-zaradenie/v1>
+        rdf:type          dcat:Dataset ;
+# co je dcatsk:maintainer? nesedia priklady v metais
+        dcatsk:maintaner  <https://data.gov.sk/id/legal-subject/00212008> ;
+        dct:creator       <https://data.gov.sk/id/legal-subject/00212008> ;
+        dct:description   "Dataset pracovného zaradenia ZVJS" ;
+        dct:identifier    <https://zvjs.sk/set/data/ustavy/> ;
+        dct:issued        "2023-12-01T00:00:01Z"^^xsd:dateTime ;
+        dct:publisher     <https://data.gov.sk/id/legal-subject/00212008> ;
+        dct:title         "Pracovné zaradenie ZVJS" ;
+# ??? aky je toto typ?
+        dct:type          "xxx" ;
+        owl:versionInfo   "1" ;
+        dcat:landingPage  <https://zvjs.sk/set/data/pracovne-zaradenie/v1> ;
+# ???? theme pre zvjs??
+        dcat:theme        "sss" .
+
+<https://zvjs.sk/set/data/ustavy/v1>
+        rdf:type          dcat:Dataset ;
+        dcatsk:maintaner  <https://data.gov.sk/id/legal-subject/00212008> ;
+        dct:creator       <https://data.gov.sk/id/legal-subject/00212008> ;
+        dct:description   "Dataset ústavov ZVJS" ;
+        dct:identifier    <https://zvjs.sk/set/data/ustavy/> ;
+        dct:issued        "2023-12-01T00:00:01Z"^^xsd:dateTime ;
+        dct:publisher     <https://data.gov.sk/id/legal-subject/00212008> ;
+        dct:title         "Ústavy ZVJS" ;
+        dct:type          "xxx" ;
+        owl:versionInfo   "1" ;
+        dcat:landingPage  <https://zvjs.sk/set/data/ustavy/v1> ;
+        dcat:theme        "sss" .
+
+<https://zvjs.sk/set/data/pracovne-zaradenie-stats/v1>
+        rdf:type          dcat:Dataset ;
+        dcatsk:maintaner  <https://data.gov.sk/id/legal-subject/00212008> ;
+        dct:creator       <https://data.gov.sk/id/legal-subject/00212008> ;
+        dct:description   "Dataset ústavov ZVJS" ;
+        dct:identifier    <https://zvjs.sk/set/data/ustavy/> ;
+        dct:issued        "2023-12-01T00:00:01Z"^^xsd:dateTime ;
+        dct:publisher     <https://data.gov.sk/id/legal-subject/00212008> ;
+        dct:title         "Ústavy ZVJS" ;
+        dct:type          "xxx" ;
+        owl:versionInfo   "1" ;
+        dcat:landingPage  <https://zvjs.sk/set/data/ustavy/v1> ;
+        dcat:theme        "sss" .
+
+<https://zvjs.sk/set/data/prac-zaradenie-stats/data>
+        rdf:type          dcat:Dataset ;
+        dcatsk:maintaner  <https://data.gov.sk/id/legal-subject/00212008> ;
+        dct:creator       <https://data.gov.sk/id/legal-subject/00212008> ;
+        dct:description   "Počet odsúdených podľa ústavov ZVJS a pracovného zaradenia" ;
+        dct:identifier    <https://zvjs.sk/set/data/prac-zaradenie-stats/data> ;
+        dct:issued        "2023-12-01T00:00:01Z"^^xsd:dateTime ;
+        dct:publisher     <https://data.gov.sk/id/legal-subject/00212008> ;
+        dct:title         "Počet odsúdených podľa ústavov ZVJS a pracovného zaradenia" ;
+        dct:type          "xxx" ;
+        owl:versionInfo   "1" ;
+        dcat:landingPage  <https://zvjs.sk/set/data/prac-zaradenie-stats/data> ;
+        dcat:theme        "sss" .
+
+##############
+# CUBE
+##############
+<https://zvjs.sk/set/data/prac-zaradenie-stats/meas-pocet-odsudenych>
+        rdf:type  qb:MeasureProperty .
+
+<https://zvjs.sk/set/data/prac-zaradenie-stats/dim-prac-zaradenie>
+        rdf:type  qb:DimensionProperty .
+
+<https://zvjs.sk/set/data/prac-zaradenie-stats/dim-ustav>
+        rdf:type  qb:DimensionProperty .
+
+<https://zvjs.sk/set/data/prac-zaradenie-stats/poc-odsudenych-podla-ustavov>
+        rdf:type      qb:DataStructureDefinition ;
+        qb:component  <https://zvjs.sk/set/data/prac-zaradenie-stats/meas-pocet-odsudenych> , <https://zvjs.sk/set/data/prac-zaradenie-stats/dim-prac-zaradenie> , <https://zvjs.sk/set/data/prac-zaradenie-stats/dim-ustav> .
+
+##############
+# EXAMPLE DATA
+##############
+<urn:x-ustav:eae12583-6da4-4b7a-8250-7edf1c96b02c>
+        rdf:type        <https://zvjs.sk/set/data/ustavy/v1> ;
+        rdf:identifier  "urn:x-ustav:eae12583-6da4-4b7a-8250-7edf1c96b02c" ;
+        dct:created     "2023-12-01T00:00:01Z"^^xsd:dateTime ;
+        dct:publisher   <https://data.gov.sk/id/legal-subject/00212008> ;
+        dct:title       "Ustav 1" .
+
+<urn:x-ustav:eae12583-6da4-4b7a-8250-7edf1c96b02d>
+        rdf:type        <https://zvjs.sk/set/data/ustavy/v1> ;
+        rdf:identifier  "urn:x-ustav:eae12583-6da4-4b7a-8250-7edf1c96b02d" ;
+        dct:created     "2023-12-01T00:00:01Z"^^xsd:dateTime ;
+        dct:publisher   <https://data.gov.sk/id/legal-subject/00212008> ;
+        dct:title       "Ustav 2" .
+
+<urn:x-praczar:eae12583-6da4-4b7a-8250-7edf1c96b04d>
+        rdf:type        <https://zvjs.sk/set/data/pracovne-zaradenie/v1> ;
+        rdf:identifier  "urn:x-praczar:eae12583-6da4-4b7a-8250-7edf1c96b04d" ;
+        dct:created     "2023-12-01T00:00:01Z"^^xsd:dateTime ;
+        dct:publisher   <https://data.gov.sk/id/legal-subject/00212008> ;
+        dct:title       "PracZar2" .
+
+<urn:x-praczar:eae12583-6da4-4b7a-8250-7edf1c96b03d>
+        rdf:type        <https://zvjs.sk/set/data/pracovne-zaradenie/v1> ;
+        rdf:identifier  "urn:x-praczar:eae12583-6da4-4b7a-8250-7edf1c96b03d" ;
+        dct:created     "2023-12-01T00:00:01Z"^^xsd:dateTime ;
+        dct:publisher   <https://data.gov.sk/id/legal-subject/00212008> ;
+        dct:title       "PracZar1" .
+
+
+##############
+OBSERVATIONS
+##############
+
+<https://zvjs.sk/set/data/prac-zaradenie-stats/data/2>
+        rdf:type    qb:Observation ;
+        qb:dataSet  <https://zvjs.sk/set/data/prac-zaradenie-stats/poc-odsudenych-podla-ustavov> ;
+        <https://zvjs.sk/set/data/prac-zaradenie-stats/dim-prac-zaradenie>
+                <urn:x-praczar:eae12583-6da4-4b7a-8250-7edf1c96b03d> ;
+        <https://zvjs.sk/set/data/prac-zaradenie-stats/dim-ustav>
+                <urn:x-ustav:eae12583-6da4-4b7a-8250-7edf1c96b02d> ;
+        <https://zvjs.sk/set/data/prac-zaradenie-stats/meas-pocet-odsudenych>
+                10 .
+
+<https://zvjs.sk/set/data/prac-zaradenie-stats/data/1>
+        rdf:type    qb:Observation ;
+        qb:dataSet  <https://zvjs.sk/set/data/prac-zaradenie-stats/poc-odsudenych-podla-ustavov> ;
+        <https://zvjs.sk/set/data/prac-zaradenie-stats/dim-prac-zaradenie>
+                <urn:x-praczar:eae12583-6da4-4b7a-8250-7edf1c96b04d> ;
+        <https://zvjs.sk/set/data/prac-zaradenie-stats/dim-ustav>
+                <urn:x-ustav:eae12583-6da4-4b7a-8250-7edf1c96b02d> ;
+        <https://zvjs.sk/set/data/prac-zaradenie-stats/meas-pocet-odsudenych>
+                20 .
+
+
+
+<https://zvjs.sk/set/data/prac-zaradenie-stats/data/3>
+        rdf:type    qb:Observation ;
+        qb:dataSet  <https://zvjs.sk/set/data/prac-zaradenie-stats/poc-odsudenych-podla-ustavov> ;
+        <https://zvjs.sk/set/data/prac-zaradenie-stats/dim-prac-zaradenie>
+                <urn:x-praczar:eae12583-6da4-4b7a-8250-7edf1c96b04d> ;
+        <https://zvjs.sk/set/data/prac-zaradenie-stats/dim-ustav>
+                <urn:x-ustav:eae12583-6da4-4b7a-8250-7edf1c96b02c> ;
+        <https://zvjs.sk/set/data/prac-zaradenie-stats/meas-pocet-odsudenych>
+                30 .
+
+<https://zvjs.sk/set/data/prac-zaradenie-stats/data/4>
+        rdf:type    qb:Observation ;
+        qb:dataSet  <https://zvjs.sk/set/data/prac-zaradenie-stats/poc-odsudenych-podla-ustavov> ;
+        <https://zvjs.sk/set/data/prac-zaradenie-stats/dim-prac-zaradenie>
+                <urn:x-praczar:eae12583-6da4-4b7a-8250-7edf1c96b03d> ;
+        <https://zvjs.sk/set/data/prac-zaradenie-stats/dim-ustav>
+                <urn:x-ustav:eae12583-6da4-4b7a-8250-7edf1c96b02c> ;
+        <https://zvjs.sk/set/data/prac-zaradenie-stats/meas-pocet-odsudenych>
+                40 .

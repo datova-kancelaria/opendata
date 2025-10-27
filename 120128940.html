@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Metodika pre otvorené údaje (opendata.gov.sk) : Ako zistím najnovšiu verziu nejakého datasetu cez SPARQL Endpoint?</title>
+        <link rel="stylesheet" href="styles/site.css" type="text/css" />
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body class="theme-default aui-theme-default">
+        <div id="page">
+            <div id="main" class="aui-page-panel">
+                <div id="main-header">
+                    <div id="breadcrumb-section">
+                        <ol id="breadcrumbs">
+                            <li class="first">
+                                <span><a href="index.html">Metodika pre otvorené údaje (opendata.gov.sk)</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120127509.html">Metodika pre sprístupňovanie otvorených údajov (opendata.gov.sk) Domov</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120128028.html">15. Podpora a školenia</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="Podpora-pre-data.slovensko.sk_120128617.html">Podpora pre data.slovensko.sk</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120129056.html">Téma: Dotazovanie metadát otvorených údajov cez SPARQL Endpoint</a></span>
+                            </li>
+                                                </ol>
+                    </div>
+                    <h1 id="title-heading" class="pagetitle">
+                                                <span id="title-text">
+                            Metodika pre otvorené údaje (opendata.gov.sk) : Ako zistím najnovšiu verziu nejakého datasetu cez SPARQL Endpoint?
+                        </span>
+                    </h1>
+                </div>
+
+                <div id="content" class="view">
+                    <div class="page-metadata">
+                            
+        
+    
+        
+    
+        
+        
+            Created by <span class='author'> miroslav.liska</span>, last modified on apr 08, 2024
+                        </div>
+                    <div id="main-content" class="wiki-content group">
+                    <p><style>[data-colorid=dsxhyus89f]{color:#212121} html[data-color-mode=dark] [data-colorid=dsxhyus89f]{color:#dedede}</style>Ak chcem zistovať najnov&scaron;iu verziu nejak&eacute;ho datasetu, tak tento dataset spolu s ďaľ&scaron;&iacute;mi mus&iacute; byť zaraden&yacute; do tzv. d&aacute;tovej s&eacute;rie, čo je &scaron;peci&aacute;lny pr&iacute;pad datasetu samotn&eacute;ho. N&aacute;sledne, datasety musia mať spr&aacute;vne vyplnen&eacute; v&scaron;etky časov&eacute; &uacute;daje, ktor&eacute; bud&uacute; predmetom dotazovania. Nasledovn&yacute; pr&iacute;klad ukazuje dotaz na najnov&scaron;iu verziu datasetu patriacu do S&eacute;rie Geod&aacute;t Registra adries&nbsp;</p><p><strong>Dataset (D&aacute;tov&aacute; s&eacute;ria)</strong>: <a href="https://data.gov.sk/set/6a81933d-2871-46b9-a26e-8ca980f83e99" class="external-link" rel="nofollow">https://data.gov.sk/set/6a81933d-2871-46b9-a26e-8ca980f83e99</a></p><p><strong>Čitateľn&eacute; URI datasetu</strong>: <a href="https://data.gov.sk/dataset/register-adries-register-geodata" class="external-link" rel="nofollow">https://data.gov.sk/dataset/register-adries-register-geodata</a></p><p><strong>Obr&aacute;zok z webu:&nbsp;</strong>Detail d&aacute;tovej s&eacute;rie Geodata Registra adries</p><p><span class="confluence-embedded-file-wrapper confluence-embedded-manual-size"><img class="confluence-embedded-image" height="250" loading="lazy" src="attachments/120128940/120140441.png?height=250" data-image-src="attachments/120128940/120140441.png" data-unresolved-comment-count="0" data-linked-resource-id="120140441" data-linked-resource-version="1" data-linked-resource-type="attachment" data-linked-resource-default-alias="image-2024-4-8_12-41-1.png" data-base-url="https://mirri.atlassian.net/wiki" data-linked-resource-content-type="image/png" data-linked-resource-container-id="120128940" data-linked-resource-container-version="7" data-media-id="157d3715-15b1-4d50-915d-2f16884ca1e8" data-media-type="file" /></span>&nbsp;</p><p>Z&iacute;skať najnov&scaron;iu verziu m&ocirc;žem podľa d&aacute;tumu vytvorenia, d&aacute;tumu poslednej modifik&aacute;cie a podľa časov&eacute;ho pokrytia datasetu, ktor&eacute; popisuje, pre ak&eacute; obdobie sa samotn&eacute; d&aacute;ta vzťahuj&uacute;.</p><p><br /></p><h1 id="AkozistímnajnovšiuverziunejakéhodatasetucezSPARQLEndpoint?-Príkladdotazu:VráťnajnovšiuverziuCestnýchúsekov?"><strong>Pr&iacute;klad dotazu: Vr&aacute;ť najnov&scaron;iu verziu Cestn&yacute;ch &uacute;sekov?</strong></h1><p><strong>1. Pr&iacute;prava SPARQL Dotazu</strong></p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
+PREFIX dcat: &lt;http://www.w3.org/ns/dcat#&gt;
+SELECT *
+WHERE {
+   &lt;https://data.gov.sk/set/6a81933d-2871-46b9-a26e-8ca980f83e99&gt; dct:hasPart ?dataset .
+  ?dataset dcat:distribution ?distribution .
+  ?dataset dct:issued ?issued .
+  ?dataset dct:modified ?modified .
+  ?dataset dcat:distribution ?distribution .
+  ?distribution dcat:downloadURL ?downloadURL .
+} order by desc(?issued)</pre>
+</div></div><p class="auto-cursor-target"><strong>2. Zak&oacute;dovanie dotazu - URLEncoding</strong></p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">PREFIX%20dct%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20dcat%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0ASELECT%20%2A%0AWHERE%20%7B%0A%20%20%20%3Chttps%3A%2F%2Fdata.gov.sk%2Fset%2F6a81933d-2871-46b9-a26e-8ca980f83e99%3E%20dct%3AhasPart%20%3Fdataset%20.%0A%20%20%3Fdataset%20dcat%3Adistribution%20%3Fdistribution%20.%0A%20%20%3Fdataset%20dct%3Aissued%20%3Fissued%20.%0A%20%20%3Fdataset%20dct%3Amodified%20%3Fmodified%20.%0A%20%20%3Fdataset%20dcat%3Adistribution%20%3Fdistribution%20.%0A%20%20%3Fdistribution%20dcat%3AdownloadURL%20%3FdownloadURL%20.%0A%7D%20order%20by%20desc%28%3Fissued%29</pre>
+</div></div><p class="auto-cursor-target"><strong>3. Vykonanie dotazu na SPARQL Endpoint cez HTTP</strong></p><p><span data-colorid="dsxhyus89f"><a href="https://data.slovensko.sk/api/sparql?query=PREFIX%20dct%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20dcat%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0ASELECT%20%2A%0AWHERE%20%7B%0A%20%20%20%3Chttps%3A%2F%2Fdata.gov.sk%2Fset%2F6a81933d-2871-46b9-a26e-8ca980f83e99%3E%20dct%3AhasPart%20%3Fdataset%20.%0A%20%20%3Fdataset%20dcat%3Adistribution%20%3Fdistribution%20.%0A%20%20%3Fdataset%20dct%3Aissued%20%3Fissued%20.%0A%20%20%3Fdataset%20dct%3Amodified%20%3Fmodified%20.%0A%20%20%3Fdataset%20dcat%3Adistribution%20%3Fdistribution%20.%0A%20%20%3Fdistribution%20dcat%3AdownloadURL%20%3FdownloadURL%20.%0A%7D%20order%20by%20desc%28%3Fissued%29" class="external-link" rel="nofollow">https://data.slovensko.sk/api/sparql?query=PREFIX%20dct%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20dcat%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0ASELECT%20%2A%0AWHERE%20%7B%0A%20%20%20%3Chttps%3A%2F%2Fdata.gov.sk%2Fset%2F6a81933d-2871-46b9-a26e-8ca980f83e99%3E%20dct%3AhasPart%20%3Fdataset%20.%0A%20%20%3Fdataset%20dcat%3Adistribution%20%3Fdistribution%20.%0A%20%20%3Fdataset%20dct%3Aissued%20%3Fissued%20.%0A%20%20%3Fdataset%20dct%3Amodified%20%3Fmodified%20.%0A%20%20%3Fdataset%20dcat%3Adistribution%20%3Fdistribution%20.%0A%20%20%3Fdistribution%20dcat%3AdownloadURL%20%3FdownloadURL%20.%0A%7D%20order%20by%20desc%28%3Fissued%29</a></span></p><p><br /></p><p class="auto-cursor-target"><strong>3. Vykonanie dotazu na SPARQL Endpoint cez CURL</strong></p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">curl --location 'https://data.slovensko.sk/api/sparql?query=PREFIX%20dct%3A%20%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0APREFIX%20dcat%3A%20%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Fdcat%23%3E%0ASELECT%20%2A%0AWHERE%20%7B%0A%20%20%20%3Chttps%3A%2F%2Fdata.gov.sk%2Fset%2F6a81933d-2871-46b9-a26e-8ca980f83e99%3E%20dct%3AhasPart%20%3Fdataset%20.%0A%20%20%3Fdataset%20dcat%3Adistribution%20%3Fdistribution%20.%0A%20%20%3Fdataset%20dct%3Aissued%20%3Fissued%20.%0A%20%20%3Fdataset%20dct%3Amodified%20%3Fmodified%20.%0A%20%20%3Fdataset%20dcat%3Adistribution%20%3Fdistribution%20.%0A%20%20%3Fdistribution%20dcat%3AdownloadURL%20%3FdownloadURL%20.%0A%7D%20order%20by%20desc%28%3Fissued%29'</pre>
+</div></div>
+                    </div>
+
+                                        <div class="pageSection group">
+                        <div class="pageSectionHeader">
+                            <h2 id="attachments" class="pageSectionTitle">Attachments:</h2>
+                        </div>
+
+                        <div class="greybox" align="left">
+                                                            <img src="images/icons/bullet_blue.gif" height="8" width="8" alt=""/>
+                                <a href="attachments/120128940/120140441.png">image-2024-4-8_12-41-1.png</a> (image/png)
+                                <br/>
+                                                    </div>
+                    </div>
+                    
+                                                      
+                </div>             </div> 
+            <div id="footer" role="contentinfo">
+                <section class="footer-body">
+                    <p>Document generated by Confluence on okt 27, 2025 13:29</p>
+                    <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+                </section>
+            </div>
+        </div>     </body>
+</html>

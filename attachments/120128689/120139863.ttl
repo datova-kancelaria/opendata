@@ -1,0 +1,1161 @@
+
+<https://data.gov.sk/set/catalog/lkod/opendata.kosice.sk> a <http://www.w3.org/ns/dcat#Catalog>;
+  <http://purl.org/dc/terms/title> "„Lokálny katalóg otvorených údajov mesta Košice“@sk";
+  <http://purl.org/dc/terms/description> "„Otvorené dáta mesta Košice“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/contactPoint> <https://data.gov.sk/set/catalog/lkod/opendata.kosice.sk/contact-point>;
+  <http://www.w3.org/ns/dcat#dataset> <https://opendata.kosice.sk/datasets/3d46429c163244a4aaac4a654e692167/about>,
+    <https://opendata.kosice.sk/datasets/12aa132c31c447a2b3ded177ab5a271c/about>, <https://opendata.kosice.sk/datasets/fd4ac31265014d09a7db1d4f1f1290fc/about>,
+    <https://opendata.kosice.sk/datasets/ba941d7bc56a462684a261d4f35ce17d/about>, <https://opendata.kosice.sk/datasets/22017a3f022d4c1db8ce1d2630e4016f/about>,
+    <https://opendata.kosice.sk/datasets/fd2d30bc0ffe4059886f5cf33d884e3a/about>, <https://opendata.kosice.sk/datasets/a4002a4cc1df47b6b166ed8e7aec4695/about>,
+    <https://opendata.kosice.sk/datasets/f3fae948601148c9a458e375a572c84c/about>, <https://opendata.kosice.sk/datasets/6165e208f43a43cc824c2fd585c3c599/about>,
+    <https://opendata.kosice.sk/datasets/ba744610f1454534ae82a01041507c4f/about>, <https://opendata.kosice.sk/datasets/13d091b46ddd4a31a5256a7697d8a977/about>,
+    <https://opendata.kosice.sk/datasets/e88d914c920b44d99255e28011f112d0/about>, <https://opendata.kosice.sk/datasets/c8fa2f1786ad46e08802ba0d0bab5ec0/about>,
+    <https://opendata.kosice.sk/datasets/d37d246393b747e2be048fcec3c5c2c3/about>, <https://opendata.kosice.sk/datasets/50fb18d046a14c79881b9a77c181e8b8/about>,
+    <https://opendata.kosice.sk/datasets/3fe6c42ba1f6453e971f295ff913b947/about>, <https://opendata.kosice.sk/datasets/6d44ef6d8ba64beba1dd8934c17a3b38/about>,
+    <https://opendata.kosice.sk/datasets/fe706bd590aa49a6bb7abd0a96f4b17f/about>, <https://opendata.kosice.sk/datasets/85b4440eaf1041f8b654fd4d72ee8032/about>,
+    <https://opendata.kosice.sk/datasets/da4daa2f3a994b27a018cf4e12fe4d9b/about>, <https://opendata.kosice.sk/datasets/6323640be4234b479f760435a2654c78/about>,
+    <https://opendata.kosice.sk/datasets/e14621b3e8ff40ebbddf065abfd20442/about>, <https://opendata.kosice.sk/datasets/37cb4912369c422083fd206450de5a71/about>,
+    <https://opendata.kosice.sk/datasets/0514d9e4151b420a855f4837c7a282ef/about>, <https://opendata.kosice.sk/datasets/06d4cb2866c54b43bb1997f7edf86f4d/about>,
+    <https://opendata.kosice.sk/datasets/9f56d6b2f1e743f4bd5d3eea6f45df7e/about>, <https://opendata.kosice.sk/datasets/2a785f5c4dd14601a2ac284d56e83014/about>,
+    <https://opendata.kosice.sk/datasets/9dcf05e343c6481599fe96d03183777a/about>, <https://opendata.kosice.sk/datasets/878fbcfcef7b4b408018c3ae91d4e854/about>,
+    <https://opendata.kosice.sk/datasets/4a4ea753ff1a4ea8949bb9c93c1e1034/about>, <https://opendata.kosice.sk/datasets/23ea6a21a1d648169722b37c21aa25f0/about>,
+    <https://opendata.kosice.sk/datasets/c4bd9bea786d4431a2001873db5dacff/about>, <https://opendata.kosice.sk/datasets/d0869cf2b5784d91a1d4593ce2060ca4/about>,
+    <https://opendata.kosice.sk/datasets/90efeec604a74e9aa4574f3757c9ad59/about>, <https://opendata.kosice.sk/datasets/bb74db8fe2de4cc3ac919b9c16cc6a70/about>,
+    <https://opendata.kosice.sk/datasets/975951e6113543768e960c96bbc75f3b/about>, <https://opendata.kosice.sk/datasets/9961c8a9cd8e461d8bee1414833746b9/about>,
+    <https://opendata.kosice.sk/datasets/25267dab3e8a46d6b1fc24d365a28b95/about>, <https://opendata.kosice.sk/datasets/52248c5a80b5437bbcbea3d955c77e78/about>,
+    <https://opendata.kosice.sk/datasets/73405066f5ac4461b8527936cc0af108/about>, <https://opendata.kosice.sk/datasets/c7fdd02f76f047bca41fd74591866491/about>,
+    <https://opendata.kosice.sk/datasets/73436738b703420f8f49878e30da4cf4/about>, <https://opendata.kosice.sk/datasets/82428f060be24647b567e19e3b625cc8/about>,
+    <https://opendata.kosice.sk/datasets/410bb71ab5a845b5b125892298885a62/about>, <https://opendata.kosice.sk/datasets/027eaebb18144e8c9eecbf04a8ff4093/about>,
+    <https://opendata.kosice.sk/datasets/faa76ada96724d54a060e9fa3f254ece/about>, <https://opendata.kosice.sk/datasets/6b66219049674794b462b90512081220/about>,
+    <https://opendata.kosice.sk/datasets/cf615272b9124fb69b35be94879f70b8/about>, <https://opendata.kosice.sk/datasets/677fd61907d9455da0aca7fd25858696/about> .
+
+<https://data.gov.sk/set/catalog/lkod/opendata.kosice.sk/contact-point> <http://www.w3.org/2006/vcard/ns#hasEmail>
+    "„opendatake@kosice.sk“" .
+
+<https://opendata.kosice.sk/datasets/3d46429c163244a4aaac4a654e692167/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Administratívne hranice“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje hranice územno-správnych jednotiek a katastrálnych území Košíc v generalizovanej úrovni 1.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/ANNUAL>;
+  <http://www.w3.org/ns/dcat#keyword> "„katastralne uzemie“@sk, „mestská časť“@sk, „okres“@sk, „mapa“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=3d46429c163244a4aaac4a654e692167&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=3d46429c163244a4aaac4a654e692167&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=3d46429c163244a4aaac4a654e692167&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72247 .
+
+_:09328275ba2f472b9f4347504519aa72247 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Geodetický a kartografický ústav Bratislava“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/12aa132c31c447a2b3ded177ab5a271c/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Adresné body“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje adresné body v Košiciach.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/ANNUAL_2>;
+  <http://www.w3.org/ns/dcat#keyword> "„adresa“@sk, „bod“@sk, „adresný bod“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=12aa132c31c447a2b3ded177ab5a271c&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=12aa132c31c447a2b3ded177ab5a271c&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=12aa132c31c447a2b3ded177ab5a271c&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72249 .
+
+_:09328275ba2f472b9f4347504519aa72249 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Ministerstvo vnútra Slovenskej republiky“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/fd4ac31265014d09a7db1d4f1f1290fc/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Centrá voľného času a jazykové školy“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje základné informácie o centre voľného času a jazykovej škole v Košiciach, ako presnú adresu, webové sídlo, telefónny kontakt a email na organizáciu.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„voľný čas“@sk, „jazyková škola“@sk, „centrum voľného času“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=fd4ac31265014d09a7db1d4f1f1290fc&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=fd4ac31265014d09a7db1d4f1f1290fc&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=fd4ac31265014d09a7db1d4f1f1290fc&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72251 .
+
+_:09328275ba2f472b9f4347504519aa72251 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/ba941d7bc56a462684a261d4f35ce17d/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Cestovný poriadok MHD“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Cestovný poriadok mestskej hromadnej dopravy ako export dát z dopravného systému DPMK, a.s.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/TRAN>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/Metadáta%20nenájdené>;
+  <http://www.w3.org/ns/dcat#keyword> "„dpmk“@sk, „cestovny poriadok“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=ba941d7bc56a462684a261d4f35ce17d&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=ba941d7bc56a462684a261d4f35ce17d&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=ba941d7bc56a462684a261d4f35ce17d&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72253 .
+
+_:09328275ba2f472b9f4347504519aa72253 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Dopravný podnik mesta Košice, akciová spoločnosť“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/22017a3f022d4c1db8ce1d2630e4016f/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Chránené stromy na území Košíc“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje zoznam chránených stromov na území Košíc.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ENVI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„chránený strom“@sk, „ochrana prírody“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=22017a3f022d4c1db8ce1d2630e4016f&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=22017a3f022d4c1db8ce1d2630e4016f&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=22017a3f022d4c1db8ce1d2630e4016f&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72255 .
+
+_:09328275ba2f472b9f4347504519aa72255 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Štátna ochrana prírody Slovenskej republiky“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/fd2d30bc0ffe4059886f5cf33d884e3a/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Chránené územia prírody v Košiciach“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje zoznam chránených území prírody na území mesta Košice.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ENVI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„chránené územie“@sk, „chránený areál“@sk, „prírodná pamiatka“@sk, „prírodná rezervácia“@sk, „územie európskeho významu“@sk, „chránené vtáčie územie“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=fd2d30bc0ffe4059886f5cf33d884e3a&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=fd2d30bc0ffe4059886f5cf33d884e3a&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=fd2d30bc0ffe4059886f5cf33d884e3a&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72257 .
+
+_:09328275ba2f472b9f4347504519aa72257 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Štátna ochrana prírody Slovenskej republiky“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/a4002a4cc1df47b6b166ed8e7aec4695/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Cyklistická mapa“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje dáta cyklistickej infraštruktúry na území mesta Košice.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/TRAN>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„cyklo“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=a4002a4cc1df47b6b166ed8e7aec4695&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=a4002a4cc1df47b6b166ed8e7aec4695&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=a4002a4cc1df47b6b166ed8e7aec4695&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72259 .
+
+_:09328275ba2f472b9f4347504519aa72259 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/f3fae948601148c9a458e375a572c84c/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Dodávateľské faktúry mesta Košice“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje denne aktualizovaný zoznam dodávateľských faktúr.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/DAILY>;
+  <http://www.w3.org/ns/dcat#keyword> "„faktúra“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=f3fae948601148c9a458e375a572c84c&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=f3fae948601148c9a458e375a572c84c&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=f3fae948601148c9a458e375a572c84c&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72261 .
+
+_:09328275ba2f472b9f4347504519aa72261 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/6165e208f43a43cc824c2fd585c3c599/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Hlasovanie poslancov mestského zastupiteľstva - volebné obdobie 2018 - 2022“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje dáta z hlasovacieho systému Mestského zastupiteľstva v Košiciach.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„zastupitelstvo“@sk, „mestske zastupitelstvo“@sk, „poslanec“@sk, „hlasovanie“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=6165e208f43a43cc824c2fd585c3c599&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=6165e208f43a43cc824c2fd585c3c599&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=6165e208f43a43cc824c2fd585c3c599&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72263 .
+
+_:09328275ba2f472b9f4347504519aa72263 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/ba744610f1454534ae82a01041507c4f/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Kancelária prvého kontaktu - Magistrát mesta Košice“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje základné informácie o kancelárií prvého kontaktu na Magistráte mesta Košice.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„kancelária prvého kontaktu“@sk, „otváracie hodiny“@sk, „KPK“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=ba744610f1454534ae82a01041507c4f&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=ba744610f1454534ae82a01041507c4f&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=ba744610f1454534ae82a01041507c4f&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72265 .
+
+_:09328275ba2f472b9f4347504519aa72265 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/13d091b46ddd4a31a5256a7697d8a977/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Kancelária prvého kontaktu - počet vybavených občanov“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje počty občanov, ktorí boli vybavení v Kancelárii prvého kontaktu na Magistráte mesta Košice.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„kancelária prvého kontaktu“@sk, „KPK“@sk, „občan“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=13d091b46ddd4a31a5256a7697d8a977&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=13d091b46ddd4a31a5256a7697d8a977&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=13d091b46ddd4a31a5256a7697d8a977&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72267 .
+
+_:09328275ba2f472b9f4347504519aa72267 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/e88d914c920b44d99255e28011f112d0/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Komisie Mestského zastupiteľstva v Košiciach“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje zoznam členov jednotlivých komisií Mestského zastupiteľstva v Košiciach.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„komisie“@sk, „mestské zastupiteľstvo“@sk, „poslanci“@sk, „odborníci“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=e88d914c920b44d99255e28011f112d0&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=e88d914c920b44d99255e28011f112d0&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=e88d914c920b44d99255e28011f112d0&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72269 .
+
+_:09328275ba2f472b9f4347504519aa72269 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/c8fa2f1786ad46e08802ba0d0bab5ec0/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Komunálne voľby 2022 - volebné miestnosti v Košiciach“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje zoznam volebných miestnosti v Košiciach pre komunálne voľby 2022.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„komunálne voľby“@sk, „volebný okrsok“@sk, „volebná miestnosť“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=c8fa2f1786ad46e08802ba0d0bab5ec0&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=c8fa2f1786ad46e08802ba0d0bab5ec0&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=c8fa2f1786ad46e08802ba0d0bab5ec0&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72271 .
+
+_:09328275ba2f472b9f4347504519aa72271 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/d37d246393b747e2be048fcec3c5c2c3/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Komunálne voľby 2022 - volebné obvody v Košiciach“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje zoznam volebných obvodov (rozdelenie mestských častí do volebných obvodov) pre komunálne voľby 2022.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„komunálne voľby“@sk, „volebný okrsok“@sk, „mestská časť“@sk, „počet poslancov“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=d37d246393b747e2be048fcec3c5c2c3&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=d37d246393b747e2be048fcec3c5c2c3&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=d37d246393b747e2be048fcec3c5c2c3&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72273 .
+
+_:09328275ba2f472b9f4347504519aa72273 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/50fb18d046a14c79881b9a77c181e8b8/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Komunálne voľby 2022 - zoznam zaregistrovaných kandidátov do Mestského zastupiteľstva v Košiciach“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje zoznam zaregistrovaných kandidátov do Mestského zastupiteľstva v Košiciach.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„komunálne voľby“@sk, „samospráva“@sk, „mestské zastupiteľstvo“@sk, „kandidát“@sk, „poslanec“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=50fb18d046a14c79881b9a77c181e8b8&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=50fb18d046a14c79881b9a77c181e8b8&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=50fb18d046a14c79881b9a77c181e8b8&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72275 .
+
+_:09328275ba2f472b9f4347504519aa72275 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/3fe6c42ba1f6453e971f295ff913b947/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Komunálne voľby 2022 - zoznam zaregistrovaných kandidátov na primátora mesta Košice“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje zoznam zaregistrovaných kandidátov na primátora mesta Košice.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„primátor“@sk, „kandidát“@sk, „voľby“@sk, „samospráva“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=3fe6c42ba1f6453e971f295ff913b947&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=3fe6c42ba1f6453e971f295ff913b947&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=3fe6c42ba1f6453e971f295ff913b947&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72277 .
+
+_:09328275ba2f472b9f4347504519aa72277 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/6d44ef6d8ba64beba1dd8934c17a3b38/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Kultúra a voľný čas“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje zoznam kultúrnych inštitúcií v meste Košice, okrem základných informácií aj telefonický kontakt na inštitúciu.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/EDUC>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„kultúra“@sk, „voľný čas“@sk, „divadlo“@sk, „múzeum“@sk, „galéria“@sk, „folklórny súbor“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=6d44ef6d8ba64beba1dd8934c17a3b38&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=6d44ef6d8ba64beba1dd8934c17a3b38&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=6d44ef6d8ba64beba1dd8934c17a3b38&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72279 .
+
+_:09328275ba2f472b9f4347504519aa72279 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/fe706bd590aa49a6bb7abd0a96f4b17f/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Kvalita ovzdušia v meste Košice v rokoch 2010 - 2020“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje vybrané ukazovatele kvality ovzdušia.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ENVI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/ANNUAL>;
+  <http://www.w3.org/ns/dcat#keyword> "„kvalita ovzdušia“@sk, „meracia stanica“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=fe706bd590aa49a6bb7abd0a96f4b17f&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=fe706bd590aa49a6bb7abd0a96f4b17f&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=fe706bd590aa49a6bb7abd0a96f4b17f&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72281 .
+
+_:09328275ba2f472b9f4347504519aa72281 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Slovenský hydrometeorologický ústav“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/85b4440eaf1041f8b654fd4d72ee8032/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Licencie Creative Commons“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje zoznam licencií Creative Commons.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„CC“@sk, „licencia“@sk, „href“@sk, „url“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=85b4440eaf1041f8b654fd4d72ee8032&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=85b4440eaf1041f8b654fd4d72ee8032&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=85b4440eaf1041f8b654fd4d72ee8032&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72283 .
+
+_:09328275ba2f472b9f4347504519aa72283 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Creative Commons“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/da4daa2f3a994b27a018cf4e12fe4d9b/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Materské školy“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje zoznam materských škôl v Košiciach.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„materské školy“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=da4daa2f3a994b27a018cf4e12fe4d9b&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=da4daa2f3a994b27a018cf4e12fe4d9b&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=da4daa2f3a994b27a018cf4e12fe4d9b&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72285 .
+
+_:09328275ba2f472b9f4347504519aa72285 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/6323640be4234b479f760435a2654c78/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Mestská polícia Košice“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje všeobecné informácie o staniciach Mestskej polície Košice.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„mestská polícia“@sk, „stanica“@sk, „oblasť“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=6323640be4234b479f760435a2654c78&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=6323640be4234b479f760435a2654c78&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=6323640be4234b479f760435a2654c78&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72287 .
+
+_:09328275ba2f472b9f4347504519aa72287 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/e14621b3e8ff40ebbddf065abfd20442/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Mestská rada v Košiciach“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje zoznam členov Mestskej rady v Košiciach.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„poslanec“@sk, „mestská rada“@sk, „primátor“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=e14621b3e8ff40ebbddf065abfd20442&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=e14621b3e8ff40ebbddf065abfd20442&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=e14621b3e8ff40ebbddf065abfd20442&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72289 .
+
+_:09328275ba2f472b9f4347504519aa72289 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/37cb4912369c422083fd206450de5a71/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Mestské časti“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje základné informácie o mestskej časti ako webové sídlo mestskej časti, email na mestskú časť a telefónny kontakt.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„mesto“@sk, „mestská časť“@sk, „mestské časti“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=37cb4912369c422083fd206450de5a71&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=37cb4912369c422083fd206450de5a71&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=37cb4912369c422083fd206450de5a71&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72291 .
+
+_:09328275ba2f472b9f4347504519aa72291 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„None“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/0514d9e4151b420a855f4837c7a282ef/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Mestské podniky“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje okrem základných informácií o mestskom podniku (názov, právnu formu, IČO, adresu) aj informáciu o majetkovej účasti mesta Košice, webové sídlo, kontakt a podobne.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„podniky“@sk, „mesto“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=0514d9e4151b420a855f4837c7a282ef&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=0514d9e4151b420a855f4837c7a282ef&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=0514d9e4151b420a855f4837c7a282ef&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72293 .
+
+_:09328275ba2f472b9f4347504519aa72293 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/06d4cb2866c54b43bb1997f7edf86f4d/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Objednávky mesta Košice“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje denne aktualizovaný zoznam objednávok.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/DAILY>;
+  <http://www.w3.org/ns/dcat#keyword> "„objednávka“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=06d4cb2866c54b43bb1997f7edf86f4d&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=06d4cb2866c54b43bb1997f7edf86f4d&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=06d4cb2866c54b43bb1997f7edf86f4d&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72295 .
+
+_:09328275ba2f472b9f4347504519aa72295 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/9f56d6b2f1e743f4bd5d3eea6f45df7e/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Poslanci mestského zastupiteľstva - volebné obdobie 2010 - 2014“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje menný zoznam poslancov za príslušné volebné obdobie, aj s informáciou o ich získanom akademickom titule a politickú príslušnosť.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„poslanec“@sk, „volebne obdobie“@sk, „mestske zastupitelstvo“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=9f56d6b2f1e743f4bd5d3eea6f45df7e&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=9f56d6b2f1e743f4bd5d3eea6f45df7e&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=9f56d6b2f1e743f4bd5d3eea6f45df7e&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72297 .
+
+_:09328275ba2f472b9f4347504519aa72297 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/2a785f5c4dd14601a2ac284d56e83014/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Poslanci mestského zastupiteľstva - volebné obdobie 2014 - 2018“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje menný zoznam poslancov za príslušné volebné obdobie, aj s informáciou o ich získanom akademickom titule a politickú príslušnosť.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„poslanec“@sk, „volebne obdobie“@sk, „mestske zastupitelstvo“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=2a785f5c4dd14601a2ac284d56e83014&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=2a785f5c4dd14601a2ac284d56e83014&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=2a785f5c4dd14601a2ac284d56e83014&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72299 .
+
+_:09328275ba2f472b9f4347504519aa72299 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/9dcf05e343c6481599fe96d03183777a/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Poslanci mestského zastupiteľstva - volebné obdobie 2018 - 2022“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje menný zoznam poslancov za príslušné volebné obdobie, aj s informáciou o ich získanom akademickom titule a politickú príslušnosť.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„poslanec“@sk, „volebne obdobie“@sk, „mestske zastupitelstvo“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=9dcf05e343c6481599fe96d03183777a&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=9dcf05e343c6481599fe96d03183777a&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=9dcf05e343c6481599fe96d03183777a&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72301 .
+
+_:09328275ba2f472b9f4347504519aa72301 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/878fbcfcef7b4b408018c3ae91d4e854/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Pošty a BalíkoBoxy v Košiciach“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje pobočky pôšt a balíkoboxy Slovenskej pošty, a.s. v Košiciach.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„pošta“@sk, „balíkobox“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=878fbcfcef7b4b408018c3ae91d4e854&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=878fbcfcef7b4b408018c3ae91d4e854&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=878fbcfcef7b4b408018c3ae91d4e854&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72303 .
+
+_:09328275ba2f472b9f4347504519aa72303 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Slovenská pošta, a.s.“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/4a4ea753ff1a4ea8949bb9c93c1e1034/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Prieskum - Návštevnosť Košíc 2020“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje výsledky prieskumu „Návštevnosť Košíc 2020“, realizovaného v mesiacoch júl - august 2020 (31.7. - 30.8.2020), prostredníctvom partnerov organizácie Visit Košice.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„prieskum“@sk, „návštevnosť“@sk, „turizmus“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=4a4ea753ff1a4ea8949bb9c93c1e1034&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=4a4ea753ff1a4ea8949bb9c93c1e1034&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=4a4ea753ff1a4ea8949bb9c93c1e1034&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72305 .
+
+_:09328275ba2f472b9f4347504519aa72305 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Visit Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/23ea6a21a1d648169722b37c21aa25f0/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Prieskum - Pandémia Košice 2021“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje výsledky reprezentatívneho telefonického prieskumu „Pandémia Košice 2021“, realizovaného v mesiaci september 2021.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„prieskum“@sk, „pandémia“@sk, „obyvateľstvo“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=23ea6a21a1d648169722b37c21aa25f0&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=23ea6a21a1d648169722b37c21aa25f0&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=23ea6a21a1d648169722b37c21aa25f0&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72307 .
+
+_:09328275ba2f472b9f4347504519aa72307 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Creative Industry Košice, n.o.“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/c4bd9bea786d4431a2001873db5dacff/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Prieskum - Turizmus Košice 2020“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje výsledky reprezentatívneho prieskumu „Návštevnosť Košíc 2020“ zameraného na analýzu Košíc ako turistickej destinácie.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„prieskum“@sk, „turizmus“@sk, „obyvateľstvo“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=c4bd9bea786d4431a2001873db5dacff&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=c4bd9bea786d4431a2001873db5dacff&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=c4bd9bea786d4431a2001873db5dacff&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72309 .
+
+_:09328275ba2f472b9f4347504519aa72309 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Visit Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/d0869cf2b5784d91a1d4593ce2060ca4/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Prieskum - záujem o otvorené dáta“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Prieskum realizovaný na open data portáli mesta Košice.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„prieskum“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=d0869cf2b5784d91a1d4593ce2060ca4&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=d0869cf2b5784d91a1d4593ce2060ca4&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=d0869cf2b5784d91a1d4593ce2060ca4&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72311 .
+
+_:09328275ba2f472b9f4347504519aa72311 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/90efeec604a74e9aa4574f3757c9ad59/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Prieskumy - otázky a odpovede“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset všetkých otázok a možností odpovedí z prieskumov zverejnených na open data portáli mesta Košice.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„prieskum“@sk, „otázky“@sk, „odpovede“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=90efeec604a74e9aa4574f3757c9ad59&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=90efeec604a74e9aa4574f3757c9ad59&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=90efeec604a74e9aa4574f3757c9ad59&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72313 .
+
+_:09328275ba2f472b9f4347504519aa72313 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Creative Industry Košice,  n.o.“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/bb74db8fe2de4cc3ac919b9c16cc6a70/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Priestupky na území mesta Košice“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje priestupky evidované MsP na území mesta Košice.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/ANNUAL>;
+  <http://www.w3.org/ns/dcat#keyword> "„mestská polícia“@sk, „priestupok“@sk, „stanica“@sk, „oblasť“@sk, „mapa“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=bb74db8fe2de4cc3ac919b9c16cc6a70&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=bb74db8fe2de4cc3ac919b9c16cc6a70&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=bb74db8fe2de4cc3ac919b9c16cc6a70&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72315 .
+
+_:09328275ba2f472b9f4347504519aa72315 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/975951e6113543768e960c96bbc75f3b/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Reklamné plochy na území mesta Košice“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Reklamné plochy“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ENVI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„reklama“@sk, „bilboard“@sk, „vizualny smog“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=975951e6113543768e960c96bbc75f3b&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=975951e6113543768e960c96bbc75f3b&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=975951e6113543768e960c96bbc75f3b&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72317 .
+
+_:09328275ba2f472b9f4347504519aa72317 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/9961c8a9cd8e461d8bee1414833746b9/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Sčítač MyBikeCounter Košice“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje údaje zo sčítača cyklistov a chodcov MyBikeCounter.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/EDUC>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/DAILY>;
+  <http://www.w3.org/ns/dcat#keyword> "„cyklista“@sk, „chodec“@sk, „sčítač“@sk, „komenského“@sk, „letná“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=9961c8a9cd8e461d8bee1414833746b9&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=9961c8a9cd8e461d8bee1414833746b9&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=9961c8a9cd8e461d8bee1414833746b9&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72319 .
+
+_:09328275ba2f472b9f4347504519aa72319 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„MyBikeCounter“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/25267dab3e8a46d6b1fc24d365a28b95/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Školské obvody“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahu informáciu o príslušnom školskom obvode, IČO školy, názov ulice a mestskú časť.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„škola“@sk, „obvod“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=25267dab3e8a46d6b1fc24d365a28b95&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=25267dab3e8a46d6b1fc24d365a28b95&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=25267dab3e8a46d6b1fc24d365a28b95&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72321 .
+
+_:09328275ba2f472b9f4347504519aa72321 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/52248c5a80b5437bbcbea3d955c77e78/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Spádové oblasti materských škôl“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje zoznam spádových materských škôl v zriaďovateľskej pôsobnosti Mesta Košice.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„materské školy“@sk, „spádová oblasť“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=52248c5a80b5437bbcbea3d955c77e78&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=52248c5a80b5437bbcbea3d955c77e78&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=52248c5a80b5437bbcbea3d955c77e78&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72323 .
+
+_:09328275ba2f472b9f4347504519aa72323 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/73405066f5ac4461b8527936cc0af108/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Stredné školy“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje základné informácie o strednej škole, ako presnú adresu, webové sídlo, telefónny kontakt a email na organizáciu.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„gymnázium“@sk, „stredná odborná škola“@sk, „konzervatórium“@sk, „stredná priemyselná škola“@sk, „obchodná akadémia“@sk, „hotelová akadémia“@sk, „stredná zdravotnícka škola“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=73405066f5ac4461b8527936cc0af108&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=73405066f5ac4461b8527936cc0af108&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=73405066f5ac4461b8527936cc0af108&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72325 .
+
+_:09328275ba2f472b9f4347504519aa72325 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Košický samosprávny kraj“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/c7fdd02f76f047bca41fd74591866491/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Výbehy pre psov v Košiciach“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje zoznam výbehov a venčovísk pre psov v meste Košice.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/Metadáta%20nenájdené>;
+  <http://www.w3.org/ns/dcat#keyword> "„pes“@sk, „výbeh“@sk, „venčovisko“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=c7fdd02f76f047bca41fd74591866491&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=c7fdd02f76f047bca41fd74591866491&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=c7fdd02f76f047bca41fd74591866491&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72327 .
+
+_:09328275ba2f472b9f4347504519aa72327 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice, Mestské časti v meste Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/73436738b703420f8f49878e30da4cf4/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Výmery typov pozemkov“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje informácie o type pozemku na území Košíc (napr. vinica, záhrada, zastavaná plocha a iné). Údaje o výmere plochy sú uvedené v hektároch.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ENVI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/ANNUAL>;
+  <http://www.w3.org/ns/dcat#keyword> "„životné prostredie“@sk, „typ pozemku“@sk, „mestská zeleň“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=73436738b703420f8f49878e30da4cf4&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=73436738b703420f8f49878e30da4cf4&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=73436738b703420f8f49878e30da4cf4&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72329 .
+
+_:09328275ba2f472b9f4347504519aa72329 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Úrad geodézie, kartografie a katastra SR“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/82428f060be24647b567e19e3b625cc8/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Základné školy“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje základné informácie o základnej škole, ako presnú adresu, webové sídlo, telefónny kontakt, email na organizáciu, a gps súradnice.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„zakladna skola“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=82428f060be24647b567e19e3b625cc8&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=82428f060be24647b567e19e3b625cc8&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=82428f060be24647b567e19e3b625cc8&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72331 .
+
+_:09328275ba2f472b9f4347504519aa72331 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/410bb71ab5a845b5b125892298885a62/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Základné umelecké školy“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje základné informácie o názve školy, IČO, DIČ, presnú adresu a webové sídlo školy.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/SOCI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„škola“@sk, „umenie“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=410bb71ab5a845b5b125892298885a62&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=410bb71ab5a845b5b125892298885a62&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=410bb71ab5a845b5b125892298885a62&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72333 .
+
+_:09328275ba2f472b9f4347504519aa72333 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/027eaebb18144e8c9eecbf04a8ff4093/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Zastávky MHD“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje zoznam zastávok mestskej hromadnej dopravy v Košiciach.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/TRAN>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„mhd“@sk, „zastávka“@sk, „dpmk“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=027eaebb18144e8c9eecbf04a8ff4093&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=027eaebb18144e8c9eecbf04a8ff4093&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=027eaebb18144e8c9eecbf04a8ff4093&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72335 .
+
+_:09328275ba2f472b9f4347504519aa72335 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Dopravný podnik mesta Košice, a.s.“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/faa76ada96724d54a060e9fa3f254ece/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Zberné dvory Košice“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje zoznam zberných dvorov v Košiciach.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/ENVI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„zberný dvor“@sk, „kosit“@sk, „odpad“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=faa76ada96724d54a060e9fa3f254ece&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=faa76ada96724d54a060e9fa3f254ece&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=faa76ada96724d54a060e9fa3f254ece&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72337 .
+
+_:09328275ba2f472b9f4347504519aa72337 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„KOSIT a.s.“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/6b66219049674794b462b90512081220/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Zmluvy mesta Košice“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje denne aktualizovaný zoznam zmlúv.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/DAILY>;
+  <http://www.w3.org/ns/dcat#keyword> "„zmluva“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=6b66219049674794b462b90512081220&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=6b66219049674794b462b90512081220&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=6b66219049674794b462b90512081220&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72339 .
+
+_:09328275ba2f472b9f4347504519aa72339 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/cf615272b9124fb69b35be94879f70b8/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Zoznam katastrálnych území v Košiciach“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje zoznam katastrálnych území a ich geografickú príslušnosť k mestskej časti, okresu a kraju.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/REGI>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„kataster“@sk, „katastralne uzemie“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=cf615272b9124fb69b35be94879f70b8&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=cf615272b9124fb69b35be94879f70b8&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=cf615272b9124fb69b35be94879f70b8&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72341 .
+
+_:09328275ba2f472b9f4347504519aa72341 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .
+
+<https://opendata.kosice.sk/datasets/677fd61907d9455da0aca7fd25858696/about> a <http://www.w3.org/ns/dcat#Dataset>;
+  <http://purl.org/dc/terms/title> "„Zoznam ulíc v Košiciach“@sk";
+  <http://purl.org/dc/terms/publisher> <https://data.gov.sk/id/legal-subject/00691135>;
+  <http://purl.org/dc/terms/dscription> "„Dataset obsahuje zoznam ulíc v meste Košice, aj s historickými názvami ulíc.“@sk";
+  <http://www.w3.org/ns/dcat#theme> <http://publications.europa.eu/resource/authority/data-theme/TRAN>;
+  <http://purl.org/dc/terms/accrualPeriodicity> <http://publications.europa.eu/resource/authority/frequency/IRREG>;
+  <http://www.w3.org/ns/dcat#keyword> "„ulica“@sk, „psč“@sk, „mestská časť“@sk, ";
+  <http://www.w3.org/ns/dcat#distribution> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=677fd61907d9455da0aca7fd25858696&view=service> .
+
+<https://kosice-mesto.maps.arcgis.com/home/item.html?id=677fd61907d9455da0aca7fd25858696&view=service>
+  a <http://www.w3.org/ns/dcat#Distribution>;
+  <http://www.w3.org/ns/dcat#accessURL> <https://kosice-mesto.maps.arcgis.com/home/item.html?id=677fd61907d9455da0aca7fd25858696&view=service>;
+  <http://purl.org/dc/terms/format> <http://publications.europa.eu/resource/authority/file-type/csv>;
+  <http://www.w3.org/ns/dcat#mediaType> "text/csv";
+  <https://data.gov.sk/def/ontology/legislation/termsOfUse> _:09328275ba2f472b9f4347504519aa72343 .
+
+_:09328275ba2f472b9f4347504519aa72343 <https://data.gov.sk/def/ontology/legislation/authorsWorkType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/authorName> "„Mesto Košice“";
+  <https://data.gov.sk/def/ontology/legislation/databaseProtectedBySpecialRightsType>
+    "https://creativecommons.org/licenses/by/4.0/";
+  <https://data.gov.sk/def/ontology/legislation/personalDataContainmentType> "0" .

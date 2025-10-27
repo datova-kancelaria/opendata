@@ -1,0 +1,3773 @@
+<span style="color:#444;font-family:Arial, sans-serif;font-size:12px;">Filtrovanie poskytovateľa</span>
+<select id="filterDropdown" onchange="filterTable()">
+  <option value="">All</option>
+  <option value="Geodetický a kartografický ústav Bratislava">Geodetický a kartografický ústav Bratislava</option>
+<option value="Hydromeliorácie, štátny podnik">Hydromeliorácie, štátny podnik</option>
+<option value="LESY Slovenskej republiky, štátny podnik">LESY Slovenskej republiky, štátny podnik</option>
+<option value="Mesto Banská Bystrica (OVM)">Mesto Banská Bystrica (OVM)</option>
+<option value="Mesto Levice">Mesto Levice</option>
+<option value="Mesto Levoča">Mesto Levoča</option>
+<option value="Mesto Liptovský Mikuláš">Mesto Liptovský Mikuláš</option>
+<option value="Mesto Myjava">Mesto Myjava</option>
+<option value="Mesto Prešov">Mesto Prešov</option>
+<option value="Mesto Senica">Mesto Senica</option>
+<option value="Mesto Stará Turá">Mesto Stará Turá</option>
+<option value="Mesto Vranov nad Topľou (OVM)">Mesto Vranov nad Topľou (OVM)</option>
+<option value="Ministerstvo dopravy Slovenskej republiky">Ministerstvo dopravy Slovenskej republiky</option>
+<option value="Ministerstvo hospodárstva SR">Ministerstvo hospodárstva SR</option>
+<option value="Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</option>
+<option value="Ministerstvo kultúry Slovenskej republiky">Ministerstvo kultúry Slovenskej republiky</option>
+<option value="Ministerstvo obrany SR">Ministerstvo obrany SR</option>
+<option value="Ministerstvo pôdohospodárstva a rozvoja vidieka SR">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</option>
+<option value="Ministerstvo práce, sociálnych vecí a rodiny SR">Ministerstvo práce, sociálnych vecí a rodiny SR</option>
+<option value="Ministerstvo spravodlivosti SR">Ministerstvo spravodlivosti SR</option>
+<option value="Ministerstvo školstva, výskumu, vývoja a mládeže Slovenskej republiky">Ministerstvo školstva, výskumu, vývoja a mládeže Slovenskej republiky</option>
+<option value="Ministerstvo vnútra SR">Ministerstvo vnútra SR</option>
+<option value="Ministerstvo zahraničných vecí a európskych záležitostí SR">Ministerstvo zahraničných vecí a európskych záležitostí SR</option>
+<option value="Ministerstvo zdravotníctva SR">Ministerstvo zdravotníctva SR</option>
+<option value="Ministerstvo životného prostredia SR">Ministerstvo životného prostredia SR</option>
+<option value="Národná agentúra pre sieťové a elektronické služby - NASES">Národná agentúra pre sieťové a elektronické služby - NASES</option>
+<option value="Národné centrum zdravotníckych informácií">Národné centrum zdravotníckych informácií</option>
+<option value="Národné lesnícke centrum">Národné lesnícke centrum</option>
+<option value="Národné poľnohospodárske a potravinárske centrum">Národné poľnohospodárske a potravinárske centrum</option>
+<option value="Národný bezpečnostný úrad">Národný bezpečnostný úrad</option>
+<option value="Notárska komora Slovenskej republiky">Notárska komora Slovenskej republiky</option>
+<option value="Plemenárske služby Slovenskej republiky, štátny podnik">Plemenárske služby Slovenskej republiky, štátny podnik</option>
+<option value="Pôdohospodárska platobná agentúra">Pôdohospodárska platobná agentúra</option>
+<option value="Prešovský samosprávny kraj">Prešovský samosprávny kraj</option>
+<option value="Protimonopolný úrad SR">Protimonopolný úrad SR</option>
+<option value="Regionálny úrad verejného zdravotníctva Banská Bystrica">Regionálny úrad verejného zdravotníctva Banská Bystrica</option>
+<option value="Regionálny úrad verejného zdravotníctva Bardejov">Regionálny úrad verejného zdravotníctva Bardejov</option>
+<option value="Regionálny úrad verejného zdravotníctva Žiar nad Hronom">Regionálny úrad verejného zdravotníctva Žiar nad Hronom</option>
+<option value="Regionálny úrad verejného zdravotníctva, Žilina">Regionálny úrad verejného zdravotníctva, Žilina</option>
+<option value="Slovenská agentúra životného prostredia">Slovenská agentúra životného prostredia</option>
+<option value="Slovenská správa ciest">Slovenská správa ciest</option>
+<option value="Štatistický úrad SR">Štatistický úrad SR</option>
+<option value="Štátna ochrana prírody Slovenskej republiky">Štátna ochrana prírody Slovenskej republiky</option>
+<option value="Štátna veterinárna a potravinová správa Bratislava">Štátna veterinárna a potravinová správa Bratislava</option>
+<option value="Štátne lesy Tatranského národného parku Tatranská Lomnica">Štátne lesy Tatranského národného parku Tatranská Lomnica</option>
+<option value="Štátny geologický ústav Dionýza Štúra">Štátny geologický ústav Dionýza Štúra</option>
+<option value="Štátny Ústav pre kontrolu liečiv">Štátny Ústav pre kontrolu liečiv</option>
+<option value="Trnavský samosprávny kraj">Trnavský samosprávny kraj</option>
+<option value="Úrad geodézie, kartografie a katastra SR">Úrad geodézie, kartografie a katastra SR</option>
+<option value="Úrad jadrového dozoru Slovenskej republiky">Úrad jadrového dozoru Slovenskej republiky</option>
+<option value="Úrad podpredsedu vlády Slovenskej republiky pre Plán obnovy a znalostnú ekonomiku">Úrad podpredsedu vlády Slovenskej republiky pre Plán obnovy a znalostnú ekonomiku</option>
+<option value="Úrad pre reguláciu hazardných hier">Úrad pre reguláciu hazardných hier</option>
+<option value="Úrad pre verejné obstarávanie">Úrad pre verejné obstarávanie</option>
+<option value="Úrad verejného zdravotníctva SR Bratislava">Úrad verejného zdravotníctva SR Bratislava</option>
+<option value="Úrad vlády Slovenskej republiky">Úrad vlády Slovenskej republiky</option>
+<option value="Ústav štátnej kontroly veterinárnych biopreparátov a liečiv Nitra">Ústav štátnej kontroly veterinárnych biopreparátov a liečiv Nitra</option>
+<option value="Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave">Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave</option>
+<option value="Všeobecná zdravotná poisťovňa">Všeobecná zdravotná poisťovňa</option>
+<option value="Výskumný ústav vodného hospodárstva">Výskumný ústav vodného hospodárstva</option>
+<option value="Železnice Slovenskej republiky">Železnice Slovenskej republiky</option>
+<option value="Železničná spoločnosť Cargo Slovakia, a.s.">Železničná spoločnosť Cargo Slovakia, a.s.</option>
+
+</select>
+<script>
+function filterTable() {
+  const dropdown = document.getElementById("filterDropdown");
+  const filter = dropdown.value;
+  const rows = document.querySelectorAll("#table tr");
+
+  rows.forEach((row, index) => {
+    if (index === 0) return; // skip header
+    const cell = row.cells[1].textContent;
+    row.style.display = filter === "" || cell === filter ? "" : "none";
+  });
+}
+</script>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:1px 1px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:1px 1px;word-break:normal;}
+.tg .tg-kls2{background-color:#9698ed;font-size:11px;text-align:left;vertical-align:top}
+.tg .tg-0l00{background-color:#dae8fc;font-size:11px;text-align:left;vertical-align:top}
+</style>
+<table class="tg" id="table" style="margin-top:20px"><thead>
+  <tr>
+    <th class="tg-kls2">Názov datasetu</th>
+    <th class="tg-kls2">Poskytovateľ</th>
+    <th class="tg-kls2">Unikátne zobrazenia stránok</th>
+    <th class="tg-kls2">Zobrazenia stránky</th>
+    <th class="tg-kls2">Celkový čas strávený návštevníkmi (v sekundách)</th>
+    <th class="tg-kls2">Kliknutie vo výsledkoch vyhľadávania</th>
+    <th class="tg-kls2">Poznámka</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0l00">Katastrálne mapy - zobrazovacie služby/wms</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">778</td>
+    <td class="tg-0l00">926</td>
+    <td class="tg-0l00">73963</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register spoločenstiev vlastníkov bytov a nebytových priestorov</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">610</td>
+    <td class="tg-0l00">862</td>
+    <td class="tg-0l00">83835</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register Adries - Register bytov</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">570</td>
+    <td class="tg-0l00">1295</td>
+    <td class="tg-0l00">95727</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam OVM s aktivovanou elektronickou schránkou</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">447</td>
+    <td class="tg-0l00">556</td>
+    <td class="tg-0l00">21974</td>
+    <td class="tg-0l00">2</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam evidovanych fariem v CEHZ</td>
+    <td class="tg-0l00">Plemenárske služby Slovenskej republiky, štátny podnik</td>
+    <td class="tg-0l00">434</td>
+    <td class="tg-0l00">627</td>
+    <td class="tg-0l00">51385</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register poľovných revírov (PR)</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">413</td>
+    <td class="tg-0l00">554</td>
+    <td class="tg-0l00">23664</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Vektorové katastrálne mapy</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">411</td>
+    <td class="tg-0l00">504</td>
+    <td class="tg-0l00">48871</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Hranice užívania</td>
+    <td class="tg-0l00">Pôdohospodárska platobná agentúra</td>
+    <td class="tg-0l00">332</td>
+    <td class="tg-0l00">424</td>
+    <td class="tg-0l00">25531</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Adresy podľa krajov</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">309</td>
+    <td class="tg-0l00">429</td>
+    <td class="tg-0l00">35712</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Systém identifikácie poľnohospodárskych pozemkov (LPIS)</td>
+    <td class="tg-0l00">Pôdohospodárska platobná agentúra</td>
+    <td class="tg-0l00">284</td>
+    <td class="tg-0l00">348</td>
+    <td class="tg-0l00">18159</td>
+    <td class="tg-0l00">2</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register neziskových organizácií</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">213</td>
+    <td class="tg-0l00">260</td>
+    <td class="tg-0l00">20000</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam schránok aktivovaných na doručovanie</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">196</td>
+    <td class="tg-0l00">254</td>
+    <td class="tg-0l00">9094</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register prevádzkovateľov základných služieb</td>
+    <td class="tg-0l00">Národný bezpečnostný úrad</td>
+    <td class="tg-0l00">178</td>
+    <td class="tg-0l00">262</td>
+    <td class="tg-0l00">19474</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Centrálny register študentov</td>
+    <td class="tg-0l00">Ministerstvo školstva, výskumu, vývoja a mládeže Slovenskej republiky</td>
+    <td class="tg-0l00">159</td>
+    <td class="tg-0l00">247</td>
+    <td class="tg-0l00">13976</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam elektronických služieb a formulárov na ÚPVS</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">143</td>
+    <td class="tg-0l00">189</td>
+    <td class="tg-0l00">9604</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register Adries - Register budov (súpisných čísiel)</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">137</td>
+    <td class="tg-0l00">187</td>
+    <td class="tg-0l00">8759</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register Adries - Register ulíc</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">134</td>
+    <td class="tg-0l00">166</td>
+    <td class="tg-0l00">6727</td>
+    <td class="tg-0l00">2</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Naplnenosť škôl a možnosti štúdia</td>
+    <td class="tg-0l00">Ministerstvo školstva, výskumu, vývoja a mládeže Slovenskej republiky</td>
+    <td class="tg-0l00">128</td>
+    <td class="tg-0l00">144</td>
+    <td class="tg-0l00">14134</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Sesterské diagnózy</td>
+    <td class="tg-0l00">Národné centrum zdravotníckych informácií</td>
+    <td class="tg-0l00">123</td>
+    <td class="tg-0l00">132</td>
+    <td class="tg-0l00">16434</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">REGISTER ADRIES</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">122</td>
+    <td class="tg-0l00">165</td>
+    <td class="tg-0l00">14107</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam výpadkov</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">117</td>
+    <td class="tg-0l00">137</td>
+    <td class="tg-0l00">8330</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Bonitované pôdnoekologické jednotky (BPEJ)</td>
+    <td class="tg-0l00">Národné poľnohospodárske a potravinárske centrum</td>
+    <td class="tg-0l00">97</td>
+    <td class="tg-0l00">122</td>
+    <td class="tg-0l00">9162</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register adries</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">97</td>
+    <td class="tg-0l00">140</td>
+    <td class="tg-0l00">11459</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register Adries - Register obcí</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">95</td>
+    <td class="tg-0l00">131</td>
+    <td class="tg-0l00">10102</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Prehľad dotácií poskytovaných v rámci štátnej a minimálnej pomoci</td>
+    <td class="tg-0l00">Pôdohospodárska platobná agentúra</td>
+    <td class="tg-0l00">94</td>
+    <td class="tg-0l00">118</td>
+    <td class="tg-0l00">6242</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register jednotiek priestorového rozdelenia lesa (JPRL)</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">93</td>
+    <td class="tg-0l00">112</td>
+    <td class="tg-0l00">4150</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register Adries - Register vchodov (orientačných čísiel)</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">92</td>
+    <td class="tg-0l00">117</td>
+    <td class="tg-0l00">4446</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Obvyklá výška nájomného za rok 2023</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">72</td>
+    <td class="tg-0l00">78</td>
+    <td class="tg-0l00">2670</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Centrálna evidencia hospodárskych zvierat</td>
+    <td class="tg-0l00">Plemenárske služby Slovenskej republiky, štátny podnik</td>
+    <td class="tg-0l00">69</td>
+    <td class="tg-0l00">117</td>
+    <td class="tg-0l00">7231</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Grafikon vlakovej dopravy vo formáte GTFS</td>
+    <td class="tg-0l00">Železnice Slovenskej republiky</td>
+    <td class="tg-0l00">69</td>
+    <td class="tg-0l00">102</td>
+    <td class="tg-0l00">10459</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam všetkých elektronických schránok OVM</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">69</td>
+    <td class="tg-0l00">94</td>
+    <td class="tg-0l00">3917</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Priemerné ceny pohonných látok v SR (týždenné) [sp0207ts]</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">64</td>
+    <td class="tg-0l00">96</td>
+    <td class="tg-0l00">1727</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Odborové organizácie a zamestnávateľské organizácie</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">63</td>
+    <td class="tg-0l00">79</td>
+    <td class="tg-0l00">8266</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Obvyklá výška nájomného</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">61</td>
+    <td class="tg-0l00">67</td>
+    <td class="tg-0l00">3949</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Hranice užívania 2024 shp</td>
+    <td class="tg-0l00">Pôdohospodárska platobná agentúra</td>
+    <td class="tg-0l00">59</td>
+    <td class="tg-0l00">72</td>
+    <td class="tg-0l00">5267</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam správcov bytových domov</td>
+    <td class="tg-0l00">Ministerstvo dopravy Slovenskej republiky</td>
+    <td class="tg-0l00">57</td>
+    <td class="tg-0l00">77</td>
+    <td class="tg-0l00">8319</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Ročný výkaz o revíri a stavoch zveri</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">53</td>
+    <td class="tg-0l00">70</td>
+    <td class="tg-0l00">6472</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">LPIS diely pôdnych blokov 2025 shp</td>
+    <td class="tg-0l00">Pôdohospodárska platobná agentúra</td>
+    <td class="tg-0l00">49</td>
+    <td class="tg-0l00">59</td>
+    <td class="tg-0l00">5020</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam inštitúcií so zriadenou službou Všeobecná agenda (7/2024)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">49</td>
+    <td class="tg-0l00">51</td>
+    <td class="tg-0l00">5125</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Energetická certifikácia budov</td>
+    <td class="tg-0l00">Ministerstvo dopravy Slovenskej republiky</td>
+    <td class="tg-0l00">46</td>
+    <td class="tg-0l00">77</td>
+    <td class="tg-0l00">7216</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register adries - Zmenové dávky od 27.5.2024 do 31.01.2025</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">46</td>
+    <td class="tg-0l00">56</td>
+    <td class="tg-0l00">2435</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">VSŽP - zoznamy dlžníkov</td>
+    <td class="tg-0l00">Všeobecná zdravotná poisťovňa</td>
+    <td class="tg-0l00">46</td>
+    <td class="tg-0l00">59</td>
+    <td class="tg-0l00">3913</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam daňových dlžníkov mestu Prešov</td>
+    <td class="tg-0l00">Mesto Prešov</td>
+    <td class="tg-0l00">46</td>
+    <td class="tg-0l00">57</td>
+    <td class="tg-0l00">6198</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam elektronických schránok PO aktivovaných na doručenie</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">45</td>
+    <td class="tg-0l00">52</td>
+    <td class="tg-0l00">1421</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">LPIS diely pôdnych blokov 2024 shp</td>
+    <td class="tg-0l00">Pôdohospodárska platobná agentúra</td>
+    <td class="tg-0l00">44</td>
+    <td class="tg-0l00">51</td>
+    <td class="tg-0l00">6982</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam OVM s aktivovanou elektronickou schránkou (10/2024)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">44</td>
+    <td class="tg-0l00">46</td>
+    <td class="tg-0l00">10115</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">HVD – Katastrálne parcely</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">42</td>
+    <td class="tg-0l00">51</td>
+    <td class="tg-0l00">5372</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">LPIS diely pôdnych blokov 2024 gml</td>
+    <td class="tg-0l00">Pôdohospodárska platobná agentúra</td>
+    <td class="tg-0l00">42</td>
+    <td class="tg-0l00">46</td>
+    <td class="tg-0l00">2450</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Digitálny model reliéfu - DMR3.5</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">41</td>
+    <td class="tg-0l00">52</td>
+    <td class="tg-0l00">2934</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Poľovné revíry 2023</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">40</td>
+    <td class="tg-0l00">46</td>
+    <td class="tg-0l00">6204</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam OVM s pridelenou rolou na vytváranie listinného rovnopisu v schránke</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">40</td>
+    <td class="tg-0l00">45</td>
+    <td class="tg-0l00">6575</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Poľovné revíry 2024</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">39</td>
+    <td class="tg-0l00">46</td>
+    <td class="tg-0l00">3012</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register adries - Zmenové dávky registra adries</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">39</td>
+    <td class="tg-0l00">56</td>
+    <td class="tg-0l00">2370</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam MEF</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">39</td>
+    <td class="tg-0l00">51</td>
+    <td class="tg-0l00">2266</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Cestné objekty - zoznam mostov</td>
+    <td class="tg-0l00">Slovenská správa ciest</td>
+    <td class="tg-0l00">38</td>
+    <td class="tg-0l00">43</td>
+    <td class="tg-0l00">4244</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Datasety v pôsobnosti SVS MV SR</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">38</td>
+    <td class="tg-0l00">46</td>
+    <td class="tg-0l00">5559</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Ortofotomozaika</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">38</td>
+    <td class="tg-0l00">56</td>
+    <td class="tg-0l00">7759</td>
+    <td class="tg-0l00">2</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Hranice užívania 2024 gml</td>
+    <td class="tg-0l00">Pôdohospodárska platobná agentúra</td>
+    <td class="tg-0l00">34</td>
+    <td class="tg-0l00">37</td>
+    <td class="tg-0l00">2344</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register lietadiel</td>
+    <td class="tg-0l00">Ministerstvo dopravy Slovenskej republiky</td>
+    <td class="tg-0l00">34</td>
+    <td class="tg-0l00">36</td>
+    <td class="tg-0l00">1485</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Lesné pôdne jednotky</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">32</td>
+    <td class="tg-0l00">34</td>
+    <td class="tg-0l00">4965</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Mapy cestnej siete SR</td>
+    <td class="tg-0l00">Slovenská správa ciest</td>
+    <td class="tg-0l00">32</td>
+    <td class="tg-0l00">42</td>
+    <td class="tg-0l00">3585</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Atlas rómskych komunít 2019</td>
+    <td class="tg-0l00">Úrad vlády Slovenskej republiky</td>
+    <td class="tg-0l00">31</td>
+    <td class="tg-0l00">39</td>
+    <td class="tg-0l00">670</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register politických strán a politických hnutí</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">28</td>
+    <td class="tg-0l00">31</td>
+    <td class="tg-0l00">1825</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam rozpracovaných projektov pozemkových úprav (komplexných)</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">27</td>
+    <td class="tg-0l00">32</td>
+    <td class="tg-0l00">2568</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">JPRL - priestorové údaje 2023</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">26</td>
+    <td class="tg-0l00">27</td>
+    <td class="tg-0l00">2544</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Najžiadanejšie otvorené datasety a API (2024)</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">26</td>
+    <td class="tg-0l00">32</td>
+    <td class="tg-0l00">1195</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register neinvestičných fondov</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">26</td>
+    <td class="tg-0l00">43</td>
+    <td class="tg-0l00">3080</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Centrálny register poskytovateľov sociálnych služieb</td>
+    <td class="tg-0l00">Ministerstvo práce, sociálnych vecí a rodiny SR</td>
+    <td class="tg-0l00">25</td>
+    <td class="tg-0l00">34</td>
+    <td class="tg-0l00">1914</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Klady mapových listov</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">25</td>
+    <td class="tg-0l00">25</td>
+    <td class="tg-0l00">5036</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register Adries - Register častí obcí</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">25</td>
+    <td class="tg-0l00">31</td>
+    <td class="tg-0l00">1298</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Stavebné povolenia a kolaudačné rozhodnutia za nebytové budovy</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">25</td>
+    <td class="tg-0l00">31</td>
+    <td class="tg-0l00">3471</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">ŠTATISTIKY KRIMINALITY</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">25</td>
+    <td class="tg-0l00">28</td>
+    <td class="tg-0l00">1286</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Dokumentácia datasetu</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">24</td>
+    <td class="tg-0l00">31</td>
+    <td class="tg-0l00">628</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Lesné hospodárske celky</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">24</td>
+    <td class="tg-0l00">31</td>
+    <td class="tg-0l00">2067</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register záujmových združení právnických osôb</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">24</td>
+    <td class="tg-0l00">29</td>
+    <td class="tg-0l00">5450</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register výrobcov a dovozcov výživových doplnkov a potravín na osobitné výživové účely</td>
+    <td class="tg-0l00">Úrad verejného zdravotníctva SR Bratislava</td>
+    <td class="tg-0l00">23</td>
+    <td class="tg-0l00">27</td>
+    <td class="tg-0l00">2063</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam držiteľov potvrdení o priemyselnej bezpečnosti</td>
+    <td class="tg-0l00">Národný bezpečnostný úrad</td>
+    <td class="tg-0l00">23</td>
+    <td class="tg-0l00">30</td>
+    <td class="tg-0l00">293</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam elektronických služieb a formulárov na ÚPVS (mesačne)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">23</td>
+    <td class="tg-0l00">26</td>
+    <td class="tg-0l00">433</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Plán obnovy a odolnosti - prijímatelia</td>
+    <td class="tg-0l00">Úrad podpredsedu vlády Slovenskej republiky pre Plán obnovy a znalostnú ekonomiku</td>
+    <td class="tg-0l00">22</td>
+    <td class="tg-0l00">27</td>
+    <td class="tg-0l00">891</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register zamestnancov vysokých škôl</td>
+    <td class="tg-0l00">Ministerstvo školstva, výskumu, vývoja a mládeže Slovenskej republiky</td>
+    <td class="tg-0l00">22</td>
+    <td class="tg-0l00">26</td>
+    <td class="tg-0l00">619</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam textových dokumentov liekov s platnou registráciou na Slovensku - SPC (Súhrn charakteristických vlastností lieku) a PIL (Písomná informácia pre používateľa)</td>
+    <td class="tg-0l00">Štátny Ústav pre kontrolu liečiv</td>
+    <td class="tg-0l00">22</td>
+    <td class="tg-0l00">25</td>
+    <td class="tg-0l00">588</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Adresy</td>
+    <td class="tg-0l00">Mesto Banská Bystrica (OVM)</td>
+    <td class="tg-0l00">21</td>
+    <td class="tg-0l00">30</td>
+    <td class="tg-0l00">2135</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Ulice - konsolidované dáta</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">21</td>
+    <td class="tg-0l00">29</td>
+    <td class="tg-0l00">1096</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam stavieb</td>
+    <td class="tg-0l00">Mesto Liptovský Mikuláš</td>
+    <td class="tg-0l00">21</td>
+    <td class="tg-0l00">32</td>
+    <td class="tg-0l00">2481</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Základný číselník CL000025 - Lokálna štatistická územná jednotka 2 – obec (11.01.2019)</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">21</td>
+    <td class="tg-0l00">25</td>
+    <td class="tg-0l00">2825</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Cestná dopravná sieť SR / INSPIRE služby</td>
+    <td class="tg-0l00">Slovenská správa ciest</td>
+    <td class="tg-0l00">20</td>
+    <td class="tg-0l00">25</td>
+    <td class="tg-0l00">573</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Dotácie</td>
+    <td class="tg-0l00">Prešovský samosprávny kraj</td>
+    <td class="tg-0l00">20</td>
+    <td class="tg-0l00">25</td>
+    <td class="tg-0l00">2869</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Počty evidovaných vodičov, vydaných vodičských preukazov a medzinárodných vodičských preukazov po rokoch.</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">20</td>
+    <td class="tg-0l00">22</td>
+    <td class="tg-0l00">1999</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam registrovaných veterinárnych liekov</td>
+    <td class="tg-0l00">Ústav štátnej kontroly veterinárnych biopreparátov a liečiv Nitra</td>
+    <td class="tg-0l00">20</td>
+    <td class="tg-0l00">27</td>
+    <td class="tg-0l00">1140</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Indexy cien priemyselných výrobcov podľa hlavných priemyselných zoskupení - spolu - mesačne</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">19</td>
+    <td class="tg-0l00">21</td>
+    <td class="tg-0l00">1636</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Prístup pre overenie TK vozidiel</td>
+    <td class="tg-0l00">Ministerstvo dopravy Slovenskej republiky</td>
+    <td class="tg-0l00">19</td>
+    <td class="tg-0l00">34</td>
+    <td class="tg-0l00">1229</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Súdne rozhodnutia</td>
+    <td class="tg-0l00">Ministerstvo spravodlivosti SR</td>
+    <td class="tg-0l00">19</td>
+    <td class="tg-0l00">32</td>
+    <td class="tg-0l00">2866</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">eKEGA - Prehľad projektov KEGA</td>
+    <td class="tg-0l00">Ministerstvo školstva, výskumu, vývoja a mládeže Slovenskej republiky</td>
+    <td class="tg-0l00">18</td>
+    <td class="tg-0l00">44</td>
+    <td class="tg-0l00">1548</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">JPRL - priestorové údaje 2024</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">18</td>
+    <td class="tg-0l00">19</td>
+    <td class="tg-0l00">2908</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Inicializačná dávka</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">17</td>
+    <td class="tg-0l00">19</td>
+    <td class="tg-0l00">2202</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Katastrálne mapy</td>
+    <td class="tg-0l00">Mesto Myjava</td>
+    <td class="tg-0l00">17</td>
+    <td class="tg-0l00">29</td>
+    <td class="tg-0l00">2064</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">PMÚSR Zoznam objednávok - dátová séria</td>
+    <td class="tg-0l00">Protimonopolný úrad SR</td>
+    <td class="tg-0l00">17</td>
+    <td class="tg-0l00">17</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register odborne spôsobilých osôb RUVZ ZH - voda, vodovody</td>
+    <td class="tg-0l00">Regionálny úrad verejného zdravotníctva Žiar nad Hronom</td>
+    <td class="tg-0l00">17</td>
+    <td class="tg-0l00">20</td>
+    <td class="tg-0l00">1290</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register právnických osôb - vyhľadávanie PO</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">17</td>
+    <td class="tg-0l00">22</td>
+    <td class="tg-0l00">561</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam kvalifikovaných certifikátov pre kvalifikovanú elektronickú pečať ( KSC)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">17</td>
+    <td class="tg-0l00">18</td>
+    <td class="tg-0l00">992</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam ukončených projektov pozemkových úprav (komplexných)</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">17</td>
+    <td class="tg-0l00">23</td>
+    <td class="tg-0l00">3832</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Základný číselník CL000026 - Katastrálne územia (20.04.2021)</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">17</td>
+    <td class="tg-0l00">18</td>
+    <td class="tg-0l00">3466</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register adries - Zmenové dávky od 27.5.2024 do 12.11.2024</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">16</td>
+    <td class="tg-0l00">21</td>
+    <td class="tg-0l00">1431</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Hlavný zoznam liekov s platnou registráciou na území SR a 6 ďalších prehľadných zoznamov (ATC, FIRMA, IS, ŠTÁTY, TYPY REGISTRÁCIÍ a VÝDAJE)</td>
+    <td class="tg-0l00">Štátny Ústav pre kontrolu liečiv</td>
+    <td class="tg-0l00">15</td>
+    <td class="tg-0l00">19</td>
+    <td class="tg-0l00">2445</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">JPRL - priestorové údaje 2022</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">15</td>
+    <td class="tg-0l00">16</td>
+    <td class="tg-0l00">351</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Príjemcovia štátnej a minimálnej pomoci 2023</td>
+    <td class="tg-0l00">Pôdohospodárska platobná agentúra</td>
+    <td class="tg-0l00">15</td>
+    <td class="tg-0l00">16</td>
+    <td class="tg-0l00">2029</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam Datasetov ÚGKK SR</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">15</td>
+    <td class="tg-0l00">18</td>
+    <td class="tg-0l00">2335</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam OVM s aktivovanou elektronickou schránkou (4/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">15</td>
+    <td class="tg-0l00">20</td>
+    <td class="tg-0l00">1831</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam použítého open source softvéru v rámci ÚPVII / ITMS2014  a pracovné stanice zamestnancov</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">15</td>
+    <td class="tg-0l00">19</td>
+    <td class="tg-0l00">485</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">PMÚSR Zoznam rozhodnutí - dátová séria</td>
+    <td class="tg-0l00">Protimonopolný úrad SR</td>
+    <td class="tg-0l00">14</td>
+    <td class="tg-0l00">14</td>
+    <td class="tg-0l00">552</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register adries - Register krajov</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">14</td>
+    <td class="tg-0l00">14</td>
+    <td class="tg-0l00">424</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register Adries - Register okresov</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">14</td>
+    <td class="tg-0l00">21</td>
+    <td class="tg-0l00">567</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Úradná elektronická tabuľa mesta Prešov - ARCHÍV (k aktuálnemu dátumu)</td>
+    <td class="tg-0l00">Mesto Prešov</td>
+    <td class="tg-0l00">14</td>
+    <td class="tg-0l00">14</td>
+    <td class="tg-0l00">212</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Štátny zoznam osobitne chránených častí prírody SR</td>
+    <td class="tg-0l00">Ministerstvo životného prostredia SR</td>
+    <td class="tg-0l00">14</td>
+    <td class="tg-0l00">17</td>
+    <td class="tg-0l00">3773</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Atlas krajiny Slovenskej republiky</td>
+    <td class="tg-0l00">Slovenská agentúra životného prostredia</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00">14</td>
+    <td class="tg-0l00">216</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Centrálny register zmlúv</td>
+    <td class="tg-0l00">Úrad vlády Slovenskej republiky</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00">21</td>
+    <td class="tg-0l00">1591</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">eIDAS - štatistika prihlásení používateľov</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00">18</td>
+    <td class="tg-0l00">319</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">PMÚSR Register schém minimálnej pomoci - dátová séria</td>
+    <td class="tg-0l00">Protimonopolný úrad SR</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Pôvodné štátne mapové dielo - zobrazovacie služby/wms</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00">15</td>
+    <td class="tg-0l00">158</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Výsledky rezortnej štatistiky - dátová séria</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00">14</td>
+    <td class="tg-0l00">2795</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam liekov s platnou registráciou na území SR</td>
+    <td class="tg-0l00">Štátny Ústav pre kontrolu liečiv</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00">29</td>
+    <td class="tg-0l00">5906</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam zvolených starostov podľa obvodov a obcí a mestských častí</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00">20</td>
+    <td class="tg-0l00">4335</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Digitálny výškový referenčný model - DVRM05</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">19</td>
+    <td class="tg-0l00">1758</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Evidencia občianskych združení</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">14</td>
+    <td class="tg-0l00">2545</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Lesná hospodárska evidencia v aktuálnom roku</td>
+    <td class="tg-0l00">LESY Slovenskej republiky, štátny podnik</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">0</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Ložiská nerastných surovín 1: 200 000</td>
+    <td class="tg-0l00">Ministerstvo životného prostredia SR</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">221</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">PMÚSR Register schém minimálnej pomoci (2023-12-31)</td>
+    <td class="tg-0l00">Protimonopolný úrad SR</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">16</td>
+    <td class="tg-0l00">802</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Poštové smerovacie čísla</td>
+    <td class="tg-0l00">Ministerstvo dopravy Slovenskej republiky</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">16</td>
+    <td class="tg-0l00">2070</td>
+    <td class="tg-0l00">2</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Vchody - inicializačné a zmenové dáta</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">15</td>
+    <td class="tg-0l00">283</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam elektronických služieb a formulárov na ÚPVS (2/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">17</td>
+    <td class="tg-0l00">1585</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam objednávok za tovary a služby za rok 2024</td>
+    <td class="tg-0l00">Regionálny úrad verejného zdravotníctva Bardejov</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">233</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam okresných úradov</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">15</td>
+    <td class="tg-0l00">200</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam OVM s aktivovanou elektronickou schránkou (31/3/2024)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">15</td>
+    <td class="tg-0l00">2509</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam všetkých elektronických schránok OVM (2/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">16</td>
+    <td class="tg-0l00">3153</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam všetkých elektronických schránok OVM (3/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">17</td>
+    <td class="tg-0l00">190</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Úmrtnostné tabuľky SR</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">16</td>
+    <td class="tg-0l00">3588</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Úradná elektronická tabuľa mesta Prešov (k aktuálnemu dátumu)</td>
+    <td class="tg-0l00">Mesto Prešov</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">15</td>
+    <td class="tg-0l00">2601</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Centrálny register hospodárskych zvierat</td>
+    <td class="tg-0l00">Plemenárske služby Slovenskej republiky, štátny podnik</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">15</td>
+    <td class="tg-0l00">727</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Klimatické podmienky</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">23</td>
+    <td class="tg-0l00">2710</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Lesné porasty - opis</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">14</td>
+    <td class="tg-0l00">1361</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">LPIS diely pôdnych blokov 2023 shp</td>
+    <td class="tg-0l00">Pôdohospodárska platobná agentúra</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00">2910</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Obce - inicializačné a zmenové dáta</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">208</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Počet žiakov s trvalým pobytom mimo obce - test</td>
+    <td class="tg-0l00">Ministerstvo školstva, výskumu, vývoja a mládeže Slovenskej republiky</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">18</td>
+    <td class="tg-0l00">1602</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Prehľad o celkovej výmere poľnohospodárskej pôdy registrovanej v Ekologickej poľnohospodárskej výrobe</td>
+    <td class="tg-0l00">Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">1062</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register osôb registrovaných podľa § 98</td>
+    <td class="tg-0l00">Ministerstvo životného prostredia SR</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">15</td>
+    <td class="tg-0l00">2375</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register ovocných sadov</td>
+    <td class="tg-0l00">Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00">172</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Ulice - inicializačné a zmenové dáta</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">194</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam inštitúcií so zriadenou službou Všeobecná agenda</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00">552</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam všetkých elektronických schránok OVM (12/2024)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">1453</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznamy schválených/registrovaných potravinárskych prevádzkarní</td>
+    <td class="tg-0l00">Štátna veterinárna a potravinová správa Bratislava</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">56</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Bilancia podľa rodinného stavu, pohlavia a veku - SR, oblasti, kraje</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00">768</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Centrálny model údajov - národná časť</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">1275</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Digitálna mapa škôl</td>
+    <td class="tg-0l00">Ministerstvo školstva, výskumu, vývoja a mládeže Slovenskej republiky</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00">329</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Evidencia ťažby dreva a plochy na obnovu lesa</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">18</td>
+    <td class="tg-0l00">1231</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Faktúry MIRRI September-December 2024</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">14</td>
+    <td class="tg-0l00">2105</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Hranice užívania 2025 shp</td>
+    <td class="tg-0l00">Pôdohospodárska platobná agentúra</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">14</td>
+    <td class="tg-0l00">260</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">HVD – Dopravné siete</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00">1915</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Inflácia meraná CPI (národná metodika) - celková, jadrová, čistá - ročné údaje</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">894</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register odborne spôsobilých osôb RUVZ ZH - potraviny</td>
+    <td class="tg-0l00">Regionálny úrad verejného zdravotníctva Žiar nad Hronom</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">1003</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register zariadení na zhodnocovanie odpadov</td>
+    <td class="tg-0l00">Ministerstvo životného prostredia SR</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">19</td>
+    <td class="tg-0l00">2054</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Ročný výkaz o hospodárení v podnikoch potravinárskeho priemyslu - dátová séria</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00">700</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Ročný výkaz o spracovaní dreva</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">1533</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Ročný výkaz o stave vybraných ukazovateľov obhospodarovania lesa</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">22</td>
+    <td class="tg-0l00">1016</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zmenová dávka č. 14902514</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00">2203</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam OVM s aktivovanou elektronickou schránkou (31/5/2024)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">16</td>
+    <td class="tg-0l00">89</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam prijímateľov podielu zaplatenej dane pre rok príjmu 2023</td>
+    <td class="tg-0l00">Notárska komora Slovenskej republiky</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">165</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Základný číselník CL004001 - Identifikátor (29.11.2018)</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">938</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Štatistika priestupkov mestskej polície</td>
+    <td class="tg-0l00">Mesto Vranov nad Topľou (OVM)</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">18</td>
+    <td class="tg-0l00">425</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Štatistika psov v meste</td>
+    <td class="tg-0l00">Mesto Vranov nad Topľou (OVM)</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">19</td>
+    <td class="tg-0l00">2614</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Centrálny register geodetov</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">67</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Faktúry September 2024</td>
+    <td class="tg-0l00">Pôdohospodárska platobná agentúra</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">2208</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Incidencia zhubných nádorov v Slovenskej republike</td>
+    <td class="tg-0l00">Národné centrum zdravotníckych informácií</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">0</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">INSPIRE - Adresy</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">2719</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Lesné porasty - opis 2023</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">2590</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Vchody - konsolidované dáta</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">94</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam elektronických schránok PO aktivovaných na doručenie (2/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">2678</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam OVM s aktivovanou elektronickou schránkou (12/2024)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">497</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam výpadkov (2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">2753</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznamy poverených veterinárnych lekárov na vydávanie pasov spoločenských zvierat</td>
+    <td class="tg-0l00">Štátna veterinárna a potravinová správa Bratislava</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">2535</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Základný číselník CL000086- Krajina OSN (08.09.2008)</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">1111</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Atmosférické podmienky a Meteorologické geografické prvky</td>
+    <td class="tg-0l00">Ministerstvo životného prostredia SR</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">863</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Budovy (súpisné čísla) - konsolidované dáta</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">184</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Cestná dopravná sieť SR / INSPIRE</td>
+    <td class="tg-0l00">Slovenská správa ciest</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">3773</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Evidencia ťažby dreva a plochy na obnovu lesa 2023</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">108</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Faktúry RÚVZ BB</td>
+    <td class="tg-0l00">Regionálny úrad verejného zdravotníctva Banská Bystrica</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">895</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Geografické názvoslovie</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">377</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">HVD – Administratívne jednotky</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00">127</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">INSPIRE - Krajinná pokrývka - Lesné typy</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">207</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Kontrahovanie Fondy 30.06.2023 - SPOLU</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">14</td>
+    <td class="tg-0l00">673</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">OPH-01 Register certifikovaných hnojív</td>
+    <td class="tg-0l00">Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">19</td>
+    <td class="tg-0l00">2109</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Potenciálna vodná erózia</td>
+    <td class="tg-0l00">Národné poľnohospodárske a potravinárske centrum</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">186</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Prehľad o poskytnutých národných podporách - dátová séria</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">177</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register dotácií mesta Prešov (od 1.1.2012 do aktuálneho dátumu)</td>
+    <td class="tg-0l00">Mesto Prešov</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">81</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">register právnických osôb</td>
+    <td class="tg-0l00">Ministerstvo spravodlivosti SR</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">2917</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register výrobcov a obchodníkov s drahými kovmi a drahými kameňmi</td>
+    <td class="tg-0l00">Ministerstvo hospodárstva SR</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">634</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register základných sídelných jednotiek</td>
+    <td class="tg-0l00">Ministerstvo životného prostredia SR</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">151</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">REST API Registra právnických osôb, podnikateľov a orgánov verejnej moci</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">873</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Shift grid model JTSK03 &lt;-&gt; JTSK na úrovni Besselovho elipsoidu</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">684</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam elektronických služieb a formulárov na ÚPVS (30/4/2024)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">112</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Základné číselníky - dátová séria</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">1541</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">2016 - Vodiči, vodičské preukazy a medzinárodné vodičské preukazy</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">2835</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Adresy v meste Prešov (súpisné čísla) - geo data</td>
+    <td class="tg-0l00">Mesto Prešov</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">130</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Faktúry</td>
+    <td class="tg-0l00">Mesto Stará Turá</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">633</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">INSPIRE - údaje</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">1458</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Katalóg otvorených údajov MZVEZ SR</td>
+    <td class="tg-0l00">Ministerstvo zahraničných vecí a európskych záležitostí SR</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">55</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Kraje - inicializačné a zmenové dáta</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">106</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">LPIS diely pôdnych blokov 2025 gml</td>
+    <td class="tg-0l00">Pôdohospodárska platobná agentúra</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">679</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">MŽPSR Strategické dokumenty</td>
+    <td class="tg-0l00">Ministerstvo životného prostredia SR</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">185</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Okresy - inicializačné a zmenové dáta</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">132</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Počet aktivovaných elektronických schránok na doručovanie</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00">197</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Počet aktivovaných elektronických schránok na doručovanie (2024)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">746</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Prehľad pohybu obyvateľstva - SR-oblasť-kraj-okres, m-v (ročne)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">373</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Prijaté žiadosti podľa Infozákona</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">772</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register adries - geografická reprezentácia ulíc - cestné úseky</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">353</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register organizácií cestovného ruchu</td>
+    <td class="tg-0l00">Ministerstvo dopravy Slovenskej republiky</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">1016</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register skládok odpadov</td>
+    <td class="tg-0l00">Ministerstvo životného prostredia SR</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">14</td>
+    <td class="tg-0l00">471</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Vestník 51/2025</td>
+    <td class="tg-0l00">Úrad pre verejné obstarávanie</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">42</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Výmera lesov s prírode blízkym hospodárením</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">644</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam advokátov (10/2024)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">209</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam elektronických služieb a formulárov na ÚPVS (1/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">453</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam evidovaných typov aplikačných zariadení a individuálne obstaraných aplikačných zariadení</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">407</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam povinne zverejňovaných faktúr</td>
+    <td class="tg-0l00">Ministerstvo hospodárstva SR</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">1830</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam ukončených projektov jednoduchých pozemkových úprav</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">1874</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam zriadených elektronických schránok notárov a exekútorov</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">1996</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Základný číselník CL010141 - Časť obce (12.06.2019)</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">768</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Časový harmonogram vytvárania a sprístupňovania datasetov MVSR</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">2969</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">2018 - Vodiči, vodičské preukazy a medzinárodné vodičské preukazy</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">2015</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Budovy - inicializačné a zmenové dáta</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">335</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Byty - inicializačné a zmenové dáta</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">415</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">INSPIRE - Hydrografia</td>
+    <td class="tg-0l00">Ministerstvo životného prostredia SR</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">64</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">ITMS 2014  Projekty v realizácii</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">708</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Katalóg OPEN DATA mesta Prešov</td>
+    <td class="tg-0l00">Mesto Prešov</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">25</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Lesné typologické jednotky</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">2161</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Obce - konsolidované dáta</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">371</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Organizačná štruktúra PPA august 2024</td>
+    <td class="tg-0l00">Pôdohospodárska platobná agentúra</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">93</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Povinné vlastnosti DCAT-AP-SK-3.0.0 - Dataset</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">1159</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Prijímatelia z EPZF a EPFRV</td>
+    <td class="tg-0l00">Pôdohospodárska platobná agentúra</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">65</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register verejných skladov na území SR</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">1389</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Rozpočtová rezerva predsedu vlády SR 2023</td>
+    <td class="tg-0l00">Úrad vlády Slovenskej republiky</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">586</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">SAŽP Organizačná štruktúra</td>
+    <td class="tg-0l00">Slovenská agentúra životného prostredia</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">709</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Stavebné povolenia - štvrťročné údaje</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">1192</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Súčasné využitie zeme [Atlas krajiny Slovenskej republiky]</td>
+    <td class="tg-0l00">Slovenská agentúra životného prostredia</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">1848</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Využitie územia Corine Land Cover</td>
+    <td class="tg-0l00">Ministerstvo životného prostredia SR</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">2512</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Združenia s potvrdenou činnosťou</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">297</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam držiteľov povolení</td>
+    <td class="tg-0l00">Úrad jadrového dozoru Slovenskej republiky</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">1803</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam elektronických schránok FO aktivovaných na doručenie (2/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">40</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam OVM s aktivovanou elektronickou schránkou (1/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">1238</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam OVM s aktivovanou elektronickou schránkou (3/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">31</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam OVM s aktivovanou elektronickou schránkou (5/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">211</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam OVM s aktivovanou elektronickou schránkou (11/2024)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">147</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam podriadených organizácií</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">1126</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam prípravkov na ochranu rastlín povolených na paralelný obchod</td>
+    <td class="tg-0l00">Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">22</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Základný číselník CL000023 - Regionálna štatistická územná jednotka 3 - kraj (08.06.2015)</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">161</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Základný číselník CL010139 - Druh adresy (29.11.2018)</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">1082</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Údaje centrálnej technickej evidencie ciest - zobrazovacie služby/wms</td>
+    <td class="tg-0l00">Slovenská správa ciest</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">1603</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">ÚKSÚP – registračný informačný systém (RIS)</td>
+    <td class="tg-0l00">Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">948</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Ústredná evidencia vojnových hrobov</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">9</td>
+    <td class="tg-0l00">275</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Aktuálne údaje centrálnej technickej evidencie ciest</td>
+    <td class="tg-0l00">Slovenská správa ciest</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">269</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Cestné úseky – po krajoch k 04.02.2025</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">239</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Datasety Ministerstva spravodlivosti</td>
+    <td class="tg-0l00">Ministerstvo spravodlivosti SR</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">1395</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Dotacne schemy 2023</td>
+    <td class="tg-0l00">Ministerstvo zdravotníctva SR</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">504</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Evidencia osvedčení o získaní oprávnenia na projektovanie pozemkových úprav</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">96</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Faktúry MO SR</td>
+    <td class="tg-0l00">Ministerstvo obrany SR</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">55</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Indexy vekového zloženia - SR-oblasť-kraj-okres, mestá, vidiek</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">15</td>
+    <td class="tg-0l00">237</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">INSPIRE - ukladacie služby</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">461</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">INSPIRE HVD - Ortometria</td>
+    <td class="tg-0l00">Geodetický a kartografický ústav Bratislava</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">155</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Katalóg OPEN geo DATA mesta Prešov</td>
+    <td class="tg-0l00">Mesto Prešov</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">319</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Klad ZBGIS Rastrov</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">74</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Obvyklá výška nájomného za rok 2023 vo formáte SHP</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">1818</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Prehľad siete zdravotnej starostlivosti – druhy zdravotníckych zariadení za rok 2020</td>
+    <td class="tg-0l00">Národné centrum zdravotníckych informácií</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">404</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Priemyselné parky a zóny SR</td>
+    <td class="tg-0l00">Ministerstvo hospodárstva SR</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">293</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Programy starostlivosti o lesy</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">101</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register odborne spôsobilých osôb RUVZ ZH - starostlivosť o ľudské telo</td>
+    <td class="tg-0l00">Regionálny úrad verejného zdravotníctva Žiar nad Hronom</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">34</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register právnických osôb - detaily PO</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">192</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Vestník 197/2024</td>
+    <td class="tg-0l00">Úrad pre verejné obstarávanie</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">589</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam advokátov</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">208</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam elektronických služieb a formulárov na ÚPVS (5/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">12</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam inšpekcií 2025</td>
+    <td class="tg-0l00">Úrad jadrového dozoru Slovenskej republiky</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">472</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam schválených-registrovaných krmivárskych podnikov</td>
+    <td class="tg-0l00">Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">45</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam v súčasnosti zverejnených datasetov rezortu MPRV SR</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">39</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam všetkých elektronických schránok OVM (1/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">66</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Základný číselník CL000645 - Agendy verejnej správy (29.11.2018)</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">487</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Základný číselník CL000647 - Okruhy životných situácií (29.11.2018)</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">333</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Čiastkový monitorovací systém Pôda</td>
+    <td class="tg-0l00">Národné poľnohospodárske a potravinárske centrum</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">180</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Agendy verejnej správy a jeho väzby na koncové a aplikačné služby MetaIS</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">389</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Antropogénne pôdy a antropogénne ovplyvnené pôdy [Atlas krajiny Slovenskej republiky]</td>
+    <td class="tg-0l00">Slovenská agentúra životného prostredia</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">98</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Centrálny register projektov</td>
+    <td class="tg-0l00">Úrad vlády Slovenskej republiky</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">105</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Centrálny zoznam Registrov obnovenej evidencie pozemkov</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">114</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Dataset datasetov</td>
+    <td class="tg-0l00">Úrad jadrového dozoru Slovenskej republiky</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">187</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Datasety v pôsobnosti SEP MV SR</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">1493</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Dostupnosť lieku v lekárni</td>
+    <td class="tg-0l00">Národné centrum zdravotníckych informácií</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">90</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Dotácie MŠVVaŠ SR 2024</td>
+    <td class="tg-0l00">Ministerstvo školstva, výskumu, vývoja a mládeže Slovenskej republiky</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00">1162</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Ekonomicky aktívne obyvateľstvo podľa veku</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">673</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Evidencia pestovnej činnosti a ostatných výkonov 2023</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">59</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Evidencia ťažby dreva a holiny 2012 - 2020</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">176</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Geologická mapa SR M 1:200 000</td>
+    <td class="tg-0l00">Štátny geologický ústav Dionýza Štúra</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">96</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Hranice užívania 2025 gml</td>
+    <td class="tg-0l00">Pôdohospodárska platobná agentúra</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">49</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">INSPIRE - Chránené územia - Kultúrne - Pamiatkové rezervácie a zóny</td>
+    <td class="tg-0l00">Ministerstvo životného prostredia SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">463</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">INSPIRE HVD - Výška</td>
+    <td class="tg-0l00">Geodetický a kartografický ústav Bratislava</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">186</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Intenzita železničnej dopravy za rok 2021</td>
+    <td class="tg-0l00">Ministerstvo dopravy Slovenskej republiky</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">0</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Kompletný zoznam elektronickýchch služieb a formulárov na ÚPVS</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">76</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">MIRRI Organizačná štruktúra (2021-04-20)</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">20</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">MIRRI Zahraničné cestovné náklady za rok 2024</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Nájomné zmluvy na poľnohospodársku pôdu</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">727</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Národná inventarizácia a monitoring lesov SR</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">254</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Národný katalóg otvorených dát</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">76</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Organizačná štruktúra</td>
+    <td class="tg-0l00">Mesto Levice</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">1817</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Organizačná štruktúra Ministerstva kultúry Slovenskej republiky</td>
+    <td class="tg-0l00">Ministerstvo kultúry Slovenskej republiky</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">527</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Organizačná štruktúra PPA október 2023</td>
+    <td class="tg-0l00">Pôdohospodárska platobná agentúra</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Plán obnovy a odolnosti - prijímatelia (aktuálny)</td>
+    <td class="tg-0l00">Úrad podpredsedu vlády Slovenskej republiky pre Plán obnovy a znalostnú ekonomiku</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">1591</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Počet obyvateľov podľa pohlavia - obce (štvrťročne)</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">1865</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Počet občanov mesta Prešov podľa krstných mien (k aktuálnemu dátumu)</td>
+    <td class="tg-0l00">Mesto Prešov</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">34</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Počet prihlásení do schránok za mesiac (2023)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">15</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Počet živností vydaných pre fyzické osoby a právnické osoby podľa okresov v SR</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">334</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Poľovné revíry 2021</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">830</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Prehľad projektov MO SR čerpanie za rok 2023</td>
+    <td class="tg-0l00">Ministerstvo obrany SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">202</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Prehľad žiadostí o poskytnutie priamych podpôr</td>
+    <td class="tg-0l00">Pôdohospodárska platobná agentúra</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">27</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Programy starostlivosti o lesy 2023</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">404</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Príjem na osobu - priemerné príjmy podľa krajov</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">108</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register odborne spôsobilých osôb na prácu s veľmi toxickými látkami a prípravkami a s toxickými látkami a prípravkami RÚVZ Žilina</td>
+    <td class="tg-0l00">Regionálny úrad verejného zdravotníctva, Žilina</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">192</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register potravín pre potravinový semafor</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">15</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register sociálnych podnikov</td>
+    <td class="tg-0l00">Ministerstvo práce, sociálnych vecí a rodiny SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">607</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register výrobcov, dovozcov a vývozcov</td>
+    <td class="tg-0l00">Ústredný kontrolný a skúšobný ústav poľnohospodársky v Bratislave</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">224</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Registratúrny denník v organizácii Štátne lesy Tatranského národného parku</td>
+    <td class="tg-0l00">Štátne lesy Tatranského národného parku Tatranská Lomnica</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">1149</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">SAŽP Faktúry 2025-01</td>
+    <td class="tg-0l00">Slovenská agentúra životného prostredia</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">21</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">SAŽP Objednávky 2024-01</td>
+    <td class="tg-0l00">Slovenská agentúra životného prostredia</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">225</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">SAŽP Objednávky 2025</td>
+    <td class="tg-0l00">Slovenská agentúra životného prostredia</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">265</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Strategické dokumenty</td>
+    <td class="tg-0l00">Úrad jadrového dozoru Slovenskej republiky</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">181</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Telefónny zoznam MDV SR k 01.07.2020</td>
+    <td class="tg-0l00">Ministerstvo dopravy Slovenskej republiky</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">116</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Vekové zloženie obyvateľstva SR podľa pohlavia a veku</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">1226</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Vestník 20/2025</td>
+    <td class="tg-0l00">Úrad pre verejné obstarávanie</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">32</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zmeny hustoty obyvateľstva SR v období 1950 - 1998 - okresy [Atlas krajiny Slovenskej republiky]</td>
+    <td class="tg-0l00">Slovenská agentúra životného prostredia</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">424</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zomrelí podľa príčiny smrti, pohlavia a trvalého pobytu - SR-oblasť-kraj-okres, mestá, vidiek</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">13</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zosuvné územia mesta Prešov - geo data</td>
+    <td class="tg-0l00">Mesto Prešov</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">42</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam elektronických schránok FO aktivovaných na doručenie (12/2024)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">107</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam elektronických schránok PO aktivovaných na doručenie (3/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">51</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam elektronických schránok PO aktivovaných na doručenie (4/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">82</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam elektronických schránok PO aktivovaných na doručenie (12/2024)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">7</td>
+    <td class="tg-0l00">134</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam osôb odborne spôsobilých na vykonávanie kontroly vykurovacích systémov</td>
+    <td class="tg-0l00">Ministerstvo hospodárstva SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">0</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam petícií a sťažností evidovaných na MPRV SR</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">10</td>
+    <td class="tg-0l00">596</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam remeselných živností</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">114</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam rozpracovaných projektov jednoduchých pozemkových úprav</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">154</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam staníc a zastávok (.csv)</td>
+    <td class="tg-0l00">Železnice Slovenskej republiky</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">54</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam staníc a zastávok (.xls)</td>
+    <td class="tg-0l00">Železnice Slovenskej republiky</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">1892</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam výpadkov (2024)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">21</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Základné sídelné jednotky (ZSJ)</td>
+    <td class="tg-0l00">Ministerstvo životného prostredia SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">661</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Základný číselník CL010130 - Účastník právneho vzťahu k nehnuteľnostiam (2020-04-06)</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">19</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Územné a správne usporiadanie SR</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">117</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Čistiarne odpadových vôd</td>
+    <td class="tg-0l00">Výskumný ústav vodného hospodárstva</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">0</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Živnostenské spoločenstvá</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">123</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">19_Rozhodnutia, vyjadrenia a stanoviská HM</td>
+    <td class="tg-0l00">Hydromeliorácie, štátny podnik</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">66</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Administratívne hranice</td>
+    <td class="tg-0l00">Geodetický a kartografický ústav Bratislava</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">133</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Archívne fondy</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">266</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Bilancia ekonomickej aktivity obyvateľstva</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">206</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Cyklosčítače TTSK</td>
+    <td class="tg-0l00">Trnavský samosprávny kraj</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">187</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Digitálny model kvázigeoidu - DMQSK2014-E</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">0</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Environmentálne záťaže na území TTSK</td>
+    <td class="tg-0l00">Trnavský samosprávny kraj</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">67</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Erózne ohrozenie GAEC5</td>
+    <td class="tg-0l00">Národné poľnohospodárske a potravinárske centrum</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">110</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Harmonizovaná nomenklatúra tovaru</td>
+    <td class="tg-0l00">Železničná spoločnosť Cargo Slovakia, a.s.</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">896</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Harmonogram zverejňovania</td>
+    <td class="tg-0l00">Ministerstvo spravodlivosti SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">55</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Indexy cien priemyselných výrobcov podľa hlavných priemyselných zoskupení - vývoz - mesačne</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">62</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Kompetenčné územia ochrany prírody</td>
+    <td class="tg-0l00">Štátna ochrana prírody Slovenskej republiky</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">0</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Kriminalita podľa základných skupín trestných činov</td>
+    <td class="tg-0l00">Štatistický úrad SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">1302</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Lesná hospodárska evidencia</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">24</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Lesné porasty - opis 2024</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">652</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">MHD mesta Senica, využívanosť - 2025/03</td>
+    <td class="tg-0l00">Mesto Senica</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">8</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">MIRRI_Časový harmonogram zverejňovania datasetov 2025 (2025-02-24)</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">786</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">MIRRI Úradné hodiny (2023-04-14)</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">58</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">MŽPSR Organizačná štruktúra (2022-10-25)</td>
+    <td class="tg-0l00">Ministerstvo životného prostredia SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">62</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Najžiadanejšie datasety UVO</td>
+    <td class="tg-0l00">Úrad pre verejné obstarávanie</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">1759</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Obce - zmenové dáta</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">238</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">OE39_Miestne dane a poplatky_D11_drob. stavebný odpad - osoba bez TP</td>
+    <td class="tg-0l00">Mesto Levoča</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">107</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">OE39_Miestne dane a poplatky_DZN_4v1_DZN, psov, PA a NHP</td>
+    <td class="tg-0l00">Mesto Levoča</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">105</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Okresy - konsolidované dáta</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">262</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Okresy - zmenové dáta</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">199</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Organizačná štruktúra (ÚRHH)</td>
+    <td class="tg-0l00">Úrad pre reguláciu hazardných hier</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">123</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">PMÚSR Fluktuácia zamestnancov na jednotlivých pozíciách (2023-12-31)</td>
+    <td class="tg-0l00">Protimonopolný úrad SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">26</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">PMÚSR Fluktuácia zamestnancov na jednotlivých pozíciách (2024-12-31)</td>
+    <td class="tg-0l00">Protimonopolný úrad SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">151</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">PMÚSR Prijaté žiadosti podľa infozákona (2024-09-30)</td>
+    <td class="tg-0l00">Protimonopolný úrad SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">1063</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Počet občanov</td>
+    <td class="tg-0l00">Mesto Levice</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">108</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Počet remeselných živností podľa okresov v SR</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">1175</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Počet zriadených elektronických schránok</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">164</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Pôdna mapa Slovenska 1:400 000</td>
+    <td class="tg-0l00">Národné poľnohospodárske a potravinárske centrum</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">455</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register nadácií</td>
+    <td class="tg-0l00">Ministerstvo vnútra SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">194</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register odborne spôsobilých osôb na autorizovanú spracovateľskú činnosť</td>
+    <td class="tg-0l00">Ministerstvo životného prostredia SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">112</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Register vydaných, zaniknutých a odňatých povolení na výrobu, spracovanie, manipulovanie a uvádzanie liehu na trh</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">28</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Ročný výkaz o dodávkach sejbového a sadbového materiálu lesných drevín</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">369</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">SAŽP Faktúry 2025</td>
+    <td class="tg-0l00">Slovenská agentúra životného prostredia</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">257</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">SAŽP Objednávky 2025-01</td>
+    <td class="tg-0l00">Slovenská agentúra životného prostredia</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">1219</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">SAŽP Organizačná štruktúra 05_2025</td>
+    <td class="tg-0l00">Slovenská agentúra životného prostredia</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">5</td>
+    <td class="tg-0l00">404</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">SAŽP Organizačná štruktúra 2023-07-15</td>
+    <td class="tg-0l00">Slovenská agentúra životného prostredia</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">52</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00">dataset premenovaný, poskytovateľ – odhad</td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Topografické údaje ZBGIS - zobrazovacie služby/wms</td>
+    <td class="tg-0l00">Úrad geodézie, kartografie a katastra SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">55</td>
+    <td class="tg-0l00">1</td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Vestník 12/2025</td>
+    <td class="tg-0l00">Úrad pre verejné obstarávanie</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">49</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Vysvetlivky opis</td>
+    <td class="tg-0l00">Národné lesnícke centrum</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">87</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Vývoj obyvateľstva za roky 1991 - 1998 podľa okresov [Atlas krajiny Slovenskej republiky]</td>
+    <td class="tg-0l00">Slovenská agentúra životného prostredia</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">48</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoogeograficky a faunisticky významný druh - sova dlhochvostá [Atlas krajiny Slovenskej republiky]</td>
+    <td class="tg-0l00">Slovenská agentúra životného prostredia</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">436</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam elektronických schránok FO aktivovaných na doručenie (1/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">190</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam elektronických schránok FO aktivovaných na doručenie (4/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">102</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam elektronických schránok FO aktivovaných na doručenie (5/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">4</td>
+    <td class="tg-0l00">134</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam OVM s aktivovanou elektronickou schránkou (2/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">148</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam OVM so schránkou aktivovanou na doručovanie, ktoré majú materskú identitu</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">294</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam pripravovaných datasetov rezortu MPRV SR</td>
+    <td class="tg-0l00">Ministerstvo pôdohospodárstva a rozvoja vidieka SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">123</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam ulíc (stav k aktuálnemu dátumu)</td>
+    <td class="tg-0l00">Mesto Prešov</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">6</td>
+    <td class="tg-0l00">132</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam využívaného otvoreného softvéru (open source) NASES</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">29</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam všetkých elektronických schránok OVM (5/2025)</td>
+    <td class="tg-0l00">Národná agentúra pre sieťové a elektronické služby - NASES</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">86</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Zoznam škôl a školských zariadení</td>
+    <td class="tg-0l00">Mesto Levice</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">11</td>
+    <td class="tg-0l00">44</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Základný číselník CL000024 - Lokálna štatistická územná jednotka 1 – okres (08.09.2008)</td>
+    <td class="tg-0l00">Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">741</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+  <tr>
+    <td class="tg-0l00">Číselník: Nakladanie s odpadom</td>
+    <td class="tg-0l00">Ministerstvo životného prostredia SR</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">3</td>
+    <td class="tg-0l00">538</td>
+    <td class="tg-0l00"></td>
+    <td class="tg-0l00"></td>
+  </tr>
+</tbody></table>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Metodika pre otvorené údaje (opendata.gov.sk) : Meranie dátovej kvality pomocou SPARQL</title>
+        <link rel="stylesheet" href="styles/site.css" type="text/css" />
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+
+    <body class="theme-default aui-theme-default">
+        <div id="page">
+            <div id="main" class="aui-page-panel">
+                <div id="main-header">
+                    <div id="breadcrumb-section">
+                        <ol id="breadcrumbs">
+                            <li class="first">
+                                <span><a href="index.html">Metodika pre otvorené údaje (opendata.gov.sk)</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120127509.html">Metodika pre sprístupňovanie otvorených údajov (opendata.gov.sk) Domov</a></span>
+                            </li>
+                                                    <li>
+                                <span><a href="120128905.html">8. Kvalita otvorených údajov</a></span>
+                            </li>
+                                                </ol>
+                    </div>
+                    <h1 id="title-heading" class="pagetitle">
+                                                <span id="title-text">
+                            Metodika pre otvorené údaje (opendata.gov.sk) : Meranie dátovej kvality pomocou SPARQL
+                        </span>
+                    </h1>
+                </div>
+
+                <div id="content" class="view">
+                    <div class="page-metadata">
+                            
+        
+    
+        
+    
+        
+        
+            Created by <span class='author'> Lukáš Jankovič</span>, last modified on aug 01, 2025
+                        </div>
+                    <div id="main-content" class="wiki-content group">
+                    <p>Dotazy kontrolujú <strong>vyplnenie povinných metaúdajov (či nechýbajú povinné metaúdaje),</strong> nekontrolujú však či majú validnú hodnotu (napr. podľa číselníka), či je vyplnenie správne.</p><h1 id="MeraniedátovejkvalitypomocouSPARQL-NeHVDdatasety">NeHVD datasety</h1><p><strong>Povinné metadáta datasetu a distribúcie - súbor na stiahnutie</strong></p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">PREFIX dcat: &lt;http://www.w3.org/ns/dcat#&gt;
+PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
+
+SELECT ?dataset ?názov ?téma ?kľúčovésl
+WHERE {
+    ?dataset a dcat:Dataset.
+    ?dataset dct:title ?názov.
+    ?dataset dct:publisher &lt;https://data.gov.sk/id/legal-subject/50349287&gt;.
+    OPTIONAL {?dataset dcat:theme ?téma. }
+  	OPTIONAL {?dataset dcat:keyword ?kľúčovésl. }
+}</pre>
+</div></div><p /><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">PREFIX dcat: &lt;http://www.w3.org/ns/dcat#&gt;
+PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
+PREFIX leg: &lt;https://data.gov.sk/def/ontology/legislation/&gt; 
+
+SELECT ?dataset ?názov ?periodicita ?uzpokrytie ?dist ?url_stiahnutie ?url_prístupové ?formát ?typ_média ?podmienky_použitia
+WHERE {
+    ?dataset a dcat:Dataset.
+    ?dataset dct:title ?názov.
+    ?dataset dct:publisher &lt;https://data.gov.sk/id/legal-subject/50349287&gt;.
+    OPTIONAL {?dataset dct:accrualPeriodicity ?periodicita. }
+    OPTIONAL {?dataset dct:spatial ?uzpokrytie. }
+    ?dataset dcat:distribution ?dist.
+    OPTIONAL {?dist dcat:downloadURL ?url_stiahnutie. }
+    OPTIONAL {?dist dcat:accessURL ?url_prístupové. }
+    OPTIONAL {?dist dct:format ?formát. }
+    OPTIONAL {?dist dcat:mediaType ?typ_média. }
+    OPTIONAL {?dist leg:termsOfUse ?podmienky_použitia. }
+    FILTER NOT EXISTS { ?dist dcat:accessService ?service. }
+}</pre>
+</div></div><p> 50349287 nahraďte IČOm organizácie. </p><p><strong>Povinné metadáta datasetu a distribúcie - dátová služba</strong></p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">PREFIX dcat: &lt;http://www.w3.org/ns/dcat#&gt;
+PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
+
+SELECT ?dataset ?názov ?téma ?kľúčovésl
+WHERE {
+    ?dataset a dcat:Dataset.
+    ?dataset dct:title ?názov.
+    ?dataset dct:publisher &lt;https://data.gov.sk/id/legal-subject/50349287&gt;.
+    OPTIONAL {?dataset dcat:theme ?téma. }
+  	OPTIONAL {?dataset dcat:keyword ?kľúčovésl. }
+</pre>
+</div></div><p /><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">PREFIX dcat: &lt;http://www.w3.org/ns/dcat#&gt;
+PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
+PREFIX leg: &lt;https://data.gov.sk/def/ontology/legislation/&gt; 
+
+SELECT ?dataset ?názov ?periodicita ?uzpokrytie ?dist ?služba ?názovsl ?prístupbod ?podmienky_použitia
+WHERE {
+    ?dataset a dcat:Dataset.
+    ?dataset dct:title ?názov.
+    ?dataset dct:publisher &lt;https://data.gov.sk/id/legal-subject/50349287&gt;.
+    OPTIONAL {?dataset dct:accrualPeriodicity ?periodicita. }
+    OPTIONAL {?dataset dct:spatial ?uzpokrytie. }
+    ?dataset dcat:distribution ?dist.
+    ?dist dcat:accessService ?služba.
+    OPTIONAL {?služba dct:title ?názovsl. }
+    OPTIONAL {?služba dcat:endpointURL ?prístupbod. }
+    OPTIONAL {?dist leg:termsOfUse ?podmienky_použitia. }
+    FILTER EXISTS { ?dist dcat:accessService ?služba. }
+}</pre>
+</div></div><p>50349287 nahraďte IČOm organizácie. </p><h1 id="MeraniedátovejkvalitypomocouSPARQL-HVDdatasety">HVD datasety</h1><p>Datasety definované vo vykonávacom nariadení Komisie<strong> č. 2023/138 z 21. decembra 2022</strong></p><p><a href="7.-HVD---Datasety-s-vysokou-hodnotou_120127762.html" data-linked-resource-id="120127762" data-linked-resource-version="29" data-linked-resource-type="page">7. HVD - Datasety s vysokou hodnotou</a> </p><p><strong>Povinné metadáta datasetu a distribúcie - súbor na stiahnutie</strong></p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">PREFIX dcat: &lt;http://www.w3.org/ns/dcat#&gt;
+PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
+
+SELECT ?dataset ?názov ?téma ?kľúčovésl
+WHERE {
+    ?dataset a dcat:Dataset.
+    ?dataset dct:title ?názov.
+    ?dataset dct:type &lt;http://publications.europa.eu/resource/authority/dataset-type/HVD&gt;.
+    ?dataset dct:publisher &lt;https://data.gov.sk/id/legal-subject/50349287&gt;.
+    OPTIONAL {?dataset dcat:theme ?téma. }
+  	OPTIONAL {?dataset dcat:keyword ?kľúčovésl. }
+}</pre>
+</div></div><p /><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">PREFIX dcatap: &lt;http://data.europa.eu/r5r/&gt;
+PREFIX dcat: &lt;http://www.w3.org/ns/dcat#&gt;
+PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
+PREFIX leg: &lt;https://data.gov.sk/def/ontology/legislation/&gt; 
+
+SELECT ?dataset ?názov ?periodicita ?uzpokrytie ?právny_predpis ?kat_HVD ?dist ?url_stiahnutie ?url_prístupové ?formát ?typ_média ?podmienky_použitia ?právny_predpis_dist
+WHERE {
+    ?dataset a dcat:Dataset.
+    ?dataset dct:title ?názov.
+    ?dataset dct:type &lt;http://publications.europa.eu/resource/authority/dataset-type/HVD&gt;.
+    ?dataset dct:publisher &lt;https://data.gov.sk/id/legal-subject/50349287&gt;.
+    OPTIONAL {?dataset dct:accrualPeriodicity ?periodicita. }
+    OPTIONAL {?dataset dct:spatial ?uzpokrytie. }
+    OPTIONAL {?dataset dcatap:applicableLegislation ?právny_predpis. }
+    OPTIONAL {?dataset dcatap:hvdCategory ?kat_HVD. }
+    ?dataset dcat:distribution ?dist.
+    OPTIONAL {?dist dcat:downloadURL ?url_stiahnutie. }
+    OPTIONAL {?dist dcat:accessURL ?url_prístupové. }
+    OPTIONAL {?dist dct:format ?formát. }
+    OPTIONAL {?dist dcat:mediaType ?typ_média. }
+    OPTIONAL {?dist leg:termsOfUse ?podmienky_použitia. }
+    OPTIONAL {?dist dcatap:applicableLegislation ?právny_predpis_dist. }
+    FILTER NOT EXISTS { ?dist dcat:accessService ?service. }
+}</pre>
+</div></div><p> 50349287 nahraďte IČOm organizácie. </p><p><strong>Povinné metadáta datasetu a distribúcie - dátová služba</strong></p><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">PREFIX dcat: &lt;http://www.w3.org/ns/dcat#&gt;
+PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
+
+SELECT ?dataset ?názov ?téma ?kľúčovésl
+WHERE {
+    ?dataset a dcat:Dataset.
+    ?dataset dct:title ?názov.
+    ?dataset dct:type &lt;http://publications.europa.eu/resource/authority/dataset-type/HVD&gt;.
+    ?dataset dct:publisher &lt;https://data.gov.sk/id/legal-subject/50349287&gt;.
+    OPTIONAL {?dataset dcat:theme ?téma. }
+  	OPTIONAL {?dataset dcat:keyword ?kľúčovésl. }
+}</pre>
+</div></div><p /><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">PREFIX dcatap: &lt;http://data.europa.eu/r5r/&gt;
+PREFIX dcat: &lt;http://www.w3.org/ns/dcat#&gt;
+PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
+PREFIX leg: &lt;https://data.gov.sk/def/ontology/legislation/&gt; 
+
+SELECT ?dataset ?názov ?periodicita ?uzpokrytie ?právny_predpis ?kat_HVD ?dist ?podmienky_použitia ?právny_predpis_dist
+WHERE {
+    ?dataset a dcat:Dataset.
+    ?dataset dct:title ?názov.
+    ?dataset dct:type &lt;http://publications.europa.eu/resource/authority/dataset-type/HVD&gt;.
+    ?dataset dct:publisher &lt;https://data.gov.sk/id/legal-subject/50349287&gt;.
+    OPTIONAL {?dataset dct:accrualPeriodicity ?periodicita. }
+    OPTIONAL {?dataset dct:spatial ?uzpokrytie. }
+    OPTIONAL {?dataset dcatap:applicableLegislation ?právny_predpis. }
+    OPTIONAL {?dataset dcatap:hvdCategory ?kat_HVD. }
+    ?dataset dcat:distribution ?dist.
+    FILTER EXISTS { ?dist dcat:accessService ?služba. }
+    OPTIONAL {?dist leg:termsOfUse ?podmienky_použitia. }
+    OPTIONAL {?dist dcatap:applicableLegislation ?právny_predpis_dist. }
+}</pre>
+</div></div><p /><div class="code panel pdl" style="border-width: 1px;"><div class="codeContent panelContent pdl">
+<pre class="syntaxhighlighter-pre" data-syntaxhighlighter-params="brush: java; gutter: false; theme: Confluence" data-theme="Confluence">PREFIX foaf: &lt;http://xmlns.com/foaf/0.1/&gt;
+PREFIX dcatap: &lt;http://data.europa.eu/r5r/&gt;
+PREFIX dcat: &lt;http://www.w3.org/ns/dcat#&gt;
+PREFIX dct: &lt;http://purl.org/dc/terms/&gt;
+
+SELECT ?dataset ?názovsl ?prístupbod ?právny_predpis_sl ?kat_HVD_sl ?kontakt ?dokumentácia
+WHERE {
+    ?dataset a dcat:Dataset.
+    ?dataset dct:type &lt;http://publications.europa.eu/resource/authority/dataset-type/HVD&gt;.
+    ?dataset dct:publisher &lt;https://data.gov.sk/id/legal-subject/50349287&gt;.
+    ?dataset dcat:distribution ?dist.
+    ?dist dcat:accessService ?služba.
+    OPTIONAL {?služba dct:title ?názovsl. }
+    OPTIONAL {?služba dcat:endpointURL ?prístupbod. }
+    OPTIONAL {?služba dcatap:applicableLegislation ?právny_predpis_sl. }
+    OPTIONAL {?služba dcatap:hvdCategory ?kat_HVD_sl. }
+    OPTIONAL {?služba dcat:contactPoint ?kontakt. }
+    OPTIONAL {?služba foaf:page ?dokumentácia. } 
+    FILTER EXISTS { ?dist dcat:accessService ?služba. }
+}</pre>
+</div></div><p> 50349287 nahraďte IČOm organizácie. </p>
+                    </div>
+
+                    
+                                                      
+                </div>             </div> 
+            <div id="footer" role="contentinfo">
+                <section class="footer-body">
+                    <p>Document generated by Confluence on okt 27, 2025 13:26</p>
+                    <div id="footer-logo"><a href="http://www.atlassian.com/">Atlassian</a></div>
+                </section>
+            </div>
+        </div>     </body>
+</html>

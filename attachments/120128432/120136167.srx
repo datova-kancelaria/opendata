@@ -1,0 +1,1714 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/rdf4j-workbench/transformations/tuple.xsl'?>
+<sparql xmlns='http://www.w3.org/2005/sparql-results#' xmlns:q='http://www.openrdf.org/schema/qname#' xmlns:dct='http://purl.org/dc/terms/' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:adms='http://www.w3.org/ns/adms#' xmlns:owl='http://www.w3.org/2002/07/owl#' xmlns:vcard='http://www.w3.org/2006/vcard/ns#' xmlns:locn='http://www.w3.org/ns/locn#' xmlns:dcat='http://www.w3.org/ns/dcat#' xmlns:hydra='http://www.w3.org/ns/hydra/core#' xmlns:foaf='http://xmlns.com/foaf/0.1/'>
+	<head>
+		<variable name='catalog'/>
+		<variable name='catalogTitle'/>
+		<variable name='dataset'/>
+		<variable name='datasetTitle'/>
+		<variable name='publisher'/>
+		<link href='info'/>
+	</head>
+	<results>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>MIRRI Pracovné skupiny (2021-06-30)</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/1EB1F79B-D3CB-41ED-9791-50FEC7D7D6AA</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/265bca85-848e-4ee8-b386-0d3466d709e9</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Živnostníci podľa vybraných ekonomických činností (SK NACE Rev. 2) [og3002rr]</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/F4787C6F-9FA3-406C-B8D5-D374F1E1F2D3</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/e347f51a-47c9-4dc1-867e-a0069aef93f3</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam vzájomne uznaných hnojív na základe Nar. Európskeho parlamentu a Rady č. 7642008</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/3553318C-C815-4B28-8087-1F99540B3652</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/1a0ab414-84c8-4464-9dbb-1bc1be601d53</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Register Adries - Register obcí</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2DF13D50-0B6F-48BA-884E-BE66DC0A2934</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/1277119c-0c20-40c5-9416-30afcc31e7b3</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Register Adries - Register bytov</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2DF13D50-0B6F-48BA-884E-BE66DC0A2934</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/0114b6e3-27a6-4549-9a58-3a9033a77675</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Dotácie (limity) - Odbor štátnych podpôr a technickej pomoci programov EÚ</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2E5A548A-983F-45BF-978A-1CD6CD22FBBC</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/2575043d-06f3-4fd4-b1c9-76638dd54ed1</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Štvrťročné údaje HDP v stálych cenách vypočítaných reťazením objemov k referenčnému roku 2010 [nu0004qs]</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/F4787C6F-9FA3-406C-B8D5-D374F1E1F2D3</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/ab995a03-359c-43c1-9559-df19e0a06c4a</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Centrálna technická evidencia pozemných komunikácii</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/74297377-7AD7-4ED7-80CF-457EEA6E75AD</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/6058a3ad-835e-4fc8-98b5-84825e275665</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Súhrnná správa o zákazkách s nízkou hodnotou podľa § 111 a 117 Zákona o verejnom obstarávaní</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2E5A548A-983F-45BF-978A-1CD6CD22FBBC</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/d2738608-790f-4b9e-87b7-9d6d4bfb2cd0</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Register Adries - Register budov (súpisných čísiel)</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2DF13D50-0B6F-48BA-884E-BE66DC0A2934</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/14fae22e-96ff-4d26-82af-435f8d7a4fb6</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Počet zriadených elektronických schránok</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/8155F071-182E-4C85-B6A0-32BF69399B17</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/268a206c-44c7-4fe6-939d-5f0054bfa8eb</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam tlačí pre 8. volebné obdobie</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/218596D9-03A4-4342-A807-0B42BD452D29</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/9703c2c2-d330-4ab4-9825-bb04eb139ea6</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Dotácie (limity) - Odbor riadenia a kontroly technickej pomoci PRV</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2E5A548A-983F-45BF-978A-1CD6CD22FBBC</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/69310225-8b3a-4cae-b449-8d747eb67b5a</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Konjunkturálny prieskum v stavebníctve [kp0006ms]</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/F4787C6F-9FA3-406C-B8D5-D374F1E1F2D3</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/374204cf-a614-42cc-8f8b-8716fb4833e0</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Register schém minimálnej pomoci</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/395ADB47-BDD2-46AC-B8F1-366654BE1ED6</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/b28e9ac5-a76c-4f1d-9a7a-ed0b6304f6d0</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Vestník verejného obstarávania september 2021</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/656F92FC-F8ED-4DA5-A9F5-1499E03AD575</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/13d3da31-c25b-4598-bc41-39559f900363</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zloženie monitorovacieho výboru PRV SR 2014-2022</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2E5A548A-983F-45BF-978A-1CD6CD22FBBC</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/f51247e5-5b38-49d6-9f35-30c778a5aeeb</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Vyhodnotenia analýz pôdnych vzoriek pre Agrochemické skúšanie pôd</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/3553318C-C815-4B28-8087-1F99540B3652</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/34c02f27-df82-40a5-a5e0-0c3a8a04b702</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Počet prístupov na www.antimon.gov.sk (08-2021)</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/395ADB47-BDD2-46AC-B8F1-366654BE1ED6</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/e520d109-723c-4849-b0d5-e6ca78cc8c22</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam subjektov - hnojivo ES</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/3553318C-C815-4B28-8087-1F99540B3652</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/e416d2fc-4ff5-4997-a9ef-f6c6c1619c3e</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam faktúr PMÚ SR (08-2021)</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/395ADB47-BDD2-46AC-B8F1-366654BE1ED6</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/a0f2e93f-b23f-4520-a4e3-fdd02e2afded</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Dotácie (schémy) - Odbor riadenia a kontroly technickej pomoci PRV</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2E5A548A-983F-45BF-978A-1CD6CD22FBBC</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/ba6919ef-6254-4800-a9e0-2aeaa0b9ee8d</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Celkový dovoz a celkový vývoz podľa tried harmonizovaného systému (definitívne údaje) [zo0003rs]</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/F4787C6F-9FA3-406C-B8D5-D374F1E1F2D3</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/78ffbfc0-4993-4d71-8c76-352d7c2c767c</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>MIRRI Objednávky (2021-06-16)</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/1EB1F79B-D3CB-41ED-9791-50FEC7D7D6AA</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/a66da07f-560f-4db1-8b10-9d45a45e4f07</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Vybrané aktíva a pasíva</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2E5A548A-983F-45BF-978A-1CD6CD22FBBC</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/3b77afd3-1314-402f-8134-fbe077bfae0c</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam rozpracovaných projektov jednoduchých pozemkových úprav</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2E5A548A-983F-45BF-978A-1CD6CD22FBBC</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/82c863fd-f914-4d41-b8c5-7b4e38f91fdf</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Programy schôdzí 8. volebného obdobia</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/218596D9-03A4-4342-A807-0B42BD452D29</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/9e2b3d50-4a11-4ea3-a8ee-1207fec30994</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Registre prevádzkovateľov</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/3553318C-C815-4B28-8087-1F99540B3652</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/53769ea3-1fd9-42cc-9c99-362670eb6a01</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Cestná dopravná sieť SR / INSPIRE</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/74297377-7AD7-4ED7-80CF-457EEA6E75AD</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/f682f028-1aab-45f3-9e69-1dd169c35671</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam rozhodnutí PMÚ SR (08-2021)</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/395ADB47-BDD2-46AC-B8F1-366654BE1ED6</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/023f8001-753e-43c7-bdc6-a330484763d3</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Počet prístupov na www.antimon.gov.sk (09-2021)</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/395ADB47-BDD2-46AC-B8F1-366654BE1ED6</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/ae93b2c5-61bc-420d-8370-d96c7cefc5f4</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Dotácie (žiadosti) - Odbor riadenia a kontroly technickej pomoci PRV</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2E5A548A-983F-45BF-978A-1CD6CD22FBBC</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/6d16c5db-b81b-4ff4-b3d3-2f2e5c7927b9</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Register osvedčení o odbornej spôsobilosti</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/EAFB6178-F2D3-4C3D-84F0-F10D10390C75</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/16a3ddd3-9ab3-45e0-aad2-9ceb3463c759</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Vývoj certifikovaného čerpania v rámci OPII</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/74297377-7AD7-4ED7-80CF-457EEA6E75AD</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/a2e15095-8342-467b-b230-85938786fc5b</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Povolenia na sekundárny zdroj živín</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/3553318C-C815-4B28-8087-1F99540B3652</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/65974bde-e6d1-4ad2-99c2-7c36af4982fa</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam inštitúcií so zriadenou službou Všeobecná agenda</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/8155F071-182E-4C85-B6A0-32BF69399B17</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/4efc095f-34a6-4c45-8392-a1eebf6e757c</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Register schém štátnej pomoci</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/395ADB47-BDD2-46AC-B8F1-366654BE1ED6</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/3c34a3f0-e3aa-488d-b9bb-ebcf14386401</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Vestník Úradu priemyselného vlastníctva SR</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/E35FD29D-5194-44F2-911C-12B92D6BC36D</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/7fff5f3f-8cc2-4365-a345-d2dc1c5377ec</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam kontaktných miest</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/F4787C6F-9FA3-406C-B8D5-D374F1E1F2D3</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/ee1a1029-5270-46c3-9c5d-3e7706e00c87</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Vnútorné predpisy, usmernenia a príkazné listy</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/AA27301C-CE11-42D5-9EF7-EAE8826DE812</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/123ae6c8-4cfb-4fd2-8012-039a3576aa82</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Súhrnná správa o zákazkách so zmluvnými cenami vyššími ako 1 000,00 €</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2E5A548A-983F-45BF-978A-1CD6CD22FBBC</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/17921fba-386c-460e-ab8a-6eef618f8427</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Vestník verejného obstarávania november 2021</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/656F92FC-F8ED-4DA5-A9F5-1499E03AD575</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/fc1f8912-13fc-421d-9322-2039ac2f9734</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Celkový dovoz a celkový vývoz podľa kontinentov a ekonomických zoskupení krajín [zo0004rs]</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/F4787C6F-9FA3-406C-B8D5-D374F1E1F2D3</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/6fe14f70-5b48-477f-98a6-662c08325283</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Faktúry za tovary a služby RÚVZ Bardejov</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/EAFB6178-F2D3-4C3D-84F0-F10D10390C75</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/892a6dc5-20c3-45dd-818a-8533d9e7a754</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Register ad hoc štátnej pomoci</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/395ADB47-BDD2-46AC-B8F1-366654BE1ED6</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/ef559b00-797c-4a47-83c8-5765c688ac22</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam objednávok PMÚ SR (08-2021)</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/395ADB47-BDD2-46AC-B8F1-366654BE1ED6</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/74d20c7c-03b8-41be-b05f-de80ff53107a</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Faktúry za tovary a služby RÚVZ Svidník</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/02E0093C-5A75-4E89-A8A9-803EC73DACDE</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/ff525d40-4fd4-4b93-9643-b312b5f8b224</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam poslancov pre 8. volebné obdobie</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/218596D9-03A4-4342-A807-0B42BD452D29</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/7bbfb3f0-14ad-441b-95c6-eb113376a9d2</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam schránok aktivovaných na doručovanie</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/8155F071-182E-4C85-B6A0-32BF69399B17</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/55de1b2f-d1bc-4f0b-9b09-b9bd9a439670</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam schôdzí pre 8. volebné obdobie</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/218596D9-03A4-4342-A807-0B42BD452D29</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/1d906dd8-a2d9-4ff2-adb9-fdea3af9d084</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Dotácie (schémy) - Odbor štátnych podpôr a technickej pomoci programov EÚ</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2E5A548A-983F-45BF-978A-1CD6CD22FBBC</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/0587fb69-790c-4242-96b9-7cf014747496</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Technické parametre cestnej siete</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/74297377-7AD7-4ED7-80CF-457EEA6E75AD</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/6a957fd4-9ab6-495f-ab3d-be69d7572a1e</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Sporové konania</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/E35FD29D-5194-44F2-911C-12B92D6BC36D</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/e28f0597-7128-4ad1-ab7b-a70806336bd3</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam OVM s aktivovanou elektronickou schránkou</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/8155F071-182E-4C85-B6A0-32BF69399B17</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/81764225-893b-4e6a-a6a1-3fbbe56fcb69</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam OVM so schránkou aktivovanou na doručovanie, ktoré majú materskú identitu</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/8155F071-182E-4C85-B6A0-32BF69399B17</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/4bcd9320-e592-4e91-bea6-23a87601aea6</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>MIRRI Faktúry (2021-08-16)</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/1EB1F79B-D3CB-41ED-9791-50FEC7D7D6AA</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/095136c9-1c1b-49c9-8126-fae8d9e6e6e8</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam podriadených organizácií</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/F4787C6F-9FA3-406C-B8D5-D374F1E1F2D3</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/9f2161a6-0b57-4d1b-8fe2-ca36796d14cd</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Podniky podľa ekonomických činností (SK NACE Rev. 2) [og3005rr]</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/F4787C6F-9FA3-406C-B8D5-D374F1E1F2D3</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/91b36a17-f2c0-43ed-bc35-a10317c16170</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Register adries - Zmenové dávky registra adries</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2DF13D50-0B6F-48BA-884E-BE66DC0A2934</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/7c196993-fcd2-407c-ac6c-f4a4ca68cef5</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Ročný výkaz o stave vybraných ukazovateľov obhospodarovania lesa</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/AA27301C-CE11-42D5-9EF7-EAE8826DE812</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/405ae27b-65ff-4a27-b4fb-faa4fab2b929</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam elektronických služieb a formulárov na ÚPVS</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/8155F071-182E-4C85-B6A0-32BF69399B17</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/3cf33f24-f763-4fdf-b34f-3833a051d03f</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam faktúr PMÚ SR (09-2021)</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/395ADB47-BDD2-46AC-B8F1-366654BE1ED6</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/adcd6da3-bfca-4c1d-8e3d-c77a71e0cb20</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam rozhodnutí PMÚ SR (09-2021)</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/395ADB47-BDD2-46AC-B8F1-366654BE1ED6</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/fe1c541a-fb38-4c0e-abb4-9971fa40b7c1</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>MIRRI Zahraničné cestovné náklady (2021-05-25)</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/1EB1F79B-D3CB-41ED-9791-50FEC7D7D6AA</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/f2ff5cbe-48cc-4350-b34e-5561a719da65</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Štvrťročné údaje HDP v bežných cenách [nu0002qs]</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/F4787C6F-9FA3-406C-B8D5-D374F1E1F2D3</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/67891050-d9ba-4abd-ac4a-9bbb175d579f</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Objednávky  tovarov a služieb RÚVZ Bardejov</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/EAFB6178-F2D3-4C3D-84F0-F10D10390C75</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/fe438602-292f-4c96-9a3c-a67bf07a9ac5</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Register adries - Register krajov</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2DF13D50-0B6F-48BA-884E-BE66DC0A2934</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/fdf7a94c-6ce6-490a-a9a7-b979823735b8</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Register Adries - Register ulíc</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2DF13D50-0B6F-48BA-884E-BE66DC0A2934</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/f2b3af7a-b4d4-45d7-9605-29fa5d7ad115</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Lesné typologické jednotky</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/AA27301C-CE11-42D5-9EF7-EAE8826DE812</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/61f8e372-2c61-4f0e-9f6f-64e8cb4e3a14</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam strategických dokumentov</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/F4787C6F-9FA3-406C-B8D5-D374F1E1F2D3</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/43db2480-7ae2-44cc-9099-396ed2eef238</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam schválených ŽoNFP OPII</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/74297377-7AD7-4ED7-80CF-457EEA6E75AD</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/6b3b84bd-faca-4fd7-b65b-7d13f5db30ad</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Počet aktivovaných elektronických schránok na doručovanie</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/8155F071-182E-4C85-B6A0-32BF69399B17</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/f5418938-15ae-4eb4-ac00-5f6d66752c14</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Úradné hodiny</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2E5A548A-983F-45BF-978A-1CD6CD22FBBC</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/28499302-3e9f-4cf9-b424-107a3a6be3ea</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam ukončených projektov jednoduchých pozemkových úprav</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2E5A548A-983F-45BF-978A-1CD6CD22FBBC</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/a3b5ea06-290d-4a0b-b0fc-57a8b8b811ae</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Spotrebiteľský barometer [kp0012ms]</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/F4787C6F-9FA3-406C-B8D5-D374F1E1F2D3</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/6eabf285-bc75-4c75-9b18-ea71649fc381</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Oznámenie o výsledku verejného obstarávania podľa zákona o verejnom obstarávaní za každý  štvrťrok bežného kalendárneho roka</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2E5A548A-983F-45BF-978A-1CD6CD22FBBC</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/64f0f73b-41bd-4ef8-919e-196223b3d9ad</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Konjunkturálny prieskum v obchode [kp0004ms]</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/F4787C6F-9FA3-406C-B8D5-D374F1E1F2D3</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/c37d55cb-d15d-45ba-876e-36b9d081875a</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam objednávok PMÚ SR (09-2021)</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/395ADB47-BDD2-46AC-B8F1-366654BE1ED6</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/75bc4f22-0f69-4ff3-b130-6398f504f8c6</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Prehľad o celkovej výmere poľnohospodárskej pôdy registrovanej v Ekologickej poľnohospodárskej výrobe</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/3553318C-C815-4B28-8087-1F99540B3652</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/91a4285c-2bbf-46fe-88fc-3f390f750316</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Dotácie (žiadosti) - Odbor štátnych podpôr a technickej pomoci programov EÚ</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2E5A548A-983F-45BF-978A-1CD6CD22FBBC</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/3778a10b-e0fa-4f1f-b08e-85f2b3e862ad</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Dotácie (výzvy) - Odbor štátnych podpôr a technickej pomoci programov EÚ</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2E5A548A-983F-45BF-978A-1CD6CD22FBBC</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/a2eb2954-e42b-43bb-8bca-7d84c5faf04b</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Register Adries - Register okresov</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2DF13D50-0B6F-48BA-884E-BE66DC0A2934</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/e3b16084-a8e5-4c68-90d3-c96d71511bcc</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam platných certifikátov</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/3553318C-C815-4B28-8087-1F99540B3652</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/cee4b9cb-9fd9-49ec-94ea-2ae8d51c46f9</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>REST API Registra právnických osôb, podnikateľov a orgánov verejnej moci</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/F4787C6F-9FA3-406C-B8D5-D374F1E1F2D3</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/9dfdae7f-1d0f-45ec-8cd1-38df14dc2ebe</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Register Adries - Register vchodov (orientačných čísiel)</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2DF13D50-0B6F-48BA-884E-BE66DC0A2934</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/db1e7bd7-a7d4-4eac-8e5e-0c843b9dc7d5</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Vestník verejného obstarávania október 2021</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/656F92FC-F8ED-4DA5-A9F5-1499E03AD575</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/4305feb3-d81f-465e-b90c-34d746010133</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam vyplatených faktúr PPA</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/47C28C19-3C6A-4A0F-A186-FE4DD972A6C7</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/348ed5b2-a54d-44e0-9c4f-80c1f118a79e</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Počet zriadených elektronických schránok právnických osôb podľa zdrojových registrov</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/8155F071-182E-4C85-B6A0-32BF69399B17</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/55a3b733-eeff-4a4d-8c45-ad1170ff56d4</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Objednávky tovarov a služieb RÚVZ Svidník</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/02E0093C-5A75-4E89-A8A9-803EC73DACDE</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/bf213526-1259-419b-b072-b855539c26f0</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Register Adries - Register častí obcí</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2DF13D50-0B6F-48BA-884E-BE66DC0A2934</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/dde68094-8187-4a8a-88f3-e79a6565d6d5</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Evidencia osvedčení o získaní oprávnenia na projektovanie pozemkových úprav</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2E5A548A-983F-45BF-978A-1CD6CD22FBBC</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/4b3a7a81-f65b-4761-9729-d7eff31e0f83</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Železničná sieť SR / INSPIRE</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/74297377-7AD7-4ED7-80CF-457EEA6E75AD</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/b4fcf5d3-1f55-4bfc-94b4-d3cba828d20c</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Faktúry za tovary a služby</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/3D02253B-CB60-40BC-BE57-7399B9A98493</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/aec501f3-1b04-4447-9e12-0711cde9bc97</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Úradné hodiny</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/F4787C6F-9FA3-406C-B8D5-D374F1E1F2D3</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/2a837114-0a0e-4fc4-82d3-c037b0ffc469</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Register adries - geografická reprezentácia ulíc - cestné úseky</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2DF13D50-0B6F-48BA-884E-BE66DC0A2934</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/6a81933d-2871-46b9-a26e-8ca980f83e99</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Právnické osoby podľa vybraných právnych foriem - job [og3006rr]</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/F4787C6F-9FA3-406C-B8D5-D374F1E1F2D3</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/50e3777e-55d4-4636-9bdb-aa4c1bfe7818</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Dotácie (výzvy) - Odbor riadenia a kontroly technickej pomoci PRV</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2E5A548A-983F-45BF-978A-1CD6CD22FBBC</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/9379f611-615f-42c6-95a7-87805ebd94f0</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Prehľad požiadaviek kontaktného centra ÚPVS</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/8155F071-182E-4C85-B6A0-32BF69399B17</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/2eb84b3f-3e4e-4d44-acdf-416c4955f155</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Zoznam faktúr</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/2E5A548A-983F-45BF-978A-1CD6CD22FBBC</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/a56e8625-bd27-408d-a7ee-e38c2eb48be0</uri>
+			</binding>
+		</result>
+		<result>
+			<binding name='datasetTitle'>
+				<literal>Objednávky tovarov a služieb</literal>
+			</binding>
+			<binding name='catalog'>
+				<uri>https://data.gov.sk/</uri>
+			</binding>
+			<binding name='catalogTitle'>
+				<literal>CKAN</literal>
+			</binding>
+			<binding name='publisher'>
+				<uri>https://data.gov.sk/organization/3D02253B-CB60-40BC-BE57-7399B9A98493</uri>
+			</binding>
+			<binding name='dataset'>
+				<uri>https://data.gov.sk/dataset/8efde8b7-9a3b-45ac-a5c4-2c434e94feca</uri>
+			</binding>
+		</result>
+	</results>
+</sparql>

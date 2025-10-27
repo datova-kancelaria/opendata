@@ -1,0 +1,37 @@
+{
+  "@context": "https://datova-kancelaria.github.io/dcat-ap-sk-2.0/kontexty/rozhranie-katalógu-otvorených-dát.jsonld",
+  "iri": "https://opendatatest.zvolen.sk/set/catalog/lkod",
+  "typ": "Katalóg",
+  "názov": {
+    "sk": "Katalóg otvorených dát Mesta Zvolen",
+    "en": "Open Data Catalog of the City of Zvolen"
+  },
+  "popis": {
+    "sk": "Otvorené dáta Mesta Zvolen. Obsahuje všetky datasety, ktoré zverejňuje Mesto Zvolen",
+    "en": "Open data of the City of Zvolen. It contains all the datasets published by the City of Zvolen"
+  },
+  "téma": [
+          "http://publications.europa.eu/resource/authority/data-theme/GOVE"
+  ],
+  "periodicita_aktualizácie": "http://publications.europa.eu/resource/authority/frequency/DAILY",
+  "kľúčové_slovo": {
+      "sk": [
+      ],
+      "en": [
+      ]
+  },
+  "kontaktný_bod": {
+    "typ": "Mesto",
+    "meno": {
+      "sk": "Mesto Zvolen",
+      "en": "City of Zvolen"
+    },
+    "e-mail": "mailto:opendata@zvolen.sk"
+  },
+  "domovská_stránka": "https://www.zvolen.sk",
+  "poskytovateľ": "https://data.gov.sk/id/legal-subject/00320439",
+  "dataset": [
+    
+        "https://opendatatest.zvolen.sk/set/mu-zv--faktury-2023-09-25"
+  ]
+}
